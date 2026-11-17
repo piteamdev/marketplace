@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "validate": "node validate.mjs",
+    "fix-hashes": "node validate.mjs --fix-hashes"
+  }
+}

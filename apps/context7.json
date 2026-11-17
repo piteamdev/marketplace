@@ -1,0 +1,21 @@
+{
+  "name": "context7",
+  "description": "Up-to-date documentation for libraries and frameworks, fetched on demand during a session.",
+  "tagline": "Fresh library docs for any framework, on demand",
+  "category": "documentation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.context7.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "docs-lookup",
+      "text": "Look up the current documentation for {{library}} and answer: {{question}}"
+    },
+    {
+      "id": "api-check",
+      "text": "Verify that {{api}} still exists in the latest version of {{library}} and show its current signature."
+    }
+  ]
+}
