@@ -11,7 +11,14 @@
       "category": "development",
       "version": "1.0.0",
       "contentHash": "725785bc4d751a79e5c2f8e573448e53a8eea8f6ac401a275c4961bf22bc65cb",
-      "path": "skills/code-review/SKILL.md"
+      "path": "skills/code-review/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-16",
+          "notes": "Initial release: systematic diff review with severity-ordered findings."
+        }
+      ]
     }
   ],
   "agents": [
@@ -22,7 +29,14 @@
       "category": "development",
       "version": "1.0.0",
       "contentHash": "d7d8bc78bdbe14a3dd469176dc84ab82383a771c259a589dea88866af984eb5b",
-      "path": "agents/code-reviewer.json"
+      "path": "agents/code-reviewer.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-16",
+          "notes": "Initial release: independent reviewer agent with verdict output."
+        }
+      ]
     }
   ],
   "apps": [
@@ -34,7 +48,19 @@
       "version": "1.0.0",
       "contentHash": "fcdfa5cf1ffc18c31b41e4a56a495815a23963435454ad84c3ca4e5c24a6aecb",
       "path": "apps/context7.json",
-      "kind": "mcp"
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-16",
+          "notes": "Initial release: context7 MCP server for on-demand documentation."
+        },
+        {
+          "version": "0.9.0",
+          "date": "2026-11-15",
+          "notes": "Pre-release candidate of the context7 app definition."
+        }
+      ]
     }
   ]
 }

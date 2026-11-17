@@ -65,7 +65,7 @@ function validateEntry(entry, section, sectionFile, index, expectedPath, globalS
     err(`${at}: must be an object`);
     return null;
   }
-  const { slug, name, description, category, version, contentHash, path, kind } = entry;
+  const { slug, name, description, category, version, contentHash, path, kind, changelog } = entry;
 
   if (typeof slug !== "string" || !SLUG_RE.test(slug)) {
     err(`${at}.slug must match ${SLUG_RE}, got ${JSON.stringify(slug)}`);
@@ -83,6 +83,47 @@ function validateEntry(entry, section, sectionFile, index, expectedPath, globalS
   if (typeof contentHash !== "string" || !/^[a-f0-9]{64}$/.test(contentHash)) {
     err(`${at}.contentHash must be a 64-char lowercase sha256 hex, got ${JSON.stringify(contentHash)}`);
   }
+  // changelog is optional; when present it must be an array of 1..N {version, date, notes}
+  if (changelog !== undefined) {
+    if (!Array.isArray(changelog) || changelog.length === 0) {
+      err(`${at}.changelog must be a non-empty array of {version, date, notes}`);
+    } else {
+      for (const [ci, c] of changelog.entries()) {
+        const cat = `${at}.changelog[${ci}]`;
+        if (c === null || typeof c !== "object" || Array.isArray(c)) {
+          err(`${cat}: must be an object`);
+          continue;
+        }
+        if (typeof c.version !== "string" || !SEMVER_RE.test(c.version)) {
+          err(`${cat}.version must be MAJOR.MINOR.PATCH semver, got ${JSON.stringify(c.version)}`);
+        }
+        if (typeof c.date !== "string" || c.date.length === 0 || Number.isNaN(Date.parse(c.date))) {
+          err(`${cat}.date must be an ISO date string`);
+        }
+        if (typeof c.notes !== "string" || c.notes.length === 0) {
+          err(`${cat}.notes must be a non-empty string`);
+        }
+        const knownKeys = ["version", "date", "notes"];
+        for (const key of Object.keys(c)) {
+          if (!knownKeys.includes(key)) err(`${cat}: unknown key "${key}"`);
+        }
+      }
+      // changelog must start with the current version, strictly ordered newest-first
+      if (Array.isArray(changelog) && changelog.length > 0) {
+        if (typeof version === "string" && typeof changelog[0]?.version === "string" && changelog[0].version !== version) {
+          err(`${at}.changelog[0].version (${changelog[0].version}) must equal the entry version (${version})`);
+        }
+        for (let ci = 1; ci < changelog.length; ci++) {
+          const prev = changelog[ci - 1], cur = changelog[ci];
+          if (typeof prev?.date === "string" && typeof cur?.date === "string"
+            && Date.parse(prev.date) < Date.parse(cur.date)) {
+            err(`${at}.changelog must be ordered newest-first (entry ${ci} is newer than ${ci - 1})`);
+          }
+        }
+      }
+    }
+  }
+
   if (typeof path !== "string" || path.length === 0) {
     err(`${at}.path must be a non-empty string`);
   } else if (typeof slug === "string" && SLUG_RE.test(slug) && path !== expectedPath(slug)) {
