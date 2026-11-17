@@ -1,0 +1,27 @@
+{
+  "name": "Krisp",
+  "tagline": "Meeting notes and transcripts",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.krisp.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-action-items",
+      "text": "List the action items from my meetings this week."
+    },
+    {
+      "id": "prompt-meeting-summary",
+      "text": "Summarize yesterday's call with the design team."
+    },
+    {
+      "id": "prompt-upcoming",
+      "text": "What meetings do I have tomorrow, and what did we discuss last time with each group?"
+    }
+  ],
+  "iconUrl": "https://krisp.ai/wp-content/uploads/2023/12/cropped-favicon-1-192x192.png",
+  "creatorName": "Krisp",
+  "description": "Krisp lets agents search and read meeting transcripts, summaries, action items, and upcoming meetings in the signed-in Krisp account. Each user signs in to their own Krisp account through the browser."
+}

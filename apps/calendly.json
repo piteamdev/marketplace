@@ -1,0 +1,27 @@
+{
+  "name": "Calendly",
+  "tagline": "Scheduling and availability",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.calendly.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-week",
+      "text": "Which Calendly meetings do I have this week?"
+    },
+    {
+      "id": "prompt-availability",
+      "text": "When am I free for a 30-minute meeting on Thursday?"
+    },
+    {
+      "id": "prompt-link",
+      "text": "Give me the booking link for my intro call event type."
+    }
+  ],
+  "iconUrl": "https://calendly.com/media/favicon/apple-touch-icon.png",
+  "creatorName": "Calendly",
+  "description": "Calendly lets agents check availability, look up scheduled events and invitees, and manage event types and booking links. Each user signs in to their own Calendly account through the browser."
+}

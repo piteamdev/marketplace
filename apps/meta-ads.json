@@ -1,0 +1,27 @@
+{
+  "name": "Meta Ads",
+  "tagline": "Facebook and Instagram ad campaigns",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.facebook.com/ads"
+  },
+  "prompts": [
+    {
+      "id": "prompt-performance",
+      "text": "How did my campaigns perform last week? Show spend, results, and cost per result."
+    },
+    {
+      "id": "prompt-underperform",
+      "text": "Which ad sets have the highest cost per result this month?"
+    },
+    {
+      "id": "prompt-draft-ad",
+      "text": "Draft three headline and primary text options for a new spring sale ad."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/ae/e1/2b/aee12bef-5d1f-62dc-1e55-f18ef82c4f93/AppIcon-MetaBrand-0-0-1x_U007epad-0-1-0-85-220.png/512x512bb.jpg",
+  "creatorName": "Meta",
+  "description": "Meta Ads lets agents read campaign, ad set, and ad performance and draft changes to campaigns in the ad accounts the user can manage. Each user signs in to their own Meta account through the browser."
+}

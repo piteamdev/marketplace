@@ -1,0 +1,27 @@
+{
+  "name": "Lovable",
+  "tagline": "Build apps from prompts",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.lovable.dev"
+  },
+  "prompts": [
+    {
+      "id": "prompt-projects",
+      "text": "List my Lovable projects and when each one was last changed."
+    },
+    {
+      "id": "prompt-new-app",
+      "text": "Start a new project for a simple habit tracker with a login page."
+    },
+    {
+      "id": "prompt-change",
+      "text": "In my landing page project, add a pricing section with three plans."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/a7/07/33/a707336e-9828-a75d-44a6-927076691dfd/app-icon-0-0-1x_U007epad-0-0-0-1-0-85-220.png/512x512bb.jpg",
+  "creatorName": "Lovable",
+  "description": "Lovable lets agents create projects, send build requests, read project analytics, and publish projects in the signed-in Lovable workspace. Each user signs in to their own Lovable account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "HighLevel",
+  "tagline": "CRM and marketing workspace",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://services.leadconnectorhq.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-new-leads",
+      "text": "List the contacts that were added this week."
+    },
+    {
+      "id": "prompt-pipeline",
+      "text": "Summarize the opportunities in my sales pipeline by stage."
+    },
+    {
+      "id": "prompt-appointments",
+      "text": "What appointments are booked on my calendar tomorrow?"
+    }
+  ],
+  "iconUrl": "https://storage.googleapis.com/msgsndr/knES3eSWYIsc5YSZ3YLl/media/62b48689c85eccb36ca941fc.png",
+  "creatorName": "HighLevel",
+  "description": "HighLevel lets agents read and update contacts, conversations, opportunities, and calendars in one HighLevel sub-account. Each user connects with a Private Integration token and the location ID of their own sub-account."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Datadog",
+  "tagline": "Monitoring, logs and traces",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.datadoghq.com/v1/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-errors",
+      "text": "Which services had the most errors in the last hour?"
+    },
+    {
+      "id": "prompt-monitor",
+      "text": "Why is the checkout latency monitor alerting?"
+    },
+    {
+      "id": "prompt-incident",
+      "text": "Summarize the open incidents and their status."
+    }
+  ],
+  "iconUrl": "https://www.datadoghq.com/favicon.ico",
+  "creatorName": "Datadog",
+  "description": "Datadog lets agents search logs, metrics, traces, monitors, dashboards and incidents in the organization of the signed-in account. Each user signs in to their own Datadog account on the US1 site through the browser."
+}

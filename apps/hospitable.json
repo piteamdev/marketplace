@@ -1,0 +1,27 @@
+{
+  "name": "Hospitable",
+  "tagline": "Short-term rental operations",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.hospitable.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-check-ins",
+      "text": "Which guests check in this week, and at which properties?"
+    },
+    {
+      "id": "prompt-guest-inbox",
+      "text": "Summarize the guest messages that still need a reply."
+    },
+    {
+      "id": "prompt-draft-reply",
+      "text": "Draft a reply to the latest guest question about parking."
+    }
+  ],
+  "iconUrl": "https://framerusercontent.com/images/JXdZWJdlR7H6AvJLRxqTcU8Qqo.png",
+  "creatorName": "Hospitable",
+  "description": "Hospitable lets agents read properties, reservations, calendars, and transactions, and draft replies to guest messages in the signed-in host account. Each user signs in to their own Hospitable account through the browser."
+}

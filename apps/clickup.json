@@ -1,0 +1,27 @@
+{
+  "name": "ClickUp",
+  "tagline": "Tasks, docs and team updates",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.clickup.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-tasks",
+      "text": "Find my open ClickUp tasks due this week."
+    },
+    {
+      "id": "prompt-create-task",
+      "text": "Create a ClickUp task for these action items and assign it to me."
+    },
+    {
+      "id": "prompt-summarize-doc",
+      "text": "Find the latest project update in ClickUp and summarize the open questions."
+    }
+  ],
+  "iconUrl": "https://clickup.com/favicons/apple-touch-icon.png",
+  "creatorName": "ClickUp",
+  "description": "ClickUp lets agents search tasks, docs, comments and chat, create and update tasks, lists and docs, post comments, send chat messages and track time. Each user signs in to their own ClickUp account through the browser. Agents get the same permissions as the user. They can move tasks to the trash and delete comments."
+}

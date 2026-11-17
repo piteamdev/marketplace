@@ -1,0 +1,27 @@
+{
+  "name": "AWS Knowledge",
+  "tagline": "AWS documentation lookup",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://knowledge-mcp.global.api.aws"
+  },
+  "prompts": [
+    {
+      "id": "prompt-region",
+      "text": "Is Amazon Bedrock available in eu-central-1?"
+    },
+    {
+      "id": "prompt-best-practice",
+      "text": "What does the AWS documentation recommend for S3 bucket access control?"
+    },
+    {
+      "id": "prompt-limits",
+      "text": "What are the default Lambda concurrency limits, and how do I raise them?"
+    }
+  ],
+  "iconUrl": "https://a0.awsstatic.com/libra-css/images/site/touch-icon-ipad-144-smile.png",
+  "creatorName": "Amazon Web Services",
+  "description": "AWS Knowledge lets agents search and read current AWS documentation, and check which services and features are available in each AWS Region. It needs no account and no key."
+}

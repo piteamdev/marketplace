@@ -1,0 +1,27 @@
+{
+  "name": "vidIQ",
+  "tagline": "YouTube research and analytics",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.vidiq.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-top-videos",
+      "text": "Which of my videos got the most views in the last 90 days?"
+    },
+    {
+      "id": "prompt-keywords",
+      "text": "Find keyword ideas for a video about home espresso with their competition."
+    },
+    {
+      "id": "prompt-competitors",
+      "text": "Compare my channel's growth with two similar channels."
+    }
+  ],
+  "iconUrl": "https://vidiq.com/favicons/apple-icon-180x180.png",
+  "creatorName": "vidIQ",
+  "description": "vidIQ lets agents read YouTube channel and video statistics, keyword data, and trends. Access is read-only, and each user signs in to their own vidIQ account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Roam Research",
+  "tagline": "Graph notes and pages",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.roamresearch.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-daily-notes",
+      "text": "What did I write in my daily notes this week?"
+    },
+    {
+      "id": "prompt-backlinks",
+      "text": "Find all blocks that link to [[Project Atlas]]."
+    },
+    {
+      "id": "prompt-add-notes",
+      "text": "Add a block with today's meeting notes to my daily page."
+    }
+  ],
+  "iconUrl": "https://roamresearch.com/assets/astro-192.png",
+  "creatorName": "Roam Research",
+  "description": "Roam Research lets agents search, read, and add blocks and pages in the Roam graphs of the signed-in user. Each user signs in to their own Roam account through the browser."
+}

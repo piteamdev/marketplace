@@ -1,0 +1,27 @@
+{
+  "name": "Ubersuggest",
+  "tagline": "SEO keyword research",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://ubersuggest-mcp.neilpatelapi.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-keywords",
+      "text": "Find keyword ideas for project management software with their search volume."
+    },
+    {
+      "id": "prompt-competitor",
+      "text": "What are the top pages of a competitor's domain by estimated traffic?"
+    },
+    {
+      "id": "prompt-backlinks",
+      "text": "Summarize the backlinks of my site and the strongest referring domains."
+    }
+  ],
+  "iconUrl": "https://ubersuggest.com/apple-icon.png",
+  "creatorName": "NP Digital",
+  "description": "Ubersuggest lets agents read keyword ideas, search volume, domain traffic, backlinks, and site audit data. Access is read-only, and each user signs in to their own Ubersuggest account through the browser."
+}

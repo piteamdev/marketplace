@@ -1,0 +1,27 @@
+{
+  "name": "Artie",
+  "tagline": "Real-time data pipelines",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.artie.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-status",
+      "text": "Which of my pipelines have errors or lag right now?"
+    },
+    {
+      "id": "prompt-tables",
+      "text": "List the tables that the Postgres pipeline replicates to Snowflake."
+    },
+    {
+      "id": "prompt-new-pipeline",
+      "text": "Help me set up a pipeline from our MySQL database to BigQuery."
+    }
+  ],
+  "iconUrl": "https://www.artie.com/apple-icon.png",
+  "creatorName": "Artie",
+  "description": "Artie lets agents create, check, and manage the real-time database replication pipelines of the signed-in account. Each user signs in to their own Artie account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "GitLab",
+  "tagline": "Issues, merge requests and pipelines",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://gitlab.com/api/v4/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-review-queue",
+      "text": "Which merge requests wait for my review?"
+    },
+    {
+      "id": "prompt-failed-pipeline",
+      "text": "Why did the last pipeline on the default branch fail?"
+    },
+    {
+      "id": "prompt-new-issue",
+      "text": "File an issue for the crash in the sync queue with reproduction steps."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/1086321?s=256&v=4",
+  "creatorName": "GitLab",
+  "description": "GitLab lets agents search projects, read and create issues, review and update merge requests, read repository files and commits, and check CI pipelines and jobs on GitLab.com. Each user signs in to their own GitLab account through the browser. Agents get the same permissions as the user: they can push commits, change issues and merge requests, and merge them. For a self-hosted GitLab, add an MCP server with your GitLab address followed by /api/v4/mcp in the MCP servers settings, and sign in there."
+}

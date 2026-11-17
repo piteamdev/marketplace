@@ -1,0 +1,27 @@
+{
+  "name": "Knowify",
+  "tagline": "Contractor job management",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://assistant.knowify.com/api/v2/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-active-jobs",
+      "text": "List my active jobs and how much of each budget is used."
+    },
+    {
+      "id": "prompt-unpaid",
+      "text": "Which invoices are past due, and for which clients?"
+    },
+    {
+      "id": "prompt-estimate",
+      "text": "Draft an estimate for a bathroom remodel from these notes."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/a1/ec/6a/a1ec6a35-0919-3461-bb60-12a380637d44/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "creatorName": "Knowify",
+  "description": "Knowify lets agents read jobs, clients, estimates, invoices, and time entries in the signed-in Knowify account. Each user signs in to their own Knowify account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Upwork",
+  "tagline": "Freelance jobs and talent",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.upwork.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-talent",
+      "text": "Find freelance React developers with strong reviews and a rate under $80 per hour."
+    },
+    {
+      "id": "prompt-draft-job",
+      "text": "Draft a job post for a two-week logo design project."
+    },
+    {
+      "id": "prompt-proposals",
+      "text": "Summarize the proposals on my data entry job and rank them."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/11737042?s=256&v=4",
+  "creatorName": "Upwork",
+  "description": "Upwork lets agents search jobs and freelancers, draft job posts, and review proposals and contracts in the signed-in Upwork account. Each user signs in to their own Upwork account through the browser."
+}

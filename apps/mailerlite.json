@@ -1,0 +1,27 @@
+{
+  "name": "MailerLite",
+  "tagline": "Email marketing",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.mailerlite.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-campaign-stats",
+      "text": "Compare the open and click rates of my last five campaigns."
+    },
+    {
+      "id": "prompt-groups",
+      "text": "How many active subscribers are in each group?"
+    },
+    {
+      "id": "prompt-draft-campaign",
+      "text": "Draft a newsletter about our new features, but do not send it."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/1104512?s=256&v=4",
+  "creatorName": "MailerLite",
+  "description": "MailerLite lets agents read subscribers, groups, campaigns, and automations, and draft campaigns in the signed-in MailerLite account. Each user signs in to their own MailerLite account through the browser."
+}

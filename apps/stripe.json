@@ -1,0 +1,27 @@
+{
+  "name": "Stripe",
+  "tagline": "Payments and billing review",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.stripe.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-payment",
+      "text": "Look up this payment and explain why it failed."
+    },
+    {
+      "id": "prompt-customer",
+      "text": "Summarize this customer's invoices and outstanding balance."
+    },
+    {
+      "id": "prompt-link",
+      "text": "Draft a payment link for the Pro plan at 49 per month."
+    }
+  ],
+  "iconUrl": "https://stripe.com/favicon.ico",
+  "creatorName": "Stripe",
+  "description": "Stripe lets agents look up payments, customers, and invoices, and draft payment links, in the account the signed-in user can reach. Each user signs in to their own Stripe account through the browser."
+}

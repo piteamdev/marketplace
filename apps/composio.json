@@ -1,0 +1,27 @@
+{
+  "name": "Composio",
+  "tagline": "Gmail, Slack, GitHub and 1,000+ more apps",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://connect.composio.dev/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-inbox",
+      "text": "Summarize my unread email and draft replies to the urgent ones."
+    },
+    {
+      "id": "prompt-handoff",
+      "text": "Post a summary of this pull request to our team channel."
+    },
+    {
+      "id": "prompt-apps",
+      "text": "Which apps and actions can you use through Composio?"
+    }
+  ],
+  "iconUrl": "https://composio.dev/favicon.ico",
+  "creatorName": "Composio",
+  "description": "Composio connects your agents to Gmail, Slack, GitHub and more than 1,000 other apps through one MCP server. Sign in with your Composio account. When an agent needs an app, it asks you to connect that app."
+}

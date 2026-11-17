@@ -1,0 +1,27 @@
+{
+  "name": "Readwise",
+  "tagline": "Highlights and saved reading",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp2.readwise.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-topic-highlights",
+      "text": "Find my highlights about habit formation."
+    },
+    {
+      "id": "prompt-unread",
+      "text": "What did I save to Reader this week that I have not read yet?"
+    },
+    {
+      "id": "prompt-book-summary",
+      "text": "Summarize the highlights from the last book I finished."
+    }
+  ],
+  "iconUrl": "https://readwise.io/favicon.ico",
+  "creatorName": "Readwise",
+  "description": "Readwise lets agents search the highlights of the signed-in user and read the documents saved in Readwise Reader. Each user signs in to their own Readwise account through the browser."
+}

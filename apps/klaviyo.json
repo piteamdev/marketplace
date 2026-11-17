@@ -1,0 +1,27 @@
+{
+  "name": "Klaviyo",
+  "tagline": "Email and SMS marketing",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.klaviyo.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-campaign-report",
+      "text": "Which email campaigns had the highest revenue last month?"
+    },
+    {
+      "id": "prompt-flows",
+      "text": "Summarize the performance of my welcome and abandoned cart flows."
+    },
+    {
+      "id": "prompt-draft-campaign",
+      "text": "Draft an email campaign for the new summer collection, but do not schedule it."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/1947230?s=256&v=4",
+  "creatorName": "Klaviyo",
+  "description": "Klaviyo lets agents read campaigns, flows, lists, segments, profiles, and performance reports, and draft campaigns in the signed-in Klaviyo account. Each user signs in through the browser with an Owner, Admin, or Manager role."
+}

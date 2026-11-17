@@ -1,0 +1,27 @@
+{
+  "name": "Spacefast",
+  "tagline": "Publish pages as Spaces",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.spacefast.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-publish-report",
+      "text": "Publish this report as a Space."
+    },
+    {
+      "id": "prompt-list-spaces",
+      "text": "List my Spaces and when each was last updated."
+    },
+    {
+      "id": "prompt-bakery-site",
+      "text": "Make a one-page website for my bakery and publish it as a Space."
+    }
+  ],
+  "iconUrl": "https://spacefast.com/apple-touch-icon.png;sf-icon",
+  "creatorName": "Automattic",
+  "description": "Spacefast lets agents publish websites, reports, and dashboards as Spaces, and list and update the Spaces of the signed-in user."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Dealroom",
+  "tagline": "Startup and investor data",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.dealroom.co/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-rounds",
+      "text": "Which climate tech startups in Europe raised a Series A this quarter?"
+    },
+    {
+      "id": "prompt-investor",
+      "text": "Which companies did this investor back in the last two years?"
+    },
+    {
+      "id": "prompt-company",
+      "text": "Give me a profile of this startup: funding, investors, and headcount."
+    }
+  ],
+  "iconUrl": "https://dealroom.co/favicon.ico",
+  "creatorName": "Dealroom.co",
+  "description": "Dealroom lets agents search companies, investors, funding rounds and founders, and analyze investors and co-investors. Each user signs in to their own Dealroom account through the browser, and MCP access needs a Dealroom Premium seat."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "AgentMail",
+  "tagline": "Email inboxes for agents",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.agentmail.to/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-new-inbox",
+      "text": "Create an inbox for the support agent."
+    },
+    {
+      "id": "prompt-summarize",
+      "text": "Summarize the unread threads in the support inbox."
+    },
+    {
+      "id": "prompt-draft",
+      "text": "Draft a reply to the latest message in the billing thread."
+    }
+  ],
+  "iconUrl": "https://www.agentmail.to/favicon.ico",
+  "creatorName": "AgentMail",
+  "description": "AgentMail lets agents create email inboxes, read threads, and draft and send messages from those inboxes. Each user signs in to their own AgentMail account through the browser."
+}

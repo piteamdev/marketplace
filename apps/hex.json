@@ -1,0 +1,27 @@
+{
+  "name": "Hex",
+  "tagline": "Data projects and analysis",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://app.hex.tech/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-project",
+      "text": "Find the Hex project that tracks weekly active users."
+    },
+    {
+      "id": "prompt-question",
+      "text": "How did revenue by region change last quarter?"
+    },
+    {
+      "id": "prompt-explain",
+      "text": "Explain what the churn analysis project calculates and which tables it uses."
+    }
+  ],
+  "iconUrl": "https://hex.tech/favicon-96x96.png",
+  "creatorName": "Hex Technologies",
+  "description": "Hex lets agents search projects, read their results, and ask data questions in the signed-in Hex workspace. It needs a Team or Enterprise plan, and each user signs in through the browser."
+}

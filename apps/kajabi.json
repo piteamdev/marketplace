@@ -1,0 +1,27 @@
+{
+  "name": "Kajabi",
+  "tagline": "Courses and creator business",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.kajabi.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-products",
+      "text": "List my products and courses and how many members each one has."
+    },
+    {
+      "id": "prompt-contacts",
+      "text": "Which contacts joined in the last 30 days?"
+    },
+    {
+      "id": "prompt-course-outline",
+      "text": "Draft an outline for a new course module about pricing."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/693317e747432cd054b3bdc6/693318d5adf6755726c17fae_Dark.png",
+  "creatorName": "Kajabi",
+  "description": "Kajabi lets agents read and manage products, courses, contacts, and offers in the signed-in Kajabi site. It cannot take payments or send email broadcasts."
+}

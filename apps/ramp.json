@@ -1,0 +1,27 @@
+{
+  "name": "Ramp",
+  "tagline": "Spend, cards, and bills",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.ramp.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-missing-receipts",
+      "text": "Which of my card transactions this month are missing receipts?"
+    },
+    {
+      "id": "prompt-department-spend",
+      "text": "Summarize company card spend by department for last quarter."
+    },
+    {
+      "id": "prompt-bills",
+      "text": "Which bills are due in the next two weeks?"
+    }
+  ],
+  "iconUrl": "https://ramp.com/apple-touch-icon.png",
+  "creatorName": "Ramp",
+  "description": "Ramp lets agents work with spend data such as transactions, cards, and bills as the signed-in user, within that user's permissions. At sign-in the user chooses full or read-only access."
+}

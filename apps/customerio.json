@@ -1,0 +1,27 @@
+{
+  "name": "Customer.io",
+  "tagline": "Customer messaging data",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.customer.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-campaigns",
+      "text": "How did my active Customer.io campaigns perform last month?"
+    },
+    {
+      "id": "prompt-segment",
+      "text": "How many people are in the trial users segment?"
+    },
+    {
+      "id": "prompt-person",
+      "text": "Show the profile and recent messages of this customer."
+    }
+  ],
+  "iconUrl": "https://customer.io/favicon-96x96.png",
+  "creatorName": "Customer.io",
+  "description": "Customer.io lets agents read people, segments, campaigns, broadcasts and message metrics in the workspaces the user chooses. Each user signs in to their own Customer.io account through the browser, and an admin must turn on MCP for the account first."
+}

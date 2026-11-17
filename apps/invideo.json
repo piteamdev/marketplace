@@ -1,0 +1,27 @@
+{
+  "name": "invideo",
+  "tagline": "AI video generation",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.invideo.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-explainer",
+      "text": "Make a 60-second explainer video about how our app syncs files."
+    },
+    {
+      "id": "prompt-script",
+      "text": "Turn this blog post into a short video with voiceover."
+    },
+    {
+      "id": "prompt-social",
+      "text": "Create a 30-second vertical video that announces our spring sale."
+    }
+  ],
+  "iconUrl": "https://invideo.io/apple-touch-icon.png",
+  "creatorName": "invideo",
+  "description": "invideo lets agents generate videos from a script or a prompt in the signed-in invideo account. Each user signs in to their own invideo account through the browser."
+}

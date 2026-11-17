@@ -1,0 +1,27 @@
+{
+  "name": "SonarQube Cloud",
+  "tagline": "Code quality and security issues",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.sonarcloud.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-quality-gate",
+      "text": "Did the quality gate pass on the main branch of my project?"
+    },
+    {
+      "id": "prompt-critical-issues",
+      "text": "List the critical issues in my project that are still open."
+    },
+    {
+      "id": "prompt-hotspot",
+      "text": "Explain the newest security hotspot in my project and suggest a fix."
+    }
+  ],
+  "iconUrl": "https://www.sonarsource.com/app-icon.png",
+  "creatorName": "SonarSource",
+  "description": "SonarQube Cloud lets agents read issues, security hotspots, quality gate status, and metrics for projects in the organizations of the signed-in user. This address is for the EU region of SonarQube Cloud."
+}

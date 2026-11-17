@@ -1,0 +1,27 @@
+{
+  "name": "Adobe Analytics",
+  "tagline": "Web analytics reports and segments",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://aa-mcp.adobe.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-top-pages",
+      "text": "Which pages had the most visits last week?"
+    },
+    {
+      "id": "prompt-trend",
+      "text": "Show the daily orders for this month and compare them with last month."
+    },
+    {
+      "id": "prompt-segment",
+      "text": "Which segments do we have for mobile visitors, and how are they defined?"
+    }
+  ],
+  "iconUrl": "https://www.adobe.com/favicon.ico",
+  "creatorName": "Adobe",
+  "description": "Adobe Analytics lets agents find report suites, dimensions, metrics, segments and Workspace projects, and run ranked and trended reports. Each user signs in with their own Adobe ID through the browser and selects an organization. An Adobe administrator must first give the account MCP Read-only Access or MCP Full Access. With MCP Full Access, agents can also create and update segments, calculated metrics, date ranges and Workspace projects."
+}

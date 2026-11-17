@@ -1,0 +1,30 @@
+{
+  "name": "Paper",
+  "tagline": "Design canvas built on HTML and CSS",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "stdio",
+    "command": "~/.paper/bin/paper",
+    "args": [
+      "mcp"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "prompt-implement",
+      "text": "Implement the selected Paper frame in this codebase, with our code conventions."
+    },
+    {
+      "id": "prompt-code-to-design",
+      "text": "Use the styles in this repository and design a settings page in Paper."
+    },
+    {
+      "id": "prompt-tokens",
+      "text": "List the design tokens in the open Paper file and compare them with our theme."
+    }
+  ],
+  "iconUrl": "https://paper.design/apple-touch-icon.png",
+  "creatorName": "Paper",
+  "description": "Paper lets agents read and write the design file that is open in Paper Desktop: inspect artboards, selections, computed styles, JSX and tokens, and create or change frames, text and styles. Install Paper Desktop, open it once, and open a file before you start. OpenBot starts the Paper CLI that Paper Desktop installs. Paper needs no key. Write tools change the open file, so review each write before you approve it."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Helium 10",
+  "tagline": "Amazon seller research",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.helium10.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-keywords",
+      "text": "Find high-volume keywords for a stainless steel water bottle on Amazon US."
+    },
+    {
+      "id": "prompt-product-research",
+      "text": "Compare the top 10 listings for yoga mats by sales and reviews."
+    },
+    {
+      "id": "prompt-listing-draft",
+      "text": "Draft a product title and five bullet points for my bamboo cutting board."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/75/34/66/75346691-9022-825b-29ab-300fbbf28116/AppIcon-0-0-1x_U007emarketing-0-6-0-85-220.png/512x512bb.jpg",
+  "creatorName": "Helium 10",
+  "description": "Helium 10 lets agents research Amazon products and keywords and read seller data with the signed-in Helium 10 account. Each user signs in to their own Helium 10 account through the browser."
+}

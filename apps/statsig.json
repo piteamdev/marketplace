@@ -1,0 +1,27 @@
+{
+  "name": "Statsig",
+  "tagline": "Feature gates and experiments",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.statsig.com/v3/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-stale-gates",
+      "text": "Which feature gates have been fully rolled out for more than a month and can be cleaned up?"
+    },
+    {
+      "id": "prompt-experiment-results",
+      "text": "Summarize the results of the checkout experiment so far."
+    },
+    {
+      "id": "prompt-gate-draft",
+      "text": "Draft a new feature gate for the beta search page that targets internal users only."
+    }
+  ],
+  "iconUrl": "https://statsig.com/images/favicons/favicon256.png",
+  "creatorName": "Statsig",
+  "description": "Statsig lets agents look up feature gates, dynamic configs, experiments, and metrics in a Statsig project, and draft changes that the project's review rules still apply to. Each user signs in to their own Statsig account through the browser."
+}

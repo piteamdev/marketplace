@@ -1,0 +1,27 @@
+{
+  "name": "Square",
+  "tagline": "Payments, orders, and catalog",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.squareup.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-sales",
+      "text": "What were my total sales yesterday?"
+    },
+    {
+      "id": "prompt-low-stock",
+      "text": "Which catalog items are low in stock?"
+    },
+    {
+      "id": "prompt-regulars",
+      "text": "Which customers visited more than five times this month?"
+    }
+  ],
+  "iconUrl": "https://squareup.com/favicon.ico",
+  "creatorName": "Block",
+  "description": "Square lets agents read and manage payments, orders, catalog items, customers, and inventory in the Square account of the signed-in seller."
+}

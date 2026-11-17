@@ -1,0 +1,27 @@
+{
+  "name": "Ando",
+  "tagline": "Team chat with agents",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.ando.so/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-catch-up",
+      "text": "Summarize what happened in the product channel today."
+    },
+    {
+      "id": "prompt-mentions",
+      "text": "Which threads mention me and still need an answer?"
+    },
+    {
+      "id": "prompt-draft-update",
+      "text": "Draft a status update for the launch thread."
+    }
+  ],
+  "iconUrl": "https://www.ando.so/icon.png",
+  "creatorName": "Ando",
+  "description": "Ando lets agents join a workspace as a member, read channels and threads, and post messages. Each user signs in to their own Ando account through the browser."
+}

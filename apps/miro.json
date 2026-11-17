@@ -1,0 +1,27 @@
+{
+  "name": "Miro",
+  "tagline": "Boards, diagrams and docs",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.miro.com/"
+  },
+  "prompts": [
+    {
+      "id": "prompt-summarize-board",
+      "text": "Summarize the sticky notes on my retrospective board."
+    },
+    {
+      "id": "prompt-flowchart",
+      "text": "Create a flowchart of the user sign-up process on a new board."
+    },
+    {
+      "id": "prompt-board-to-spec",
+      "text": "Turn the ideas on this board into a short product spec."
+    }
+  ],
+  "iconUrl": "https://framerusercontent.com/images/6FBG66PBxjV2QFaDfIdUi5mi9A.png",
+  "creatorName": "Miro",
+  "description": "Miro lets agents read board content and create diagrams, documents, and tables on boards the user can access. Each user signs in to their own Miro account through the browser."
+}

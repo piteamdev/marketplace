@@ -1,0 +1,27 @@
+{
+  "name": "Whop",
+  "tagline": "Digital products and memberships",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.whop.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-members",
+      "text": "How many active memberships does each of my products have?"
+    },
+    {
+      "id": "prompt-revenue",
+      "text": "Summarize payments from the last 30 days by product."
+    },
+    {
+      "id": "prompt-api-docs",
+      "text": "How do I verify a Whop webhook in my app? Check the docs."
+    }
+  ],
+  "iconUrl": "https://whop.com/apple-icon.png",
+  "creatorName": "Whop",
+  "description": "Whop lets agents read and change live data in the signed-in Whop account, such as products, memberships, and payments, and search the Whop developer documentation. Each user signs in to their own Whop account through the browser."
+}

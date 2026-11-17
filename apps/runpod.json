@@ -1,0 +1,27 @@
+{
+  "name": "Runpod",
+  "tagline": "GPU pods and serverless",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.runpod.io/"
+  },
+  "prompts": [
+    {
+      "id": "prompt-running-pods",
+      "text": "List my running pods and their GPU types."
+    },
+    {
+      "id": "prompt-volumes",
+      "text": "Which network volumes do I have, and in which data centers?"
+    },
+    {
+      "id": "prompt-templates",
+      "text": "Show the templates I have created."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/69ce570adca53340abab8376/69e08b4ced16e020149fc61d_favicon_www_runpod_io_256x256.png",
+  "creatorName": "Runpod",
+  "description": "Runpod lets agents list and manage pods, serverless endpoints, templates, and network volumes in the account of the signed-in user. Pods and endpoints that an agent creates use account credit."
+}

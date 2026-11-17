@@ -1,0 +1,27 @@
+{
+  "name": "Basecamp",
+  "tagline": "Projects, to-dos, and messages",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.basecamp.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-catch-up",
+      "text": "Catch me up on the website redesign project this week."
+    },
+    {
+      "id": "prompt-overdue",
+      "text": "Which to-dos assigned to me are overdue?"
+    },
+    {
+      "id": "prompt-add-todo",
+      "text": "Add a to-do to review the launch checklist by Thursday."
+    }
+  ],
+  "iconUrl": "https://basecamp.com/assets/images/general/apple-touch-icon.png",
+  "creatorName": "37signals",
+  "description": "Basecamp lets agents read projects and message threads, add to-dos, and post updates with the access the signed-in user already has. Each user signs in to their own Basecamp account through the browser."
+}

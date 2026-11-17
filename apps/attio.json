@@ -1,0 +1,27 @@
+{
+  "name": "Attio",
+  "tagline": "CRM records and deals",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.attio.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-stale-deals",
+      "text": "Which open deals had no activity in the last two weeks?"
+    },
+    {
+      "id": "prompt-log-note",
+      "text": "Log a note on the Acme deal with the points from today's call."
+    },
+    {
+      "id": "prompt-follow-up",
+      "text": "Create a task to follow up with this contact next Tuesday."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/4f/b8/5d/4fb85d1f-cdcb-578f-ad1e-376174daaa60/AppIcon-0-0-1x_U007ephone-0-1-85-220.png/512x512bb.jpg",
+  "creatorName": "Attio",
+  "description": "Attio lets agents search records, update deals, log notes, and create tasks in the workspace of the signed-in account. Each user signs in to their own Attio account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Riverside",
+  "tagline": "Recordings, clips, and transcripts",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.riverside.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-topic",
+      "text": "Find where my guest talked about pricing in last week's episode."
+    },
+    {
+      "id": "prompt-clip-ideas",
+      "text": "Suggest three short clips from my latest recording."
+    },
+    {
+      "id": "prompt-transcript-summary",
+      "text": "Summarize the transcript of my most recent recording."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/685be7dcd32275d3830651d3/685be7dcd32275d383065e48_RS_favicon.png",
+  "creatorName": "Riverside",
+  "description": "Riverside lets agents search recording transcripts, make clips, and edit recordings in the studios of the signed-in user. It needs a Riverside Grow plan or higher."
+}

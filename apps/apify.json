@@ -1,0 +1,27 @@
+{
+  "name": "Apify",
+  "tagline": "Web scraping and automation",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.apify.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-actor",
+      "text": "Find an Actor that extracts reviews from Google Maps."
+    },
+    {
+      "id": "prompt-scrape",
+      "text": "Scrape the product names and prices from this category page."
+    },
+    {
+      "id": "prompt-last-run",
+      "text": "Show the results of my last Actor run."
+    }
+  ],
+  "iconUrl": "https://apify.com/apple-icon.png?apple-icon.1qabm0kj8blk6.png?dpl=a834cddc87",
+  "creatorName": "Apify",
+  "description": "Apify lets agents search the Apify Store, run Actors that scrape and extract web data, and read the results. Each user signs in to their own Apify account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Magnific",
+  "tagline": "AI image and video tools",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.magnific.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-hero-image",
+      "text": "Generate a hero image of a calm workspace at sunrise."
+    },
+    {
+      "id": "prompt-upscale",
+      "text": "Upscale this product photo to 4K."
+    },
+    {
+      "id": "prompt-variations",
+      "text": "Make three style variations of this logo sketch."
+    }
+  ],
+  "iconUrl": "https://media.magnific.com/magnific-favicons/apple-touch-icon.png?w=180&v=2",
+  "creatorName": "Magnific",
+  "description": "Magnific lets agents generate, upscale, and edit images and videos with the signed-in Magnific account. It needs a paid Magnific plan and uses the account's credits."
+}

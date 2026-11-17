@@ -1,0 +1,27 @@
+{
+  "name": "Navan",
+  "tagline": "Travel and expense data",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.navan.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-travel-spend",
+      "text": "What did our team spend on travel last quarter?"
+    },
+    {
+      "id": "prompt-out-of-policy",
+      "text": "List expenses from last month that are out of policy."
+    },
+    {
+      "id": "prompt-top-vendors",
+      "text": "Which hotels and airlines did we spend the most on this year?"
+    }
+  ],
+  "iconUrl": "https://navan.com/favicon.ico",
+  "creatorName": "Navan",
+  "description": "Navan lets agents read travel and expense data such as spend summaries, transactions, and policy details. Each user signs in to their own Navan account through the browser."
+}

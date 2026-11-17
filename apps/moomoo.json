@@ -1,0 +1,27 @@
+{
+  "name": "moomoo",
+  "tagline": "Market quotes and brokerage account",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.moomoo.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-quote",
+      "text": "What is the latest quote for AAPL and how did it move today?"
+    },
+    {
+      "id": "prompt-positions",
+      "text": "Summarize my current positions and their unrealized profit and loss."
+    },
+    {
+      "id": "prompt-orders",
+      "text": "List my open orders and recent fills."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/97/e3/1b/97e31b3b-f16c-238b-0c73-f70da6f0a3da/AppIcon-MooMoo-0-0-1x_U007epad-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "creatorName": "moomoo",
+  "description": "moomoo lets agents read market quotes, positions, and orders, and place orders in the signed-in brokerage account. Orders use real funds."
+}

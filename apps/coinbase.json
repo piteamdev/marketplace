@@ -1,0 +1,27 @@
+{
+  "name": "Coinbase",
+  "tagline": "Crypto prices, portfolios and trading",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://agents.coinbase.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-balances",
+      "text": "What are my Coinbase balances in each portfolio?"
+    },
+    {
+      "id": "prompt-price",
+      "text": "Show the BTC-USD price on Coinbase and how it moved this week."
+    },
+    {
+      "id": "prompt-preview-order",
+      "text": "Preview a 50 USD market buy of ETH on Coinbase. Do not place the order."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple211/v4/78/92/8c/78928ca2-63ef-1ae1-4b55-2be4bdc8f2e4/AppIcon-0-0-1x_U007ephone-0-1-0-85-220.png/512x512bb.jpg",
+  "creatorName": "Coinbase",
+  "description": "Coinbase lets agents read prices, balances, portfolios, orders and fees in Coinbase Advanced Trade, preview and place orders, convert between assets, and move funds between portfolios. Each user signs in to their own Coinbase account through the browser. Agents get the same permissions as the user. Orders and conversions use real funds, and agents can pay for x402 requests from the USDC balance."
+}

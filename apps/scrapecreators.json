@@ -1,0 +1,27 @@
+{
+  "name": "Scrape Creators",
+  "tagline": "Public social media data",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.scrapecreators.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-latest-posts",
+      "text": "Get the latest 10 posts from the @nasa Instagram account."
+    },
+    {
+      "id": "prompt-followers",
+      "text": "Compare the TikTok follower counts of @nike and @adidas."
+    },
+    {
+      "id": "prompt-channel-videos",
+      "text": "Summarize the latest videos on the MKBHD YouTube channel."
+    }
+  ],
+  "iconUrl": "https://scrapecreators.com/apple-touch-icon.png",
+  "creatorName": "Scrape Creators",
+  "description": "Scrape Creators lets agents read public profiles, posts, and comments from social platforms such as TikTok, Instagram, and YouTube. At sign-in the user enters a Scrape Creators API key in the browser, and each request uses account credits."
+}

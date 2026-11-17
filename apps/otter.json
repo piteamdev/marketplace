@@ -1,0 +1,27 @@
+{
+  "name": "Otter.ai",
+  "tagline": "Meeting transcripts and notes",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.otter.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-last-meeting",
+      "text": "Summarize my last meeting and list the action items."
+    },
+    {
+      "id": "prompt-search",
+      "text": "Find meetings this month where pricing was discussed."
+    },
+    {
+      "id": "prompt-follow-up",
+      "text": "Draft a follow-up email from yesterday's customer call."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/618e9316785b3582a5178502/618e943a80919a98b5e9bf69_apple-icon.png",
+  "creatorName": "Otter.ai",
+  "description": "Otter.ai lets agents search and read meeting transcripts and summaries in the user's Otter account. Access is read-only."
+}

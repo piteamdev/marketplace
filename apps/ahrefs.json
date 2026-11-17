@@ -1,0 +1,27 @@
+{
+  "name": "Ahrefs",
+  "tagline": "SEO and keyword data",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.ahrefs.com/mcp/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-keywords",
+      "text": "Find low-difficulty keywords about home espresso machines."
+    },
+    {
+      "id": "prompt-competitors",
+      "text": "Which pages bring the most organic traffic to this competitor?"
+    },
+    {
+      "id": "prompt-backlinks",
+      "text": "List the new backlinks to our site in the last 30 days."
+    }
+  ],
+  "iconUrl": "https://static.ahrefs.com/apple-touch-icon.png?v=2",
+  "creatorName": "Ahrefs",
+  "description": "Ahrefs lets agents research keywords, backlinks, organic traffic, and competitor sites with Ahrefs data. Each user signs in to their own Ahrefs account through the browser."
+}

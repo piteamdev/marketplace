@@ -1,0 +1,27 @@
+{
+  "name": "Fathom",
+  "tagline": "Meeting notes and transcripts",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.fathom.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-last-call",
+      "text": "Summarize my last customer call and list the action items."
+    },
+    {
+      "id": "prompt-search-meetings",
+      "text": "Find the meetings this month where pricing came up."
+    },
+    {
+      "id": "prompt-follow-up",
+      "text": "Draft a follow-up email from yesterday's meeting with the design team."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/6899da9beccbdbe92be49b5d/6a4282cf5eaacfd4a9c45526_fathom_favicon.png",
+  "creatorName": "Fathom",
+  "description": "Fathom lets agents search recorded meetings and read their summaries, transcripts, and action items in the signed-in Fathom account. Each user signs in to their own Fathom account through the browser."
+}

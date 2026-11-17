@@ -1,0 +1,27 @@
+{
+  "name": "Better Stack",
+  "tagline": "Uptime, logs, and incidents",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.betterstack.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-incidents",
+      "text": "Which incidents are open, and what caused them?"
+    },
+    {
+      "id": "prompt-errors",
+      "text": "Find the most frequent errors in the API logs in the last hour."
+    },
+    {
+      "id": "prompt-on-call",
+      "text": "Who is on call this weekend?"
+    }
+  ],
+  "iconUrl": "https://betterstack.com/assets/favicon-64296699.png",
+  "creatorName": "Better Stack",
+  "description": "Better Stack lets agents check monitors and incidents, query logs and metrics, and read on-call schedules in the signed-in team. Each user signs in to their own Better Stack account through the browser."
+}

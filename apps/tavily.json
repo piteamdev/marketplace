@@ -1,0 +1,27 @@
+{
+  "name": "Tavily",
+  "tagline": "Web search for agents",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.tavily.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-news",
+      "text": "Search for this week's news about EU AI regulation and summarize it with sources."
+    },
+    {
+      "id": "prompt-extract",
+      "text": "Extract the pricing table from the vendor's pricing page."
+    },
+    {
+      "id": "prompt-site-map",
+      "text": "Map the documentation site and list the pages about authentication."
+    }
+  ],
+  "iconUrl": "https://www.tavily.com/apple-icon.png",
+  "creatorName": "Tavily",
+  "description": "Tavily lets agents search the web, extract the content of pages, and crawl or map a site. Each user signs in to their own Tavily account through the browser, and searches use that account's credits."
+}

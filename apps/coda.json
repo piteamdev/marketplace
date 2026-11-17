@@ -1,0 +1,27 @@
+{
+  "name": "Coda",
+  "tagline": "Docs, pages and tables",
+  "category": "documents",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://coda.io/apis/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-summary",
+      "text": "Summarize the project plan doc in Coda."
+    },
+    {
+      "id": "prompt-table",
+      "text": "Which rows in the launch tracker table are still open?"
+    },
+    {
+      "id": "prompt-page",
+      "text": "Draft a new page in this doc with the notes from today's meeting."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/7737862?s=256&v=4",
+  "creatorName": "Superhuman",
+  "description": "Coda lets agents read and write docs, pages and tables in the workspace of the signed-in account. Each user signs in to their own Coda account through the browser."
+}

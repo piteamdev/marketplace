@@ -1,0 +1,27 @@
+{
+  "name": "ZoomInfo",
+  "tagline": "B2B company and contact data",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.zoominfo.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-company-profile",
+      "text": "Give me a profile of Acme Robotics: size, industry, and recent funding."
+    },
+    {
+      "id": "prompt-find-contacts",
+      "text": "Find the heads of IT at logistics companies in Poland with more than 500 employees."
+    },
+    {
+      "id": "prompt-intent",
+      "text": "Which accounts on my list show intent for data warehouse tools?"
+    }
+  ],
+  "iconUrl": "https://www.zoominfo.com/favicon.ico",
+  "creatorName": "ZoomInfo",
+  "description": "ZoomInfo lets agents look up companies and contacts, enrich account records, and find buying signals in ZoomInfo data. Each user signs in to their own ZoomInfo account through the browser, and the account's plan and entitlements limit the data."
+}

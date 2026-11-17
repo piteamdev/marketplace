@@ -1,0 +1,27 @@
+{
+  "name": "DataForSEO",
+  "tagline": "SEO and search data",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.dataforseo.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-keywords",
+      "text": "What is the monthly search volume for these keywords in the US?"
+    },
+    {
+      "id": "prompt-serp",
+      "text": "Who ranks in the top ten on Google for this query?"
+    },
+    {
+      "id": "prompt-backlinks",
+      "text": "Summarize the backlink profile of this domain."
+    }
+  ],
+  "iconUrl": "https://dataforseo.com/wp-content/uploads/2022/04/cropped-favicon_512-1-192x192.png",
+  "creatorName": "DataForSEO",
+  "description": "DataForSEO lets agents read search results, keyword volumes, backlinks, rankings and on-page data. Each user signs in to their own DataForSEO account through the browser, and each request is paid from that account's balance."
+}

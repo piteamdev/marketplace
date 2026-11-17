@@ -1,0 +1,27 @@
+{
+  "name": "AppSignal",
+  "tagline": "Errors, performance and logs",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://appsignal.com/api/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-new-errors",
+      "text": "Which new errors did my production app get since the last deploy?"
+    },
+    {
+      "id": "prompt-slow-actions",
+      "text": "Which actions were the slowest this week, and why?"
+    },
+    {
+      "id": "prompt-uptime",
+      "text": "Did any uptime monitor or check-in fail in the last 24 hours?"
+    }
+  ],
+  "iconUrl": "https://www.appsignal.com/favicon.ico",
+  "creatorName": "AppSignal",
+  "description": "AppSignal lets agents search error incidents and stack traces, find slow actions and traces, read logs, metrics, check-ins and uptime monitors, and build dashboards. Each user signs in to their own AppSignal account through the browser. The sign-in gives all read and write tools, so agents can also change the state, severity and assignee of an incident and add notes."
+}

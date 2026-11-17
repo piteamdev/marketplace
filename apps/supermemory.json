@@ -1,0 +1,27 @@
+{
+  "name": "Supermemory",
+  "tagline": "Memory across conversations",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.supermemory.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-recall",
+      "text": "What do you remember about my preferences for code reviews?"
+    },
+    {
+      "id": "prompt-save",
+      "text": "Remember that the staging database moves to the new region next week."
+    },
+    {
+      "id": "prompt-project",
+      "text": "What did we decide about the onboarding project last month?"
+    }
+  ],
+  "iconUrl": "https://supermemory.ai/apple-touch-icon.png",
+  "creatorName": "Supermemory",
+  "description": "Supermemory lets agents save facts and preferences, and recall them later in other conversations and tools. Each user signs in to their own Supermemory account through the browser."
+}

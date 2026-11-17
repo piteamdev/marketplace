@@ -1,0 +1,27 @@
+{
+  "name": "SnapTrade",
+  "tagline": "Brokerage portfolio data",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://agent.snaptrade.com/mcp/portfolio"
+  },
+  "prompts": [
+    {
+      "id": "prompt-positions",
+      "text": "Summarize my positions across all my connected brokerage accounts."
+    },
+    {
+      "id": "prompt-balances",
+      "text": "How much cash is in each of my brokerage accounts?"
+    },
+    {
+      "id": "prompt-activity",
+      "text": "What dividends did I receive last month?"
+    }
+  ],
+  "iconUrl": "https://snaptrade.com/favicon.ico",
+  "creatorName": "SnapTrade",
+  "description": "SnapTrade lets agents read balances, positions, orders, and account activity from the brokerage accounts that the signed-in user connects to SnapTrade. This server is read-only and cannot place trades."
+}

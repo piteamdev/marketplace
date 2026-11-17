@@ -1,0 +1,27 @@
+{
+  "name": "Mem",
+  "tagline": "Notes and collections",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.mem.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-notes",
+      "text": "Find my notes about the Q3 planning meeting and summarize them."
+    },
+    {
+      "id": "prompt-new-note",
+      "text": "Create a note with the action items from this conversation."
+    },
+    {
+      "id": "prompt-collection",
+      "text": "List the notes in my Research collection from the last month."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/83/28/66/83286612-9476-6bf1-72a5-db2c6f460175/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
+  "creatorName": "Mem",
+  "description": "Mem lets agents search, read, and create notes and organize them in collections. Each user signs in to their own Mem account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "21st",
+  "tagline": "React UI component catalog",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://21st.dev/api/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-pricing-table",
+      "text": "Find a pricing table component that fits this landing page."
+    },
+    {
+      "id": "prompt-navbar",
+      "text": "Add a responsive navigation bar component to the header."
+    },
+    {
+      "id": "prompt-compare",
+      "text": "Show three date picker components and compare their props."
+    }
+  ],
+  "iconUrl": "https://21st.dev/apple-touch-icon.png",
+  "creatorName": "21st",
+  "description": "21st lets agents search a catalog of React UI components and add the chosen components to the project. Each user signs in to their own 21st account through the browser."
+}

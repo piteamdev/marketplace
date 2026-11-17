@@ -1,0 +1,27 @@
+{
+  "name": "Profound",
+  "tagline": "AI search visibility analytics",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.tryprofound.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-visibility",
+      "text": "How did our brand visibility in AI answers change this month?"
+    },
+    {
+      "id": "prompt-citations",
+      "text": "Which domains are cited most often in answers about our category?"
+    },
+    {
+      "id": "prompt-competitors",
+      "text": "Compare our visibility with our top three competitors."
+    }
+  ],
+  "iconUrl": "https://static.tryprofound.com/favicons/v1/production/apple-touch-icon.png",
+  "creatorName": "Profound",
+  "description": "Profound lets agents read how a brand appears in AI answer engines, including visibility, citations, and prompt data. Each user signs in to their own Profound account through the browser."
+}

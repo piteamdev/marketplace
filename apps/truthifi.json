@@ -1,0 +1,27 @@
+{
+  "name": "Truthifi",
+  "tagline": "Investment account insights",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.truthifi.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-allocation",
+      "text": "What is my current asset allocation across all accounts?"
+    },
+    {
+      "id": "prompt-fees",
+      "text": "Which of my funds have the highest fees?"
+    },
+    {
+      "id": "prompt-performance",
+      "text": "How did my portfolio perform this year compared with last year?"
+    }
+  ],
+  "iconUrl": "https://framerusercontent.com/images/u37AxMviOa9x9r67PQkR35LJQ.png",
+  "creatorName": "Truthifi",
+  "description": "Truthifi lets agents read the user's linked investment accounts, holdings, fees, and performance. Access is read-only, and each user signs in to their own Truthifi account through the browser."
+}

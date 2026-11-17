@@ -1,0 +1,27 @@
+{
+  "name": "Hostinger",
+  "tagline": "Hosting, domains and DNS",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.hostinger.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-domains",
+      "text": "List my domains and show which ones expire in the next 60 days."
+    },
+    {
+      "id": "prompt-dns",
+      "text": "Show the DNS records for my main domain."
+    },
+    {
+      "id": "prompt-vps",
+      "text": "What is the status and plan of each of my VPS instances?"
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/2630767?s=256&v=4",
+  "creatorName": "Hostinger",
+  "description": "Hostinger lets agents read and manage websites, domains, DNS records, and VPS instances in the signed-in Hostinger account. Each user signs in to their own Hostinger account through the browser."
+}

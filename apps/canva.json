@@ -1,0 +1,27 @@
+{
+  "name": "Canva",
+  "tagline": "Designs, assets and exports",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.canva.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-recent-design",
+      "text": "Show me my most recently edited Canva design."
+    },
+    {
+      "id": "prompt-social-resize",
+      "text": "Resize my launch poster for Instagram and export both as PNG."
+    },
+    {
+      "id": "prompt-deck-from-notes",
+      "text": "Turn these release notes into a six-slide Canva presentation."
+    }
+  ],
+  "iconUrl": "https://static.canva.com/static/images/apple-touch-icon-180x180.png",
+  "creatorName": "Canva",
+  "description": "Canva lets users create and edit designs in words, search their own design library, upload and organize assets, export in the format a channel needs, and leave comments where the work is. Each user signs in to their own Canva account, and the agent can do what that account can do."
+}

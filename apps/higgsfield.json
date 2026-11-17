@@ -1,0 +1,27 @@
+{
+  "name": "Higgsfield",
+  "tagline": "AI images, videos and audio",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.higgsfield.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-credits",
+      "text": "How many Higgsfield credits do I have?"
+    },
+    {
+      "id": "prompt-product-shot",
+      "text": "Make a Higgsfield product photo of a ceramic mug on a wooden table."
+    },
+    {
+      "id": "prompt-clip",
+      "text": "Make a 5-second Higgsfield video of waves at sunset."
+    }
+  ],
+  "iconUrl": "https://higgsfield.ai/apple-touch-icon.png",
+  "creatorName": "Higgsfield",
+  "description": "Higgsfield lets agents generate images, videos, characters and audio with Higgsfield models such as Seedance, Kling, Veo and MiniMax Hailuo, check the credit balance, and browse the Asset Library. Results are saved to the user's Higgsfield Assets. Each user signs in to their own Higgsfield account through the browser. Every generation uses credits of that account at standard rates, also on an unlimited plan."
+}

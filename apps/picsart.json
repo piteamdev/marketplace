@@ -1,0 +1,27 @@
+{
+  "name": "Picsart",
+  "tagline": "AI image, video and audio tools",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.picsart.com/gen-ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-remove-bg",
+      "text": "Remove the background from this product photo."
+    },
+    {
+      "id": "prompt-upscale",
+      "text": "Upscale this image to twice its size."
+    },
+    {
+      "id": "prompt-generate",
+      "text": "Generate a banner image for a coffee shop opening."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/5361798?s=256&v=4",
+  "creatorName": "Picsart",
+  "description": "Picsart lets agents generate and edit images, videos, and audio with AI tools such as background removal and upscaling. Some tools use Picsart credits."
+}

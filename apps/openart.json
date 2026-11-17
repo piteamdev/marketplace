@@ -1,0 +1,27 @@
+{
+  "name": "OpenArt",
+  "tagline": "AI images and videos",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.openart.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-image",
+      "text": "Generate a watercolor illustration of a lighthouse at sunset."
+    },
+    {
+      "id": "prompt-video",
+      "text": "Make a short video of this product photo rotating slowly."
+    },
+    {
+      "id": "prompt-variations",
+      "text": "Create three style variations of my last image."
+    }
+  ],
+  "iconUrl": "https://openart.ai/pageforge-assets/favicon/apple-touch-icon.png",
+  "creatorName": "OpenArt",
+  "description": "OpenArt lets agents generate and edit images and videos with AI models. Generation uses OpenArt credits."
+}

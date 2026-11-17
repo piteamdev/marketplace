@@ -1,0 +1,27 @@
+{
+  "name": "Close",
+  "tagline": "Sales CRM",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.close.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-stale",
+      "text": "Which open opportunities had no activity in the last two weeks?"
+    },
+    {
+      "id": "prompt-lead",
+      "text": "Summarize the history of the Acme lead."
+    },
+    {
+      "id": "prompt-note",
+      "text": "Log a note on this lead with the points from today's call."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/7f/a9/a1/7fa9a154-25db-df87-4e7e-532e9be4661a/AppIcon-0-0-1x_U007ephone-0-6-0-85-220.png/512x512bb.jpg",
+  "creatorName": "Close",
+  "description": "Close lets agents search leads, contacts and opportunities, read activity history, and log notes and tasks. Each user signs in to their own Close account through the browser, and the user chooses the access scopes at sign-in."
+}

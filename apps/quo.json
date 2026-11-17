@@ -1,0 +1,27 @@
+{
+  "name": "Quo",
+  "tagline": "Business phone calls and texts",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.quo.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-missed-calls",
+      "text": "Summarize the calls I missed yesterday."
+    },
+    {
+      "id": "prompt-last-call",
+      "text": "What did the customer say in my last call with Jordan?"
+    },
+    {
+      "id": "prompt-draft-text",
+      "text": "Draft a text reply to the newest unread message."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/6899ec2c2b29c1edf8c20f15/690d1eb54b67bdcacae054b6_quo-ios-256.png",
+  "creatorName": "Quo",
+  "description": "Quo (formerly OpenPhone) lets agents read calls, texts, call transcripts, and contacts in the signed-in user's Quo workspace, and send messages. Each user signs in to their own Quo account through the browser."
+}

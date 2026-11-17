@@ -1,0 +1,27 @@
+{
+  "name": "Prisma",
+  "tagline": "Postgres databases, backups and Compute apps",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.prisma.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-databases",
+      "text": "Which databases are in my Prisma workspace?"
+    },
+    {
+      "id": "prompt-backups",
+      "text": "Show me all available backups of my database."
+    },
+    {
+      "id": "prompt-logs",
+      "text": "Show the runtime logs of my latest Compute deployment."
+    }
+  ],
+  "iconUrl": "https://www.prisma.io/apple-icon.png",
+  "creatorName": "Prisma",
+  "description": "Prisma lets agents list and create Prisma Postgres databases, read schemas, run SQL, list backups and restore them to a new database, manage Object Storage buckets, read Compute builds and logs, and search the Prisma docs. Each user signs in to their own Prisma account through the browser and selects a workspace. Agents get full access: they can run SQL that changes or deletes data, update schemas, delete databases and buckets, and stop, roll back or delete Compute deployments."
+}

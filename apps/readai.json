@@ -1,0 +1,27 @@
+{
+  "name": "Read AI",
+  "tagline": "Meeting reports and transcripts",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.read.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-yesterday",
+      "text": "Summarize my meetings from yesterday."
+    },
+    {
+      "id": "prompt-action-items",
+      "text": "What action items were assigned to me this week?"
+    },
+    {
+      "id": "prompt-decision",
+      "text": "What did we decide about the launch date in the last product sync?"
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/614e5e239ea0f25fe5b6a797/615f71de842b191ea061fda6_ReadLogomark_256x256.png",
+  "creatorName": "Read AI",
+  "description": "Read AI lets agents search and read the meeting reports, summaries, transcripts, and action items of the signed-in user. Each user signs in to their own Read AI account through the browser."
+}

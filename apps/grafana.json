@@ -1,0 +1,27 @@
+{
+  "name": "Grafana Cloud",
+  "tagline": "Dashboards, metrics, and logs",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.grafana.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-firing-alerts",
+      "text": "Which alerts are firing right now and since when?"
+    },
+    {
+      "id": "prompt-error-logs",
+      "text": "Show the error logs for the checkout service from the last hour."
+    },
+    {
+      "id": "prompt-find-dashboard",
+      "text": "Find the dashboard for API latency and summarize the last 24 hours."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/1a/d7/9d/1ad79d36-8142-fb4a-0b83-61747215388e/AppIcon-0-0-1x_U007ephone-0-1-sRGB-85-220.png/512x512bb.jpg",
+  "creatorName": "Grafana Labs",
+  "description": "Grafana Cloud lets agents search dashboards, query metrics and logs, and read alerts and incidents in the signed-in Grafana Cloud stack. The user needs the Cloud MCP User role and signs in through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Fanvue",
+  "tagline": "Creator account insights",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.fanvue.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-earnings",
+      "text": "How did my earnings this month compare with last month?"
+    },
+    {
+      "id": "prompt-unread",
+      "text": "Which subscriber messages are still waiting for a reply?"
+    },
+    {
+      "id": "prompt-draft-post",
+      "text": "Draft a caption for a post that announces my new weekly schedule."
+    }
+  ],
+  "iconUrl": "https://www.fanvue.com/media/home/apple-touch-icon.png",
+  "creatorName": "Fanvue",
+  "description": "Fanvue lets agents read earnings, subscribers, messages, and posts in the signed-in Fanvue creator account. Each user signs in to their own Fanvue account through the browser."
+}

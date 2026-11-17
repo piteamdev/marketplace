@@ -1,0 +1,27 @@
+{
+  "name": "Bright Data",
+  "tagline": "Web search and scraping",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.brightdata.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-search",
+      "text": "Search the web for recent reviews of this product and summarize them."
+    },
+    {
+      "id": "prompt-scrape",
+      "text": "Read this page as Markdown and list the prices it shows."
+    },
+    {
+      "id": "prompt-compare",
+      "text": "Collect the public pricing pages of these three competitors and compare the plans."
+    }
+  ],
+  "iconUrl": "https://brightdata.com/wp-content/themes/brightdata/assets/images/favicon.png",
+  "creatorName": "Bright Data",
+  "description": "Bright Data lets agents search the web, read pages as Markdown, and collect structured data from public sites through Bright Data's unblocking and browser infrastructure. Each user signs in to their own Bright Data account through the browser, and requests use that account's quota."
+}

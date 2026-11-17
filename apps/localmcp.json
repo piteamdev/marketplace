@@ -1,0 +1,27 @@
+{
+  "name": "LMCP",
+  "tagline": "Apps on your computer",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://www.local-mcp.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-calendar",
+      "text": "What is on my calendar tomorrow?"
+    },
+    {
+      "id": "prompt-unread-mail",
+      "text": "Summarize my unread emails from today."
+    },
+    {
+      "id": "prompt-draft-mail",
+      "text": "Draft a reply to the last email from my manager, but do not send it."
+    }
+  ],
+  "iconUrl": "https://www.local-mcp.com/icon-192.png",
+  "creatorName": "Colibird",
+  "description": "LMCP lets agents use mail, calendar, files, and other apps on the user's own Mac or Windows computer through the LMCP relay. The user must install the LMCP app and turn on Cloud Data Forwarding, then sign in through the browser."
+}

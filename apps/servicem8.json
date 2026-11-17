@@ -1,0 +1,27 @@
+{
+  "name": "ServiceM8",
+  "tagline": "Field service jobs",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.servicem8.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-tomorrow",
+      "text": "Which jobs are scheduled for tomorrow?"
+    },
+    {
+      "id": "prompt-open-quotes",
+      "text": "List the quotes sent this month that are not accepted yet."
+    },
+    {
+      "id": "prompt-job-note",
+      "text": "Draft a job note for the plumbing repair at 12 King Street."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/57d7ef8b3d16a9a554f037bf/57d7ef8c3d16a9a554f03886_webclip.png",
+  "creatorName": "ServiceM8",
+  "description": "ServiceM8 lets agents look up and update jobs, clients, quotes, and schedules in the ServiceM8 account of the signed-in user."
+}

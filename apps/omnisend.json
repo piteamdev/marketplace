@@ -1,0 +1,27 @@
+{
+  "name": "Omnisend",
+  "tagline": "Email and SMS marketing",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.omnisend.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-last-campaign",
+      "text": "How did last week's campaigns perform compared to the week before?"
+    },
+    {
+      "id": "prompt-segment",
+      "text": "How many contacts are in the VIP segment, and how did it change this month?"
+    },
+    {
+      "id": "prompt-draft-campaign",
+      "text": "Draft a campaign for the new collection, but do not send it."
+    }
+  ],
+  "iconUrl": "https://www.omnisend.com/wp-content/uploads/2022/07/cropped-favi-192x192.png",
+  "creatorName": "Omnisend",
+  "description": "Omnisend lets agents read campaign and form reports, find contacts and segments, and create and edit campaigns, automations, email templates, forms and products. Each user connects with an API key from their own Omnisend account. Agents can do what the key allows, which can include sending campaigns and deleting data."
+}

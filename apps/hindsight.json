@@ -1,0 +1,27 @@
+{
+  "name": "Hindsight",
+  "tagline": "Memory that learns over time",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.hindsight.vectorize.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-recall",
+      "text": "Recall from Hindsight what we know about this project before we start."
+    },
+    {
+      "id": "prompt-retain",
+      "text": "Retain the decisions and open questions from this thread in Hindsight."
+    },
+    {
+      "id": "prompt-reflect",
+      "text": "Reflect on my Hindsight memories: what patterns do you see in my last month of work?"
+    }
+  ],
+  "iconUrl": "https://ui.hindsight.vectorize.io/apple-touch-icon.png",
+  "creatorName": "Vectorize",
+  "description": "Hindsight by Vectorize gives agents a long-term memory in Hindsight Cloud. Agents retain facts and events, recall them by meaning, time and entity, and reflect on them to form mental models. Memories are kept in banks, and agents can make a bank for each project or person. OpenBot agents keep their own memory too; Hindsight is the memory that other AI tools you connect can share. What agents retain goes to your Hindsight Cloud account."
+}

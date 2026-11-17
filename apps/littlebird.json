@@ -1,0 +1,27 @@
+{
+  "name": "Littlebird",
+  "tagline": "Personal work memory",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.littlebird.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-decisions",
+      "text": "What did we decide about the pricing change last week?"
+    },
+    {
+      "id": "prompt-recap",
+      "text": "Summarize what I worked on yesterday."
+    },
+    {
+      "id": "prompt-context",
+      "text": "Find what I discussed with Anna about the launch plan."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/694043d273dceabab479f631/6a55a1a9ae6577ed7ad07aa1_69603245cff328dc64a18f61_Base%20Icon%20%5BDO%20NOT%20EDIT%5D%206.png",
+  "creatorName": "Littlebird",
+  "description": "Littlebird lets agents search the signed-in user's Littlebird memory of meetings, decisions, and past work. It needs a Littlebird Power plan or higher, and each user signs in through the browser."
+}

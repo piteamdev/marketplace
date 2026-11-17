@@ -1,0 +1,27 @@
+{
+  "name": "Buildkite",
+  "tagline": "CI pipelines and builds",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.buildkite.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-failed-build",
+      "text": "Why did the latest build on main fail?"
+    },
+    {
+      "id": "prompt-flaky",
+      "text": "Which tests failed most often in the last week of builds?"
+    },
+    {
+      "id": "prompt-status",
+      "text": "Show the status of the open builds for this branch."
+    }
+  ],
+  "iconUrl": "https://buildkite.com/apple-touch-icon.png",
+  "creatorName": "Buildkite",
+  "description": "Buildkite lets agents read pipelines, builds, jobs, logs and test results, and find why a build failed, in the organizations of the signed-in account. Each user signs in to their own Buildkite account through the browser."
+}

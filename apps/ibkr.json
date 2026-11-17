@@ -1,0 +1,27 @@
+{
+  "name": "IBKR",
+  "tagline": "Brokerage account data",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.ibkr.com/v1/api/mcp-public"
+  },
+  "prompts": [
+    {
+      "id": "prompt-positions",
+      "text": "Summarize my current positions and their unrealized profit and loss."
+    },
+    {
+      "id": "prompt-balances",
+      "text": "What are my cash balance and buying power?"
+    },
+    {
+      "id": "prompt-quote",
+      "text": "Show the latest quote and daily range for AAPL."
+    }
+  ],
+  "iconUrl": "https://www.interactivebrokers.com/images/web/favicons/home-screen-icon-192x192.png",
+  "creatorName": "Interactive Brokers",
+  "description": "IBKR lets agents read positions, balances, orders, and market data for the signed-in Interactive Brokers account. Each user signs in to their own Interactive Brokers account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Circleback",
+  "tagline": "Meeting notes and transcripts",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://circleback.ai/api/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-last-meeting",
+      "text": "Summarize my last meeting with Acme and its action items."
+    },
+    {
+      "id": "prompt-mentions",
+      "text": "Find where pricing came up in this month's meeting transcripts."
+    },
+    {
+      "id": "prompt-open-items",
+      "text": "Which action items assigned to me are still open?"
+    }
+  ],
+  "iconUrl": "https://circleback.ai/apple-touch-icon.png",
+  "creatorName": "Circleback",
+  "description": "Circleback lets agents search meetings, read notes, transcripts and action items, and look up the people and companies in them. Each user signs in to their own Circleback account through the browser."
+}

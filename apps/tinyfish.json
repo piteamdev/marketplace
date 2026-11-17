@@ -1,0 +1,27 @@
+{
+  "name": "TinyFish",
+  "tagline": "Web search and browsing",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://agent.tinyfish.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-compare-prices",
+      "text": "Compare the listed prices for this laptop model on three retail sites."
+    },
+    {
+      "id": "prompt-extract-list",
+      "text": "Collect the names and dates of upcoming events from this conference site."
+    },
+    {
+      "id": "prompt-search",
+      "text": "Search for recent reviews of standing desks and summarize them."
+    }
+  ],
+  "iconUrl": "https://www.tinyfish.ai/favicon-for-app/apple-icon.png",
+  "creatorName": "TinyFish",
+  "description": "TinyFish lets agents search the web, fetch pages, and run browser agents that navigate sites and extract data. Each user signs in to their own TinyFish account through the browser, and browser and agent runs use that account's credits."
+}

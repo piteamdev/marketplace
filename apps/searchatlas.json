@@ -1,0 +1,27 @@
+{
+  "name": "Search Atlas",
+  "tagline": "SEO, content, and ads data",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.searchatlas.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-lost-rank",
+      "text": "Which keywords for my site lost rank this week?"
+    },
+    {
+      "id": "prompt-audit",
+      "text": "Summarize the top issues from my latest site audit."
+    },
+    {
+      "id": "prompt-outline",
+      "text": "Draft an outline for a blog post about local SEO."
+    }
+  ],
+  "iconUrl": "https://searchatlas.com/favicon.ico",
+  "creatorName": "Search Atlas",
+  "description": "Search Atlas lets agents read SEO, site audit, content, and PPC data in the Search Atlas account of the signed-in user."
+}

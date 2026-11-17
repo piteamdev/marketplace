@@ -1,0 +1,27 @@
+{
+  "name": "Wellness Project",
+  "tagline": "Fitness and health data",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://wellnessproject.ai/api/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-training-week",
+      "text": "Summarize my training volume this week compared with last week."
+    },
+    {
+      "id": "prompt-sleep-trend",
+      "text": "How has my sleep changed over the last month?"
+    },
+    {
+      "id": "prompt-log-workout",
+      "text": "Log today's workout: 5 sets of 5 squats at 100 kg."
+    }
+  ],
+  "iconUrl": "https://wellnessproject.ai/apple-icon.png",
+  "creatorName": "Wellness Project",
+  "description": "Wellness Project lets agents read and log workouts, nutrition, sleep, body metrics, and wearable data in the signed-in account. Each user signs in to their own Wellness Project account through the browser."
+}

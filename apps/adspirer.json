@@ -1,0 +1,27 @@
+{
+  "name": "Adspirer",
+  "tagline": "Ad campaign reporting",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.adspirer.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-weekly",
+      "text": "How did my Google Ads campaigns perform last week compared to the week before?"
+    },
+    {
+      "id": "prompt-waste",
+      "text": "Which keywords spent the most this month with no conversions?"
+    },
+    {
+      "id": "prompt-draft-ads",
+      "text": "Draft three new ad headlines for the spring sale campaign."
+    }
+  ],
+  "iconUrl": "https://www.adspirer.com/apple-icon.png",
+  "creatorName": "Adspirer",
+  "description": "Adspirer lets agents read campaign performance and draft campaign changes across Google Ads, Meta Ads, LinkedIn Ads, and TikTok Ads accounts that the user connects in Adspirer. Each user signs in to their own Adspirer account through the browser."
+}

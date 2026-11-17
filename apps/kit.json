@@ -1,0 +1,27 @@
+{
+  "name": "Kit",
+  "tagline": "Email newsletters for creators",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://app.kit.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-growth",
+      "text": "How many subscribers did I gain this month, and from which forms?"
+    },
+    {
+      "id": "prompt-broadcast-stats",
+      "text": "Compare the open and click rates of my last five broadcasts."
+    },
+    {
+      "id": "prompt-draft-broadcast",
+      "text": "Draft a broadcast that announces my new workshop."
+    }
+  ],
+  "iconUrl": "https://kit.com/favicon.ico",
+  "creatorName": "Kit",
+  "description": "Kit lets agents read subscribers, tags, segments, sequences, and broadcasts, manage subscribers, and draft broadcasts in the signed-in Kit account. It never sends a broadcast, and it needs a paid Kit plan."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "freee",
+  "tagline": "Accounting, HR, and invoices",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.freee.co.jp/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-monthly-pl",
+      "text": "Summarize this month's income and expenses in freee accounting."
+    },
+    {
+      "id": "prompt-unpaid-invoices",
+      "text": "List the invoices that are past their due date."
+    },
+    {
+      "id": "prompt-draft-invoice",
+      "text": "Draft an invoice for 10 hours of consulting to Example Co."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/13896447?s=256&v=4",
+  "creatorName": "freee",
+  "description": "freee lets agents read and update accounting, invoice, HR and payroll, and time-tracking data in the signed-in freee account. Each user signs in to their own freee account through the browser."
+}

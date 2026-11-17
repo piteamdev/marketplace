@@ -1,0 +1,27 @@
+{
+  "name": "Amplitude",
+  "tagline": "Product analytics",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.amplitude.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-retention",
+      "text": "How did week-one retention change after the last release?"
+    },
+    {
+      "id": "prompt-funnel",
+      "text": "Where do users drop off in the signup funnel?"
+    },
+    {
+      "id": "prompt-experiment",
+      "text": "Summarize the results of the running checkout experiment."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/2291562?s=256&v=4",
+  "creatorName": "Amplitude",
+  "description": "Amplitude lets agents query events, charts, dashboards, and experiments in the projects that the signed-in user can access. Each user signs in to their own Amplitude account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Twilio Docs",
+  "tagline": "Twilio API documentation",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.twilio.com/docs"
+  },
+  "prompts": [
+    {
+      "id": "prompt-send-sms",
+      "text": "What parameters does the Twilio API need to send an SMS with a status callback?"
+    },
+    {
+      "id": "prompt-verify",
+      "text": "How do I start and check a phone verification with Twilio Verify?"
+    },
+    {
+      "id": "prompt-a2p",
+      "text": "What do I need to register for A2P 10DLC messaging in the US?"
+    }
+  ],
+  "iconUrl": "https://www.twilio.com/content/dam/twilio-com/core-assets/social/apple-touch-icon.png",
+  "creatorName": "Twilio",
+  "description": "Twilio Docs lets agents search the Twilio documentation and read full parameter schemas for Twilio API operations, such as Messaging, Voice, and Verify. It needs no account and no key."
+}

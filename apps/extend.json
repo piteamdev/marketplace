@@ -1,0 +1,27 @@
+{
+  "name": "Extend",
+  "tagline": "Virtual cards and spend",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.paywithextend.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-card-spend",
+      "text": "Which virtual cards had the most spend this month?"
+    },
+    {
+      "id": "prompt-missing-receipts",
+      "text": "List the transactions from last week that have no receipt."
+    },
+    {
+      "id": "prompt-card-summary",
+      "text": "Summarize the limits and remaining balance of my active virtual cards."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/d8/85/10/d885108f-802a-1620-923f-08d99dec774b/AppIcon-0-0-1x_U007emarketing-0-3-0-sRGB-85-220.png/512x512bb.jpg",
+  "creatorName": "Extend",
+  "description": "Extend lets agents look up virtual cards, card transactions, and receipts in the signed-in Extend account. Each user signs in to their own Extend account through the browser."
+}

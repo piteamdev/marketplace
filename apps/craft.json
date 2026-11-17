@@ -1,0 +1,27 @@
+{
+  "name": "Craft",
+  "tagline": "Notes, docs and tasks",
+  "category": "documents",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.craft.do/my/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-search",
+      "text": "Find my Craft notes about the Q3 roadmap."
+    },
+    {
+      "id": "prompt-summary",
+      "text": "Summarize this week's daily notes."
+    },
+    {
+      "id": "prompt-tasks",
+      "text": "Add these action items as tasks in Craft."
+    }
+  ],
+  "iconUrl": "https://www.craft.do/images/favicon-large.png",
+  "creatorName": "Craft Docs",
+  "description": "Craft lets agents read, search and update documents and tasks in the Craft space that the user approves. Each user signs in to their own Craft account through the browser."
+}

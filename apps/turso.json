@@ -1,0 +1,27 @@
+{
+  "name": "Turso",
+  "tagline": "Turso Cloud databases",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.turso.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-list-dbs",
+      "text": "List my Turso databases and the regions they run in."
+    },
+    {
+      "id": "prompt-schema",
+      "text": "Show the schema of the tables in the app database."
+    },
+    {
+      "id": "prompt-query",
+      "text": "How many users signed up in the last seven days, from the users table?"
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/139391156?s=256&v=4",
+  "creatorName": "Turso",
+  "description": "Turso lets agents list and manage databases in a Turso Cloud account and run SQL against them. Each user signs in to their own Turso account through the browser."
+}

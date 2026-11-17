@@ -1,0 +1,27 @@
+{
+  "name": "Fellow",
+  "tagline": "Meeting notes and actions",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://fellow.app/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-open-actions",
+      "text": "Which action items from my meetings this week are still open?"
+    },
+    {
+      "id": "prompt-meeting-summary",
+      "text": "Summarize the last product review meeting."
+    },
+    {
+      "id": "prompt-prep",
+      "text": "Prepare talking points for my next one-on-one from our past meetings."
+    }
+  ],
+  "iconUrl": "https://framerusercontent.com/images/W3zP48ABQ5JvFZqDFzSM0WCWKg.png",
+  "creatorName": "Fellow",
+  "description": "Fellow lets agents search meetings and read their summaries, transcripts, and action items in the signed-in Fellow workspace. A workspace admin must turn on the MCP server, and each user signs in through the browser."
+}

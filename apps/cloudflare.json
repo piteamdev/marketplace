@@ -1,0 +1,27 @@
+{
+  "name": "Cloudflare",
+  "tagline": "Workers, DNS, storage and logs",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.cloudflare.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-workers",
+      "text": "Which Workers are deployed in my Cloudflare account?"
+    },
+    {
+      "id": "prompt-errors",
+      "text": "Which Cloudflare Workers logged errors in the last hour?"
+    },
+    {
+      "id": "prompt-dns",
+      "text": "List the DNS records of each zone in my Cloudflare account."
+    }
+  ],
+  "iconUrl": "https://developers.cloudflare.com/favicon.png",
+  "creatorName": "Cloudflare",
+  "description": "Cloudflare lets agents list and manage Workers, DNS records, R2, D1 and KV through the Cloudflare API, query Workers logs, and search the Cloudflare docs. Each user signs in to their own Cloudflare account through the browser. On Cloudflare's consent page, choose Read only: the default, Minimal, does not let agents see Workers, logs or DNS records. With write permissions, agents can deploy and delete Workers, change DNS records and change other account settings."
+}

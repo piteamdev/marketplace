@@ -1,0 +1,27 @@
+{
+  "name": "Alpha Vantage",
+  "tagline": "Stock and market data",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.alphavantage.co/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-quote",
+      "text": "What is the latest price and daily change for MSFT?"
+    },
+    {
+      "id": "prompt-earnings",
+      "text": "Compare the last four quarters of earnings for AAPL and GOOGL."
+    },
+    {
+      "id": "prompt-rsi",
+      "text": "Show the 14-day RSI for NVDA over the last month."
+    }
+  ],
+  "iconUrl": "https://www.alphavantage.co/static/img/favicon.ico",
+  "creatorName": "Alpha Vantage",
+  "description": "Alpha Vantage lets agents look up stock prices, company fundamentals, forex and crypto rates, economic indicators, and technical indicators. Each user signs in to their own Alpha Vantage account through the browser."
+}

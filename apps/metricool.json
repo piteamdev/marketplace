@@ -1,0 +1,27 @@
+{
+  "name": "Metricool",
+  "tagline": "Social media analytics and planning",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://ai.metricool.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-best-posts",
+      "text": "Which of my Instagram posts had the most engagement last month?"
+    },
+    {
+      "id": "prompt-best-time",
+      "text": "What are the best times to post on LinkedIn for my brand?"
+    },
+    {
+      "id": "prompt-draft-post",
+      "text": "Draft a post for next Tuesday about our product update, but do not schedule it."
+    }
+  ],
+  "iconUrl": "https://metricool.com/wp-content/uploads/cropped-web-app-manifest-512x512-1-192x192.png",
+  "creatorName": "Metricool",
+  "description": "Metricool lets agents read social media and ads analytics for connected brands and plan posts in the content calendar. Each user signs in to their own Metricool account through the browser."
+}

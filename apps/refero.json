@@ -1,0 +1,27 @@
+{
+  "name": "Refero",
+  "tagline": "UI design references",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.refero.design/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-onboarding",
+      "text": "Find onboarding screens from fintech apps."
+    },
+    {
+      "id": "prompt-pricing",
+      "text": "Show me pricing pages that have a monthly and yearly toggle."
+    },
+    {
+      "id": "prompt-empty-states",
+      "text": "Find empty state designs for a task manager."
+    }
+  ],
+  "iconUrl": "https://refero.design/apple-icon-180x180.png",
+  "creatorName": "Refero",
+  "description": "Refero lets agents search a library of screens, flows, and styles from real apps and websites for design reference. It needs a Refero Pro subscription."
+}

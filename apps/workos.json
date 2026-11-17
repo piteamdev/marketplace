@@ -1,0 +1,27 @@
+{
+  "name": "WorkOS",
+  "tagline": "Auth and SSO administration",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.workos.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-draft-sso",
+      "text": "Which SSO connections are still in draft, and for which organizations?"
+    },
+    {
+      "id": "prompt-directory-sync",
+      "text": "Which directories have not synced in the last week?"
+    },
+    {
+      "id": "prompt-sign-in-activity",
+      "text": "Show suspicious sign-in attempts from the last 24 hours."
+    }
+  ],
+  "iconUrl": "https://workos.com/favicon.ico",
+  "creatorName": "WorkOS",
+  "description": "WorkOS lets agents manage organizations, users, SSO connections, and directories, and review recent sign-in activity in the signed-in WorkOS workspace. The agent acts with the user's own dashboard role and uses the sandbox environment by default."
+}

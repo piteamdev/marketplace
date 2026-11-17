@@ -1,0 +1,27 @@
+{
+  "name": "Apollo",
+  "tagline": "B2B contacts and prospecting",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.apollo.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-contacts",
+      "text": "Find VPs of engineering at fintech companies in London."
+    },
+    {
+      "id": "prompt-enrich",
+      "text": "Enrich this list of companies with size, industry, and location."
+    },
+    {
+      "id": "prompt-sequences",
+      "text": "Which of my sequences had the best reply rate this month?"
+    }
+  ],
+  "iconUrl": "https://www.apollo.io/apple-icon.png",
+  "creatorName": "Apollo.io",
+  "description": "Apollo lets agents search B2B contacts and companies, enrich records, and review sequences in the signed-in account. Each user signs in to their own Apollo account through the browser."
+}

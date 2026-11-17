@@ -1,0 +1,27 @@
+{
+  "name": "Lusha",
+  "tagline": "B2B contact and company data",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.lusha.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-company",
+      "text": "Find the size, industry, and location of the company Acme Robotics."
+    },
+    {
+      "id": "prompt-prospects",
+      "text": "Find heads of marketing at software companies in Berlin with 50 to 200 employees."
+    },
+    {
+      "id": "prompt-enrich",
+      "text": "Enrich this list of five contacts with job titles and companies."
+    }
+  ],
+  "iconUrl": "https://www.lusha.com/wp-content/uploads/2020/09/cropped-Favicon-192x192.png",
+  "creatorName": "Lusha",
+  "description": "Lusha lets agents search and enrich contacts and companies with B2B data from the signed-in Lusha account. Enrichment uses the account's Lusha credits."
+}

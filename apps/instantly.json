@@ -1,0 +1,27 @@
+{
+  "name": "Instantly",
+  "tagline": "Cold email campaigns",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.instantly.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-campaign-stats",
+      "text": "Compare the open and reply rates of my active campaigns."
+    },
+    {
+      "id": "prompt-leads",
+      "text": "Which leads replied this week, and to which campaign?"
+    },
+    {
+      "id": "prompt-draft-sequence",
+      "text": "Draft a three-step follow-up sequence for the new SaaS lead list, but do not launch it."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/218805310?s=256&v=4",
+  "creatorName": "Instantly",
+  "description": "Instantly lets agents read campaigns, leads, and analytics, and draft campaigns and lead lists in the signed-in workspace. Each user signs in to their own Instantly account through the browser."
+}

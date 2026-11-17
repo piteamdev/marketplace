@@ -1,0 +1,27 @@
+{
+  "name": "Plaud",
+  "tagline": "Recordings, transcripts and summaries",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.plaud.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-latest",
+      "text": "Summarize my most recent recording."
+    },
+    {
+      "id": "prompt-search",
+      "text": "Find recordings from this week that mention the budget."
+    },
+    {
+      "id": "prompt-notes",
+      "text": "Draft meeting notes from yesterday's recording with decisions and action items."
+    }
+  ],
+  "iconUrl": "https://www.plaud.ai/cdn/shop/files/plaud-fa.png?crop=center&height=180&v=1765790183&width=180",
+  "creatorName": "Plaud",
+  "description": "Plaud lets agents search recordings and read transcripts and AI summaries from the user's Plaud account. Each user signs in to their own Plaud account through the browser."
+}

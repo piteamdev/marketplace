@@ -1,0 +1,27 @@
+{
+  "name": "Cloudinary",
+  "tagline": "Image and video assets",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://asset-management.mcp.cloudinary.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find",
+      "text": "Find the product images tagged summer in my Cloudinary account."
+    },
+    {
+      "id": "prompt-upload",
+      "text": "Upload this image to the marketing folder."
+    },
+    {
+      "id": "prompt-resize",
+      "text": "Give me a URL for this image resized to 800 pixels wide."
+    }
+  ],
+  "iconUrl": "https://cloudinary.com/favicon.ico",
+  "creatorName": "Cloudinary",
+  "description": "Cloudinary lets agents search, upload, tag and organize images, videos and files, and build transformation URLs. Each user signs in to their own Cloudinary account through the browser."
+}

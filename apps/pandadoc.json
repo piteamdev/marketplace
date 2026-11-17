@@ -1,0 +1,27 @@
+{
+  "name": "PandaDoc",
+  "tagline": "Documents, proposals and e-signatures",
+  "category": "documents",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.pandadoc.com/v1/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-status",
+      "text": "Which of my documents are waiting for a signature?"
+    },
+    {
+      "id": "prompt-templates",
+      "text": "List my proposal templates."
+    },
+    {
+      "id": "prompt-draft",
+      "text": "Create a draft proposal for Acme Corp from my standard template."
+    }
+  ],
+  "iconUrl": "https://developers.pandadoc.com/apple-touch-icon.png?v=b9ba294dfee0",
+  "creatorName": "PandaDoc",
+  "description": "PandaDoc lets agents list documents and templates, check document status, and create documents from templates. Each user signs in to their own PandaDoc account through the browser."
+}

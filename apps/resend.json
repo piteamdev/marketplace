@@ -1,0 +1,31 @@
+{
+  "name": "Resend",
+  "tagline": "Transactional email",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "resend-mcp"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "prompt-send",
+      "text": "Send the launch announcement draft to the beta list."
+    },
+    {
+      "id": "prompt-status",
+      "text": "Did the invoice email reach the customer?"
+    },
+    {
+      "id": "prompt-template",
+      "text": "Draft a password-reset email for the new flow."
+    }
+  ],
+  "iconUrl": "https://resend.com/static/favicons/favicon.ico",
+  "creatorName": "Resend",
+  "description": "Resend lets agents send transactional email and check delivery through one API. An API key from the Resend dashboard is passed to the local server as one environment variable."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "2Chat",
+  "tagline": "WhatsApp, SMS, and voice",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.2chat.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-unread",
+      "text": "Summarize the WhatsApp conversations that have no reply yet."
+    },
+    {
+      "id": "prompt-contact",
+      "text": "Add a contact for Ana Ruiz with her phone number and company."
+    },
+    {
+      "id": "prompt-draft-reply",
+      "text": "Draft a reply to the last message from this customer about the delivery date."
+    }
+  ],
+  "iconUrl": "https://2chat.co/favicon/apple-touch-icon.png",
+  "creatorName": "2Chat",
+  "description": "2Chat lets agents read WhatsApp and SMS conversations, look up and add contacts, and draft replies on the 2Chat numbers of the signed-in account. Each user signs in to their own 2Chat account through the browser."
+}

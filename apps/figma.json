@@ -1,0 +1,27 @@
+{
+  "name": "Figma",
+  "tagline": "Designs and prototypes",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "http://127.0.0.1:3845/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-handoff",
+      "text": "Hand off the checkout file: list screens, components, and styles."
+    },
+    {
+      "id": "prompt-audit",
+      "text": "Audit this file for inconsistent spacing and color use."
+    },
+    {
+      "id": "prompt-assets",
+      "text": "Extract the marketing icons at 2x for the app bundle."
+    }
+  ],
+  "iconUrl": "https://static.figma.com/app/icon/2/icon-256.png",
+  "creatorName": "Figma",
+  "description": "Figma lets agents read design files, inspect components, styles and variables, and hand production specs to engineers. It connects to the MCP server in the Figma desktop app, on this computer. The server can read designs only; write support is in progress."
+}

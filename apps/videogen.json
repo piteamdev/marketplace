@@ -1,0 +1,27 @@
+{
+  "name": "VideoGen",
+  "tagline": "AI video creation",
+  "category": "design",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.videogen.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-explainer",
+      "text": "Make a 60-second explainer video from this product description."
+    },
+    {
+      "id": "prompt-voiceover",
+      "text": "Create a voiceover for this script in a calm, clear voice."
+    },
+    {
+      "id": "prompt-social-clip",
+      "text": "Turn this blog post into a short vertical video for social media."
+    }
+  ],
+  "iconUrl": "https://videogen.io/favicon.ico",
+  "creatorName": "VideoGen",
+  "description": "VideoGen lets agents create videos, images, voiceovers, and music from a script or prompt in the signed-in VideoGen account. Each user signs in to their own VideoGen account through the browser."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "SE Ranking",
+  "tagline": "SEO data and site audits",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.seranking.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-rankings",
+      "text": "How did my tracked keywords move this week?"
+    },
+    {
+      "id": "prompt-competitor-keywords",
+      "text": "Which keywords does my top competitor rank for that I do not?"
+    },
+    {
+      "id": "prompt-audit-errors",
+      "text": "List the most serious errors from my latest site audit."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/236332241?s=256&v=4",
+  "creatorName": "SE Ranking",
+  "description": "SE Ranking lets agents read keyword, backlink, competitor, and site audit data with the SE Ranking account of the signed-in user."
+}

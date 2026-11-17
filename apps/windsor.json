@@ -1,0 +1,27 @@
+{
+  "name": "Windsor.ai",
+  "tagline": "Marketing data from many sources",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.windsor.ai"
+  },
+  "prompts": [
+    {
+      "id": "prompt-ad-spend",
+      "text": "Compare ad spend and conversions across Google Ads and Meta Ads last month."
+    },
+    {
+      "id": "prompt-campaigns",
+      "text": "Which campaigns had the highest cost per acquisition this quarter?"
+    },
+    {
+      "id": "prompt-traffic",
+      "text": "Summarize GA4 sessions by channel for the last 30 days."
+    }
+  ],
+  "iconUrl": "https://windsor.ai/wp-content/uploads/2020/02/favicon-310-300x300.png",
+  "creatorName": "Windsor.ai",
+  "description": "Windsor.ai lets agents query marketing and analytics data from the sources connected to the user's Windsor.ai account, such as Google Ads, Meta Ads, GA4, and HubSpot. Each user signs in to their own Windsor.ai account through the browser."
+}

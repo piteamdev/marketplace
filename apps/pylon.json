@@ -1,0 +1,27 @@
+{
+  "name": "Pylon",
+  "tagline": "Customer support issues",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.usepylon.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-waiting",
+      "text": "Which high-priority issues are still waiting on our reply?"
+    },
+    {
+      "id": "prompt-account-issues",
+      "text": "Summarize the open issues for the Acme account."
+    },
+    {
+      "id": "prompt-draft-reply",
+      "text": "Draft a reply to the newest issue about login errors."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/117772394?s=256&v=4",
+  "creatorName": "Pylon",
+  "description": "Pylon lets agents look up and update support issues, accounts, and contacts in the signed-in user's Pylon workspace. A Pylon admin must turn on MCP access for the workspace first."
+}

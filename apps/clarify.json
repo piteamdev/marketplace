@@ -1,0 +1,27 @@
+{
+  "name": "Clarify",
+  "tagline": "Industrial data and signals",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.clarify.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-trend",
+      "text": "How did the temperature signals at this site change over the last 24 hours?"
+    },
+    {
+      "id": "prompt-anomalies",
+      "text": "Which signals moved outside their normal range this week?"
+    },
+    {
+      "id": "prompt-find",
+      "text": "Find the signals that measure pump pressure."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/6aa46e94abf07cb2df2e9aef/6ac0ffbae88ea428fe23ff0f_512.png",
+  "creatorName": "Searis",
+  "description": "Clarify lets agents read signals, time series and events from the industrial data of the signed-in Clarify organization. Each user signs in to their own Clarify account through the browser."
+}

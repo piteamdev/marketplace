@@ -1,0 +1,27 @@
+{
+  "name": "Dropbox",
+  "tagline": "Files and folders",
+  "category": "documents",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.dropbox.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find",
+      "text": "Find the latest version of the Q3 report in my Dropbox."
+    },
+    {
+      "id": "prompt-summary",
+      "text": "Summarize the PDFs in my Contracts folder."
+    },
+    {
+      "id": "prompt-save",
+      "text": "Save this draft to my Dropbox Drafts folder."
+    }
+  ],
+  "iconUrl": "https://cfl.dropboxstatic.com/static/metaserver/static/images/favicon.ico",
+  "creatorName": "Dropbox",
+  "description": "Dropbox lets agents list, search, read and upload files and folders, and create share links. Each user signs in to their own Dropbox account through the browser."
+}

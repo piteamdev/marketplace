@@ -1,0 +1,27 @@
+{
+  "name": "lemlist",
+  "tagline": "Sales outreach campaigns",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://app.lemlist.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-campaign-stats",
+      "text": "Compare the reply rates of my active campaigns."
+    },
+    {
+      "id": "prompt-interested",
+      "text": "Which leads were marked as interested this week?"
+    },
+    {
+      "id": "prompt-draft-sequence",
+      "text": "Draft a four-step sequence for agency founders, but do not launch it."
+    }
+  ],
+  "iconUrl": "https://www.lemlist.com/favicon.ico",
+  "creatorName": "lemlist",
+  "description": "lemlist lets agents read campaigns, leads, and campaign statistics, and draft sequences and lead lists in the signed-in team. Each user signs in to their own lemlist account through the browser."
+}

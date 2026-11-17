@@ -1,0 +1,27 @@
+{
+  "name": "Dart",
+  "tagline": "Tasks and project docs",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.dartai.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-mine",
+      "text": "Which Dart tasks are assigned to me this week?"
+    },
+    {
+      "id": "prompt-create",
+      "text": "Create Dart tasks for each step of this plan."
+    },
+    {
+      "id": "prompt-doc",
+      "text": "Summarize the project brief doc in Dart."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/659e83b16fe25e7824e48b3a/65ce9b667ac4c3ae776ba117_apple.png",
+  "creatorName": "Dart",
+  "description": "Dart lets agents read, create and update tasks, projects and docs in the workspace of the signed-in account. Each user signs in to their own Dart account through the browser."
+}

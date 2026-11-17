@@ -1,0 +1,27 @@
+{
+  "name": "Brex",
+  "tagline": "Expenses, cards, and bills",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.brex.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-missing-receipts",
+      "text": "Which of my expenses this month are missing receipts?"
+    },
+    {
+      "id": "prompt-team-spend",
+      "text": "Summarize card spend by team for last quarter."
+    },
+    {
+      "id": "prompt-bills",
+      "text": "Which bills are due in the next two weeks?"
+    }
+  ],
+  "iconUrl": "https://www.brex.com/favicon.ico",
+  "creatorName": "Brex",
+  "description": "Brex lets agents look up expenses, users, cards, banking transactions, and bills in the account of the signed-in user. Each user signs in to their own Brex account through the browser."
+}

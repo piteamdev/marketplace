@@ -1,0 +1,27 @@
+{
+  "name": "monday.com",
+  "tagline": "Boards, items and updates",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.monday.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-my-items",
+      "text": "What items are assigned to me and due this week?"
+    },
+    {
+      "id": "prompt-stuck",
+      "text": "Which items on the product roadmap board are stuck?"
+    },
+    {
+      "id": "prompt-new-item",
+      "text": "Create an item on the marketing board for the newsletter launch with a due date of Friday."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/656da6fea306219773d04208/65af6bd6e742d497b5f23f69_645898132bbaac20f1963919_256x256.png",
+  "creatorName": "monday.com",
+  "description": "monday.com lets agents read boards and items, create and update items, and post updates in the workspaces the user can access. An account admin may need to install the monday MCP app first."
+}

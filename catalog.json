@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "catalogVersion": "v1",
+  "catalogVersion": "v2",
   "updatedAt": "2026-11-17T00:00:00.000Z",
   "repo": "https://github.com/piteamdev/marketplace",
   "skills": [
@@ -19,6 +19,646 @@
           "notes": "Initial release: systematic diff review with severity-ordered findings."
         }
       ]
+    },
+    {
+      "slug": "secure-code-guidance",
+      "name": "secure-code-guidance",
+      "description": "Review or write Python, JavaScript, TypeScript, or Go code using secure defaults. Use only for explicit security guidance, security reviews, or secure implementation requests, not ordinary code review.",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "e76fb0dea894f0bd92dc49165fc796d091b2bb631e5924951f5646d47ccade38",
+      "path": "skills/secure-code-guidance/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "repository-threat-model",
+      "name": "repository-threat-model",
+      "description": "Produce a repository-grounded application security threat model with assets, boundaries, abuse paths, priorities, and mitigations. Use only when threat modeling is explicitly requested.",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "2db7dcafd870a70652d8a985ed8ab15985a95fc609fdf0f141c20ad7a64c8416",
+      "path": "skills/repository-threat-model/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "distinctive-frontend-design",
+      "name": "distinctive-frontend-design",
+      "description": "Give new or substantially redesigned interfaces a deliberate visual direction grounded in their subject, audience, content, and purpose. Do not use for minor styling fixes.",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "537a487b68f9829389f357d42b60a76bae2a2a78c89a18e979484aebe57cc6ab",
+      "path": "skills/distinctive-frontend-design/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "internal-communications",
+      "name": "internal-communications",
+      "description": "Draft status reports, leadership updates, project announcements, FAQs, newsletters, and incident communications for an internal audience.",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "dc1f0c728489dc957a8092b65a1f5be48f720f896713c35e4a1b588d1f8eb2e4",
+      "path": "skills/internal-communications/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "decision-quality-check",
+      "name": "decision-quality-check",
+      "description": "Add a brief, concrete self-check to consequential recommendations, estimates, plans, or interpretations when unverified assumptions could change what the user does.",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "52f4b4cf62fbf5dbe8c69bdbf7e890f885e46cf390a73847eb5b4541e17b1ee3",
+      "path": "skills/decision-quality-check/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "change-review",
+      "name": "change-review",
+      "description": "Review a code change for bugs, regressions and missing checks. Each finding gets a location, a trigger, the consequence and the smallest fix, ranked by severity. Use for a pull request, a branch, uncommitted work or a pasted diff.",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "753da568b1b36c8a37614b6d07b15c7c4a4c3ea85a43d756e52866f990118411",
+      "path": "skills/change-review/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "bug-triage",
+      "name": "bug-triage",
+      "description": "Turn a bug report, logs or a failing test into a reproduction, ranked causes, one diagnostic step that separates them, the smallest fix, and a verified result. Use when something fails and the cause is not yet known.",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "a10e3a2670f61cb363c73b8a225320b62138aa4919a6f9815dcb517cb546b4d0",
+      "path": "skills/bug-triage/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "interface-critique",
+      "name": "interface-critique",
+      "description": "Review a screen and return ranked, concrete fixes across hierarchy, layout, type, color and contrast, copy, states and accessibility. Works from a screenshot, a page in the browser, or a Figma frame. Never edits files.",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "5eb69c20694aa4f1c68e32909db3f144ea7087d6cf255f8445aa6c28cdbf8275",
+      "path": "skills/interface-critique/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "evidence-brief",
+      "name": "evidence-brief",
+      "description": "Answer a research question with sourced, dated claims. Each claim has a source title, publisher, publication date and access date, and a label: Verified, Reported or Inference. Conflicts between sources stay visible. Use for fact checks, market questions, and any answer that a decision or a published claim depends on.",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "8986217c2e468ff31939de68ad517d7ab0cffb0a6b9562dcd5a083e2ca9d0828",
+      "path": "skills/evidence-brief/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "competitor-comparison",
+      "name": "competitor-comparison",
+      "description": "Compare products or vendors against criteria chosen from the decision. Every table cell has a source, prices carry the date they were checked, and a fact that was not found is marked unknown. Use to choose a tool, to position a product, or to check a claim about a competitor.",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "ae11822694dd1b54ed8281571cbfef8149f4e50a058c236d9e7a986290254169",
+      "path": "skills/competitor-comparison/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "launch-notes",
+      "name": "launch-notes",
+      "description": "Write release notes from merged work, with a launch checklist that has owners and acceptance checks. Keeps done, planned and blocked work apart. Use before a release or a launch announcement. It never publishes.",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "c94d0573689699e961b61a293f4cbaac9a432603243888a3b0dcda051d594c85",
+      "path": "skills/launch-notes/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "meeting-actions",
+      "name": "meeting-actions",
+      "description": "Turn meeting notes or a transcript into decisions, commitments with owner, due date and quoted evidence, open questions and conflicts. Use after a meeting, before a follow-up, or when someone asks who agreed to what.",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "aa0a665f5f4cc65815f67a71fbcc418c7be237a9a6e4dd023b7ad4ae68503858",
+      "path": "skills/meeting-actions/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "project-plan",
+      "name": "project-plan",
+      "description": "Write a dated scope document: problem, what is in, what is out, how completion is measured, the first deliverable, risks, decisions needed and owners. It stays a draft until the user approves it, and no build work starts before that.",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "bb3a692aabff415a5125522187931e485c6e63ad5a7f9afe30e6b060176adc0e",
+      "path": "skills/project-plan/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "support-reply",
+      "name": "support-reply",
+      "description": "Draft a customer reply that states what is known and the next step, plus a separate internal note and, when needed, an escalation package with repro steps, account facts and impact. No refunds, exceptions or dates without a policy that allows them. Sends only on an explicit request.",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "5090a3eb11c294d83fb4a988150dc0e0b5b849c8267c4005e7cda3bb9b6fd3c9",
+      "path": "skills/support-reply/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "account-brief",
+      "name": "account-brief",
+      "description": "Score a company against the user's ideal customer profile with a fixed rubric, using evidence from public company pages. Lists disqualifiers, gaps and discovery questions. Named people come only from public business pages, with no private details. Use before outreach or a first sales call.",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "4580e80b8dfc4bedfd9f070f184fb992ee8a7016b9828c497385e1337cd6c8a9",
+      "path": "skills/account-brief/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "outreach-draft",
+      "name": "outreach-draft",
+      "description": "Draft a first business message built on one verified reason to write and one clear request. Length fits the channel. Without evidence, it writes an honest general draft instead of fake personalization, and it lists the claims the user must confirm. It never sends.",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "722b61c7d17558d0f2c91dfb0aff915959b4dd8e206e2bd4b4b5481c75a38db7",
+      "path": "skills/outreach-draft/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "campaign-analysis",
+      "name": "campaign-analysis",
+      "description": "Explain what drove a change in campaign results and propose 1 to 3 measurable experiments. Reads an installed analytics plugin such as PostHog, a signed-in analytics tab, or an export. Checks units, dates and attribution first, and keeps observations apart from causal hypotheses. Never changes campaigns or spend.",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "70df8a7ce78a0b31c940b20b84e09627805a91d188eb06caa434224663c5340a",
+      "path": "skills/campaign-analysis/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "data-quality-review",
+      "name": "data-quality-review",
+      "description": "Check a dataset before analysis: row counts, duplicates, missing values, units and currency, date ranges and time zones, joins, and outliers. Returns a pass, warn or fail table and names which analysis each problem blocks. Use before a report, a model, or a decision that rests on the data.",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "5fc1a641fe685a2125293edfa0af0126ce9079bc3eacf9dadf2885b44164229a",
+      "path": "skills/data-quality-review/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "workflow-playbook",
+      "name": "workflow-playbook",
+      "description": "Track a recurring operations list (shipments, facilities issues, key dates) in a shared table, keep a short playbook for each item type, and write a weekly digest of overdue, due, done and new items. Use for office or team operations that repeat every week.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "8d3ee7affc55c2fe0ff9baf536719e174aee80159d90043df2ce846e2c576070",
+      "path": "skills/workflow-playbook/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "hiring-scorecard",
+      "name": "hiring-scorecard",
+      "description": "Turn role requirements into competencies, structured questions for each interviewer, a 1 to 4 scale with behavioral anchors, and an evidence-only debrief. Use when you plan an interview loop or summarize interview feedback.",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "94919a77a4c8b004018141bb9abb201db01b6ec9a5c645aa1c3195c4cda4243d",
+      "path": "skills/hiring-scorecard/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "acceptance-check",
+      "name": "acceptance-check",
+      "description": "Test a live web app against an acceptance checklist in a real browser and return PASS, FAIL or BLOCKED with screenshots and repro steps. Use before a release, after a deploy, or for a scheduled smoke check of a saved site.",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "9593184b368270739cca19bf534155f3d4a5dee72d672a894f2f0454cdb3e495",
+      "path": "skills/acceptance-check/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "pr-follow-up",
+      "name": "pr-follow-up",
+      "description": "Track the open pull requests of a named repository, classify each one, fix failing CI and review threads on the PR branch when the user allowed it, and ask the user only to merge the ones that are ready. Use for a one-time pass or a scheduled check.",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "7df89c6c91d51194c388dc244837752241cd5709a8b7f2143c54d0df9ca1490b",
+      "path": "skills/pr-follow-up/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "api-skill-builder",
+      "name": "api-skill-builder",
+      "description": "Turn an API or a repeated workflow into a tested local OpenBot skill. Read the docs, sample one real response first, keep keys out of files, write the smallest SKILL.md and a script only when needed, test it, then register it. Use when the user repeats the same request against a service.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "6b2e7c81f7ee2de53962e441c206c57e6965b9460d20fb134bc2612afc1aee2d",
+      "path": "skills/api-skill-builder/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "prototype-build",
+      "name": "prototype-build",
+      "description": "Turn an idea into the smallest clickable static prototype, click through it in the browser, and return screenshots of the click path and a short video. Publishes to a public site only after the user says publish. Can open a draft pull request instead when the user asks.",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "382b391feab803dd7010b2993fb1a8f6e3fb5260d8ffef122306042eb83b885b",
+      "path": "skills/prototype-build/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "alt-text",
+      "name": "alt-text",
+      "description": "Write short, copyable alt text for images: the purpose of the image in its context first, 125 characters or less by default. Handles decorative images, charts, images of text, logos and linked images. Returns one copy block per image.",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "616b524365a79444fea034f481217175f7cf979694c1af8c29a4602efef679fc",
+      "path": "skills/alt-text/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "accessibility-audit",
+      "name": "accessibility-audit",
+      "description": "Audit a page in the browser for keyboard path, focus, names and roles, contrast, headings, forms and errors, images and motion. Each finding has a severity (blocker, serious, minor), a WCAG 2.2 success criterion number and evidence. Use before a release or when a user reports a barrier.",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "0a1dade64202b7dddae3fd08aea08af4ab3b4a2cdb370c2c74369ea330c343c9",
+      "path": "skills/accessibility-audit/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "build-spec",
+      "name": "build-spec",
+      "description": "Turn a design frame into a spec a developer can build from: components, layout and spacing, tokens and where values drift from the design system, states, motion, content rules and open questions. Works from an installed Figma plugin, a signed-in Figma tab, or a screenshot.",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "42ca268b6efe7ff2b27c697cde29161a1c0efb23ce3658ac0fb046e305b02347",
+      "path": "skills/build-spec/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "voice-edit",
+      "name": "voice-edit",
+      "description": "Edit a draft so that it sounds human and sounds like the user. Learns the voice from 1 to 3 samples of the user's own writing, removes filler and stock phrases, keeps every fact, number and claim, and adds no new facts. Returns the edited text and a change log with the reason for each change.",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "53968a82f6a5bd10008a7b1e7bed7951f3dc124d66f35dc0278b8d143d51cf68",
+      "path": "skills/voice-edit/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "search-content-brief",
+      "name": "search-content-brief",
+      "description": "Turn a keyword list or Search Console data into keyword groups by intent, chosen targets, and writer-ready briefs for search results and AI answers. Each brief has the question, angle, outline, sourced facts, internal links and an answer-first summary. No invented search volumes.",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "eeb7721e9dfb27ed915d4934f1caaed2e953c10b93cfa218448cef07d7835ab4",
+      "path": "skills/search-content-brief/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "call-scorecard",
+      "name": "call-scorecard",
+      "description": "Score a sales call transcript from 1 to 5 on seven named criteria, each with a timestamped quote as evidence, then give the top 3 fixes for the next call with a better line to try. Works from a pasted or uploaded transcript, or a transcript in a signed-in call recorder tab. Never invents quotes.",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "0bac7feb4532549e62ec10d870d2fab90a900be88c73e3cb282aa5ca9b4ef9ba",
+      "path": "skills/call-scorecard/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "daily-brief",
+      "name": "daily-brief",
+      "description": "Write a one-screen morning brief from the signed-in calendar and inbox and installed task tools: today's meetings with prep notes, commitments due, replies waiting, and conflicts. Drafts replies and never sends. Use each morning or before a busy day.",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "46cb521ce77fabdf00a0e363beba576ae58bc44475adc849e9ad0a6ea10dedb6",
+      "path": "skills/daily-brief/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "spend-audit",
+      "name": "spend-audit",
+      "description": "Build an inventory of software spend from bills, invoices, card exports or billing pages, then find unused seats, duplicates, overlapping tools, cheaper plans and near renewals, each with evidence and the saving arithmetic. Drafts vendor messages for review. Never cancels, pays or sends.",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "b1e22095e0973e80b4e5125e9c6e749481010af0ec5c6bc710b2947875242171",
+      "path": "skills/spend-audit/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "request-scoring",
+      "name": "request-scoring",
+      "description": "Score inbound event, sponsorship, speaking and partnership requests 0 to 2 on criteria the user sets once, turn the total into yes, maybe or no, and draft a reply for each. Keeps a log and never sends. Use when requests pile up in a channel or inbox.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "08874b3e4643f1c6d6e947b5dac5eff3c8436a864d8cb7696c37703acd84edff",
+      "path": "skills/request-scoring/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "care-log",
+      "name": "care-log",
+      "description": "Keep a private care log for plants, pets, filters and appliances: what needs doing, how often, when it was last done and when it is next due. Add items by chat or photo, mark tasks done, list what is due, and show a journal on request. The log stays on the user's computer.",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "ca9faa4a83bbb62e872e48ea5fe089e3a9f1249d97ce289896c31d3b82b1dc0a",
+      "path": "skills/care-log/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "recurring-charges",
+      "name": "recurring-charges",
+      "description": "Find recurring charges, price changes, trials that convert, duplicate charges and statement credits that expire, from pasted or downloaded card and bank statements. Shows the statement lines as evidence and lists renewals due soon. Never cancels or contacts merchants.",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "9f1db266bf5cc72185868c3a2532208633b3c7b2a94200e59e099c7fed831bbb",
+      "path": "skills/recurring-charges/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "agent-designer",
+      "name": "agent-designer",
+      "description": "Design and create a new OpenBot agent. Ask a few preference questions, write a tight profile, call create_agent, then verify it with read_agent. Coding agents use pstack poteto-mode as the quality bar. On a fresh install, run Eggbot Getting Started first.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "0dd8349bd52ef4d02b52c1be6327797de7c2c79f4f08fff2d66445f361663e8a",
+      "path": "skills/agent-designer/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "eggbot-getting-started",
+      "name": "eggbot-getting-started",
+      "description": "Run first-conversation onboarding when you are a newly installed copy of Dr. Eggbot, the agent designer. Set up pstack once, make sure the two healthcheck routines exist, and save the owner's preferences.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "04f5663616f9f5ed108f5bf93441aa2109a1fc3c0896488e0c8f94cea4403f29",
+      "path": "skills/eggbot-getting-started/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "routine-healthcheck",
+      "name": "routine-healthcheck",
+      "description": "Audit the routines of all local OpenBot agents for token waste, offer a fleet checkup after install, decide routine cadence, or run the standing routine-healthcheck routine.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "d1e147e911e9c331d3744b756d9f1165974b7368a88cffd3d323a5ae95463278",
+      "path": "skills/routine-healthcheck/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "agent-chat-healthcheck",
+      "name": "agent-chat-healthcheck",
+      "description": "Audit the recent chats of local OpenBot agents for user friction, propose new skills, agents or routines from repeated corrections, or run the standing transcript-healthcheck routine.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "a079202adaa60dc0cfc132e292c9df8d300a08a2070c2fe77636a5719e11e0ab",
+      "path": "skills/agent-chat-healthcheck/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "working-with-teammate-agents",
+      "name": "working-with-teammate-agents",
+      "description": "Use when you reach out to or talk with another of the user's OpenBot agents: deciding whether to involve one, writing the handoff, reading its reply, answering a teammate, group chats, and stopping. Also a general guide to a warm, concise, careful assistant style.",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "7c44db5b0126b5c25d466d8d9569c42781786f1174d837789b508686240ede36",
+      "path": "skills/working-with-teammate-agents/SKILL.md",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
     }
   ],
   "agents": [
@@ -35,6 +675,438 @@
           "version": "1.0.0",
           "date": "2026-11-16",
           "notes": "Initial release: independent reviewer agent with verdict output."
+        }
+      ]
+    },
+    {
+      "slug": "code-review-partner",
+      "name": "code-review-partner",
+      "description": "Bugs that will break, with trigger and fix — before you merge",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "6a1ee71ca73fb8fb2d6e25e8f6614bfaae1a9e9c2f7663324f4faf37158ec790",
+      "path": "agents/code-review-partner.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "debugging-partner",
+      "name": "debugging-partner",
+      "description": "From a bug report to a fix that is proven on the original failure",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "53bc28c2421d78909c3d13d1558b1f6b7a70243b2d139e6a87b9e291ddcf88ae",
+      "path": "agents/debugging-partner.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "application-security-reviewer",
+      "name": "application-security-reviewer",
+      "description": "Security risks ranked by impact, each with code evidence and a fix",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "31209eb577aae6552496f9e65bfbc23ad7f8bac504bfec5f724881b21cb48860",
+      "path": "agents/application-security-reviewer.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "qa-tester",
+      "name": "qa-tester",
+      "description": "Pass or fail for a release, with screenshots and repro steps",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "b49d08bb81c053302b7b44ae814ea24314a685a7221fb83eefae60e79161d127",
+      "path": "agents/qa-tester.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "pr-shepherd",
+      "name": "pr-shepherd",
+      "description": "Open pull requests kept moving to green; you only decide what to merge",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "86bc1587062993ca7f0f73416d74f197d5c2a90b36654cbf058db1c2dc237db4",
+      "path": "agents/pr-shepherd.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "skill-smith",
+      "name": "skill-smith",
+      "description": "An API or a repeated task turned into a tested OpenBot skill",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "34af05493a3687693ce8880275d043e1f11238f07e3c03aacf164f2d4e59411a",
+      "path": "agents/skill-smith.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "project-partner",
+      "name": "project-partner",
+      "description": "A dated scope with what is in, what is out and how done is measured; work waits for your approval",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "f8882b2a7e9692240129d030d32f80b8ee647a1d8365e172d933754a20647f3a",
+      "path": "agents/project-partner.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "prototype-builder",
+      "name": "prototype-builder",
+      "description": "A clickable prototype of your idea, with click-path screenshots and a short video; published only when you say",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "823b10e01d6c182f219ba2583c2fed9cea48b831ebc2cffa2e14c1b83eb264ab",
+      "path": "agents/prototype-builder.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "launch-coordinator",
+      "name": "launch-coordinator",
+      "description": "Release notes from merged work and a launch checklist with owners and checks, kept as a draft",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "890644ea6a9ff41d0ed080fce81508c32fb8df69225a8709f61b09370c2348f6",
+      "path": "agents/launch-coordinator.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "design-critic",
+      "name": "design-critic",
+      "description": "Ranked, concrete fixes for a screen from a screenshot, a live page or a Figma frame; never edits your files",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "ee324a14f5b185a41c2228fdcec28f79de74b6d9b393fdf79a5165fa2db6374b",
+      "path": "agents/design-critic.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "accessibility-desk",
+      "name": "accessibility-desk",
+      "description": "Copyable alt text for your images and a page audit with WCAG 2.2 criteria and evidence for each finding",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "864c648b595fcd5911125d7e79ecf451d5d2f279cd031631d9f906cf142e84ae",
+      "path": "agents/accessibility-desk.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "handoff-spec-writer",
+      "name": "handoff-spec-writer",
+      "description": "A build spec from a design frame, with components, tokens, states and every value that drifts from the system",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "c12046a3d5bf6980552975a1b994b1fceefaf84c7bb4fc0e701412278b90f96f",
+      "path": "agents/handoff-spec-writer.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "copy-editor",
+      "name": "copy-editor",
+      "description": "Your draft in your own voice, with a change log that gives the reason for each edit",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "1c8dde8a2e6010431d5119215776e911a92c31a1e4fbf4b82bb1f6992cf4262e",
+      "path": "agents/copy-editor.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "search-content-planner",
+      "name": "search-content-planner",
+      "description": "Writer-ready briefs for search results and AI answers, from your keywords or Search Console",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "c1911dfedfe8091691e27527765b2bb6f6ff36f01079dfa1768d80e55af98f81",
+      "path": "agents/search-content-planner.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "campaign-analyst",
+      "name": "campaign-analyst",
+      "description": "What drove the change in your campaign results, and the next 1 to 3 experiments to run",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "31af27c7cf5bf213f627e58c27a62ee2a5b647aa7c9ce6a89754cbb14295e05d",
+      "path": "agents/campaign-analyst.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "prospect-researcher",
+      "name": "prospect-researcher",
+      "description": "Companies that match your ideal customer, with evidence and a first message to each; nothing sends",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "6261d06648b5ab0bf6d0bb97c35cf8c316c55834bfb4fdb15cf71156438d5c46",
+      "path": "agents/prospect-researcher.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "call-coach",
+      "name": "call-coach",
+      "description": "A scored sales call with quoted evidence and the top 3 fixes for the next call",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "4a51b86a42bafa5606bfe95b13bb2735305d3660717a3d9ed828c200abdd11c8",
+      "path": "agents/call-coach.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "research-analyst",
+      "name": "research-analyst",
+      "description": "Sourced, dated answers with facts kept apart from inference",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "fb19c53bbb1293799803fc3a69a2e0aae45ecdabaf82ce1c0e417f52820bced3",
+      "path": "agents/research-analyst.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "customer-support-partner",
+      "name": "customer-support-partner",
+      "description": "A customer reply draft, an internal note, and a complete escalation when one is needed",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "713e8fab4e1f0557f5f737e3f31ab259d340f6189226ac45e9f63231dbc65c44",
+      "path": "agents/customer-support-partner.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "hiring-partner",
+      "name": "hiring-partner",
+      "description": "Interview loops with prep packs, anchored scorecards and an evidence-only debrief",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "ec70d09be4b9a62f6a45c1fcb81812c90e8234884321cc8df7cdfda9bca27d2a",
+      "path": "agents/hiring-partner.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "chief-of-staff",
+      "name": "chief-of-staff",
+      "description": "A one-screen morning brief: meetings with prep, commitments due, replies waiting",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "b245a2ad4dd43af8bdb948206f49bd5a91d6705c4f7ddb21d791a8a54333dfe4",
+      "path": "agents/chief-of-staff.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "spend-auditor",
+      "name": "spend-auditor",
+      "description": "Unused seats, duplicates and near renewals in your software spend, each with evidence and the saving",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "5875d65d7fe224089b8803b072dca15793851cdd2acc05a0a8889d57a9f3cfc3",
+      "path": "agents/spend-auditor.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "request-triage-desk",
+      "name": "request-triage-desk",
+      "description": "Yes, maybe or no for each event, sponsorship or speaking request, with scores and a reply draft",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "98bada0a774686d60bd3db32eccdc2381db106b08eb4e068e95d995250c0017d",
+      "path": "agents/request-triage-desk.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ops-digest",
+      "name": "ops-digest",
+      "description": "A Friday digest of overdue, due, done and new operations items",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "6026db42f6f40b42155c73edc0cf83868fe0b4ffe21a3a121fa8ceb9f5c3b134",
+      "path": "agents/ops-digest.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "home-care-log",
+      "name": "home-care-log",
+      "description": "A private care log for plants, pets and filters, with a weekend due list",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "0fa5fe6aa72f1b618eba359ebf5ea5b31fd1d567040da87f8659568d4f10741e",
+      "path": "agents/home-care-log.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "bill-tracker",
+      "name": "bill-tracker",
+      "description": "Recurring charges, price changes and renewals from your statements, with the statement lines",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "a5321d8b1d40137487e1e0875af85dde4c5d7f4c1c0ef0ea6a217a5b82351e39",
+      "path": "agents/bill-tracker.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "dr-eggbot",
+      "name": "dr-eggbot",
+      "description": "Designs focused agents, skills and routines",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "559a1d61f62406625897d1a80ce215140c1b1c7f52530f55c16b2c09d8449ba8",
+      "path": "agents/dr-eggbot.json",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
         }
       ]
     }
@@ -59,6 +1131,4307 @@
           "version": "0.9.0",
           "date": "2026-11-15",
           "notes": "Pre-release candidate of the context7 app definition."
+        }
+      ]
+    },
+    {
+      "slug": "1inch",
+      "name": "1inch",
+      "description": "API docs and SDK examples",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "ef87759d34d856e84d6f1ebb28aa9e16287947f106f9229652fb266f957ca9dd",
+      "path": "apps/1inch.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "21st",
+      "name": "21st",
+      "description": "React UI component catalog",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "6acad19beda28b7d046f92570be5c7f2aed13ee5397fd7e2455fa95b391af740",
+      "path": "apps/21st.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "2chat",
+      "name": "2Chat",
+      "description": "WhatsApp, SMS, and voice",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "f546db486342415fe3e638106b17a4e96a066ac6805147b4452b013645ae1020",
+      "path": "apps/2chat.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "aave",
+      "name": "Aave",
+      "description": "Aave data and transactions",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "3280d1b687562949f7a3ee3170be8151f496bb5863bf8bb1cbe58ec248db4009",
+      "path": "apps/aave.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "adobe-analytics",
+      "name": "Adobe Analytics",
+      "description": "Web analytics reports and segments",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "492a978592ce590e9961c9b0fb561b34ceb3bbc32b51c4d89fadb1c7c38029a3",
+      "path": "apps/adobe-analytics.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "adspirer",
+      "name": "Adspirer",
+      "description": "Ad campaign reporting",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "679ddeee063a897055a1835955c6ebe9c81d8a80f22be003ac50617b7cbc911a",
+      "path": "apps/adspirer.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "affinity",
+      "name": "Affinity",
+      "description": "Relationship CRM for dealmaking",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "01d0efbc7a9bb860c45916ef019bca7c5d94791732af17bda6c1e23e81f44275",
+      "path": "apps/affinity.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "agentmail",
+      "name": "AgentMail",
+      "description": "Email inboxes for agents",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "00e358c710bc661d651817041da40dd12706fc933ca262cc1c87464d855c5d20",
+      "path": "apps/agentmail.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ahrefs",
+      "name": "Ahrefs",
+      "description": "SEO and keyword data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "989ef45e6d5b8e14e239654172dfacc7b88f63ef584d1092b1965f38498541a1",
+      "path": "apps/ahrefs.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "airtable",
+      "name": "Airtable",
+      "description": "Bases and records",
+      "category": "data-analytics",
+      "version": "1.0.1",
+      "contentHash": "176c7cca2962e5e2dc34636f3f4cb50adde4bf256b08d5e958c4bce268a4e980",
+      "path": "apps/airtable.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.1",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "airwallex",
+      "name": "Airwallex",
+      "description": "Business accounts and cards",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "0011e7882b28f3a090e78a4dfcc2b5f43ca49391f74a43023e3a0f2f6343a8fd",
+      "path": "apps/airwallex.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "akiflow",
+      "name": "Akiflow",
+      "description": "Tasks and calendar planning",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "9ce0befab53861f5d796fb317ee3bd7594cbb918f6f8c2a833c367d262b9c686",
+      "path": "apps/akiflow.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "aleph",
+      "name": "Aleph",
+      "description": "Financial data for FP&A",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "6089c50754a823f223e0e3640438bacfebe378672bcdf069175d9246dcde1add",
+      "path": "apps/aleph.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "algolia",
+      "name": "Algolia",
+      "description": "Search index management",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "8a8e2c431aee13560b0698721369ef1689ea0cac923300a5d0f2aa48cea5608a",
+      "path": "apps/algolia.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "allo",
+      "name": "Allo",
+      "description": "Business phone and SMS",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "378fd505b0c6ab91afc52d748357ce11cb99b062902a59e914406fa1f0594851",
+      "path": "apps/allo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "alphavantage",
+      "name": "Alpha Vantage",
+      "description": "Stock and market data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "6f57b4d04128a93d29fcda7a1b55b21fb34b69a41473482d0cedece7054cc623",
+      "path": "apps/alphavantage.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "amplemarket",
+      "name": "Amplemarket",
+      "description": "Sales prospecting and enrichment",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "8d85dc72a83b15ef08f0ec3565e6bb4ba76bfab613bdbbb755f7ab33011abb55",
+      "path": "apps/amplemarket.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "amplitude",
+      "name": "Amplitude",
+      "description": "Product analytics",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "ed7af44e9ebcbe7d822d62fbd9879a5645519107b4da4c28cd9f2f1bb93571d5",
+      "path": "apps/amplitude.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ando",
+      "name": "Ando",
+      "description": "Team chat with agents",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "d380a3a4f08a22478b77fdc0d01b6f598a10eb4d2887d3aaa62254caebd3370e",
+      "path": "apps/ando.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "apify",
+      "name": "Apify",
+      "description": "Web scraping and automation",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "8a0008357725df08788747c3cf7d25cad3e3da6d852115c69f2ec3eba8c7403f",
+      "path": "apps/apify.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "apollo",
+      "name": "Apollo",
+      "description": "B2B contacts and prospecting",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "2725ffc4cb7de6fc4b938d46f2574d10a3c824ab4eea06527f63fc994191430b",
+      "path": "apps/apollo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "apple-apps",
+      "name": "Apple apps",
+      "description": "Mail, Calendar and more on your Mac",
+      "category": "productivity",
+      "version": "1.1.1",
+      "contentHash": "d102171ef192c1eb8d11462e05e3bd0545c27bdc7ff0e0d5aede24decbe975d7",
+      "path": "apps/apple-apps.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.1.1",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "appsignal",
+      "name": "AppSignal",
+      "description": "Errors, performance and logs",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "c3f1a9af3505ca6216fc46365c5159a5a862f9fcf4a92c55ec11f1dbe5aebc89",
+      "path": "apps/appsignal.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "artie",
+      "name": "Artie",
+      "description": "Real-time data pipelines",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "893e4feeeb23e44898f1d67e025d5afa2364e15bef5c07cea86074e759a6d282",
+      "path": "apps/artie.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "atlan",
+      "name": "Atlan",
+      "description": "Data catalog and lineage",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "f0a66303ab14051c337e6279e3a73dc69d09b7bbe364ee1f5d0bc5a0ffca64c2",
+      "path": "apps/atlan.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "atlassian",
+      "name": "Atlassian",
+      "description": "Jira work items and Confluence pages",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "42b3d883c3ec1cef692fae8b5720254a0434bd4080bd39abc816498ab0052a74",
+      "path": "apps/atlassian.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "attio",
+      "name": "Attio",
+      "description": "CRM records and deals",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "c389b4845ad0114b68fb18c8549330734c93e7c3aed0bfdb525eb90b0b40f04c",
+      "path": "apps/attio.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "aws-knowledge",
+      "name": "AWS Knowledge",
+      "description": "AWS documentation lookup",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "faa9c00a08482eee17facc1cf78563a45065056e2d8c0a9bce5759131de033bb",
+      "path": "apps/aws-knowledge.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "base44",
+      "name": "Base44",
+      "description": "AI app builder",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "47da4350267998663dbc94e2fb738554637056bf7181873610b150a786377e7d",
+      "path": "apps/base44.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "basecamp",
+      "name": "Basecamp",
+      "description": "Projects, to-dos, and messages",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "14a905c70386ed9e2894c896429a9c7b79edc9f94b00af5a08a1127c3996e7d6",
+      "path": "apps/basecamp.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "beehiiv",
+      "name": "beehiiv",
+      "description": "Newsletter posts and subscribers",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "538c095b11c362c0ba87139b899ec1697f3070a2d0cd17c096bedcae44d6b45a",
+      "path": "apps/beehiiv.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "betterstack",
+      "name": "Better Stack",
+      "description": "Uptime, logs, and incidents",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "9afef9e79072398f167294d2ce2700f1bd7ad84806e571f5dd15977320c53988",
+      "path": "apps/betterstack.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "bird",
+      "name": "Bird",
+      "description": "Email, SMS, and WhatsApp APIs",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "5cbfc4e497de10859f5e64634b5ba6c0457e1c81a9c19239d27cb680a5aaee08",
+      "path": "apps/bird.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "blotato",
+      "name": "Blotato",
+      "description": "Social media publishing",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "627d9f62d8af5048cf6493e4d10942aa05db72db5334154557a1189428d86e4d",
+      "path": "apps/blotato.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "brave-search",
+      "name": "Brave Search",
+      "description": "Private web search",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "e355f780a0d35da85b3b0b24d96618cf3ddfe60efbbcb4939eea9685685733cf",
+      "path": "apps/brave-search.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "brex",
+      "name": "Brex",
+      "description": "Expenses, cards, and bills",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "39c93c57ed273ba32b7e887543368c084ac370dcad12d977060022998e409210",
+      "path": "apps/brex.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "brightdata",
+      "name": "Bright Data",
+      "description": "Web search and scraping",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "2583e26eb0147f8715c205cb5ea03a7812c7f645fa996d6150e2480f7cec78e8",
+      "path": "apps/brightdata.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "browserless",
+      "name": "Browserless",
+      "description": "Cloud browsers for agents",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "4b19080ad13d5b1053e80c7d4e02a0f34b633aaa424de5a0f1f52dffa4b41caa",
+      "path": "apps/browserless.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "buffer",
+      "name": "Buffer",
+      "description": "Social media scheduling",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "06d357eea9e727f5281b28e8a698f073bd59e9586627b7dd78586734f1680c1a",
+      "path": "apps/buffer.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "buildkite",
+      "name": "Buildkite",
+      "description": "CI pipelines and builds",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "8796464b54212f2eec4ca04e53d7a54d64ec75eecbb817205b64d9e48222878a",
+      "path": "apps/buildkite.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "calendly",
+      "name": "Calendly",
+      "description": "Scheduling and availability",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "d94c134aca172001b1cd66178e6abea8e70049f45d0f0481af2b44c876e43876",
+      "path": "apps/calendly.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "canva",
+      "name": "Canva",
+      "description": "Designs, assets and exports",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "32d70138b143315ff4bd01ada715dca53ceb93091893cf03840b376c872ce292",
+      "path": "apps/canva.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "cartesia",
+      "name": "Cartesia",
+      "description": "Speech and voices",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "db687562ac25a2387917fc0bd380590d3b5f500b6821ff522a382ffc5183402e",
+      "path": "apps/cartesia.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "circleback",
+      "name": "Circleback",
+      "description": "Meeting notes and transcripts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "138d3f6cf0f1f33b8d4ca94764b9a95ec56b4972a068f4083bd42cea92283719",
+      "path": "apps/circleback.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "clarify",
+      "name": "Clarify",
+      "description": "Industrial data and signals",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "af509881f29ed33df2f674f6286eacd96b2b800c73cd784ee20104da9f526dbc",
+      "path": "apps/clarify.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "clerk",
+      "name": "Clerk",
+      "description": "Authentication and users",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "433873af77a4010037574c589f98eb786475fab32c46c4b2c006b892bf721122",
+      "path": "apps/clerk.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "clickhouse",
+      "name": "ClickHouse Cloud",
+      "description": "Read-only ClickHouse Cloud queries",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "70b0450c69d8f6e65d3d7657684a9f55dd5d354d1eaa6574a959d6ec2ec9efa2",
+      "path": "apps/clickhouse.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "clickup",
+      "name": "ClickUp",
+      "description": "Tasks, docs and team updates",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "aa3f13e1dabf209f752631299a54f984a91fd9fa3a9b65f22f95f46afd954869",
+      "path": "apps/clickup.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "close",
+      "name": "Close",
+      "description": "Sales CRM",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "3b980c69a40582b335594a55bf406b3692c4ba368987c694d504f8ca53852538",
+      "path": "apps/close.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "cloud66",
+      "name": "Cloud 66",
+      "description": "Applications, deploys and servers",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "e99f8259d8145ff7eda540b4d40b0d5f9dab0ed658720bd5066070d29ceeb942",
+      "path": "apps/cloud66.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "cloudflare",
+      "name": "Cloudflare",
+      "description": "Workers, DNS, storage and logs",
+      "category": "coding",
+      "version": "1.0.1",
+      "contentHash": "cdcb360c7f1d5577e2b6a9b3e126955422f3fe183b913849634780676d2073b2",
+      "path": "apps/cloudflare.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.1",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "cloudinary",
+      "name": "Cloudinary",
+      "description": "Image and video assets",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "b1fa56ab12413ec9a9cba44c98f803966dd213f64b5e7949aa60b5e892a91d31",
+      "path": "apps/cloudinary.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "cobrain",
+      "name": "Cobrain",
+      "description": "Shared memory for your AI agents",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "afc9edcf80f7560b3b212fc6ec9a6f446978e298afc8c5dd1ee944f4c3ebf1c7",
+      "path": "apps/cobrain.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "coda",
+      "name": "Coda",
+      "description": "Docs, pages and tables",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "05882f5d5bc0ac602e16a5dae5a90b9d57b97a41deeafb53991115042c47bd4e",
+      "path": "apps/coda.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "coinbase",
+      "name": "Coinbase",
+      "description": "Crypto prices, portfolios and trading",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "f7e4e8fcd871ead97c22fe5107d199584e58d272101bcc9b72eb03a3fe5ed94d",
+      "path": "apps/coinbase.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "coingecko",
+      "name": "CoinGecko",
+      "description": "Crypto market data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "5b9f100f4c8a2b02e72a8984870be951413c54fd4fde931b55d285fea46f4c23",
+      "path": "apps/coingecko.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "composio",
+      "name": "Composio",
+      "description": "Gmail, Slack, GitHub and 1,000+ more apps",
+      "category": "automation",
+      "version": "1.2.0",
+      "contentHash": "253d292ac425f24c977a1cebe1451c59663c20768678f984c75b781c2289ba23",
+      "path": "apps/composio.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.2.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "convex",
+      "name": "Convex",
+      "description": "Convex app setup guidance",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "fc01828ab3522191bb994a4733e960120b280f7896e89dea9f46d352bba33fce",
+      "path": "apps/convex.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "craft",
+      "name": "Craft",
+      "description": "Notes, docs and tasks",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "97cd75d5e980c17b98001accc1190dcb7cc62108b38303da9bc686d425df6758",
+      "path": "apps/craft.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "crustdata",
+      "name": "Crustdata",
+      "description": "Company and people data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "bd8b1e59d7df974c38fcbf292143aae56a6daf552a32872b021037124d2c7c45",
+      "path": "apps/crustdata.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "customerio",
+      "name": "Customer.io",
+      "description": "Customer messaging data",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "4e8318db86b8d0e78c064c689ba91918035df5f1afcd6f4fe898d552ec84a028",
+      "path": "apps/customerio.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "dart",
+      "name": "Dart",
+      "description": "Tasks and project docs",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "6e966705020d2ea7d2a6591df4c38fb348b1b675045a0d7906c1b3ac436c132c",
+      "path": "apps/dart.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "datadog",
+      "name": "Datadog",
+      "description": "Monitoring, logs and traces",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "e5e1c5aa8ce5880050f617c5040c09cd117554cd2f8f438c33325ac50a3895e5",
+      "path": "apps/datadog.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "dataforseo",
+      "name": "DataForSEO",
+      "description": "SEO and search data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "307e700de22ad90f8678c96b0a3096c607332b7221f071e0e07b7e663e774601",
+      "path": "apps/dataforseo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "dealroom",
+      "name": "Dealroom",
+      "description": "Startup and investor data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "b2d6a8f687318f350192e2a990d2aefd4c8244ac30fdb563d881cae043bf2d2e",
+      "path": "apps/dealroom.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "deepledger",
+      "name": "DeepLedger",
+      "description": "Bookkeeping for QuickBooks and Xero",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "4d48b1ac2a48d6da4e1e31f1e581d800bb733c5e46a6cffef6a2e97be947370e",
+      "path": "apps/deepledger.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "deepwiki",
+      "name": "DeepWiki",
+      "description": "Docs for public GitHub repos",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "b25c6d151271b580fca6f5ed75fe161df66cd5e1a00d8abbb72b916ef655a916",
+      "path": "apps/deepwiki.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "dida365",
+      "name": "DIDA",
+      "description": "Tasks and lists",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "02357d0e02ed03edfc6c953c6f5946ed8ebc4d04f795f3d34fd9e614f603af9f",
+      "path": "apps/dida365.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "digitalocean",
+      "name": "DigitalOcean",
+      "description": "Cloud resources and apps",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "11eff2d6bc347a595c191430845c033b91fdf063b045ef044b6dfe6130cafc3f",
+      "path": "apps/digitalocean.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "dropbox",
+      "name": "Dropbox",
+      "description": "Files and folders",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "ede54cf6ac89b11d50a6571a4b21d7924ca52a80f860a0fe27e35520e8fa4a5b",
+      "path": "apps/dropbox.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "eden",
+      "name": "Eden",
+      "description": "Creator content and posts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "5ce7a4269100cc9dde6e20ab306db332ab2a03b05b7b26c5e12eb96662c5cbae",
+      "path": "apps/eden.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "elevenlabs",
+      "name": "ElevenLabs",
+      "description": "Speech, voices and voice agents",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "1f6a1777d32c45e2339dd1e07173dabf9bc773d3b3eb37dddee23d26a8f1bc7a",
+      "path": "apps/elevenlabs.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "era",
+      "name": "Era",
+      "description": "Personal finance",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "f7e28ca99d7144c259e5d644b6a34c31746c62bf0b58bbf91d4eacc0d3128dad",
+      "path": "apps/era.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "etoro",
+      "name": "eToro",
+      "description": "Portfolio and market data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "8571380fd90a21e7621ab53766f197eedecdfb45d63d0e0628adfac32a656910",
+      "path": "apps/etoro.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "evernote",
+      "name": "Evernote",
+      "description": "Notes and notebooks",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "a167e1327eedba46355d64ebaae030eb1f3e96f1667b194c5e359713035d1cb2",
+      "path": "apps/evernote.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "exa",
+      "name": "Exa",
+      "description": "Web search for agents",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "aec6b83c665291a475a1558f0fa11e021c0828a82582102502bf8f03f3d6db8c",
+      "path": "apps/exa.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "excalidraw",
+      "name": "Excalidraw",
+      "description": "Hand-drawn diagrams",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "3f630e49c2eb51d94a8d6073c88eb95fd30d6478b4e04dfe51fdfb000a6d5197",
+      "path": "apps/excalidraw.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "extend",
+      "name": "Extend",
+      "description": "Virtual cards and spend",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "6a652c207be97dc4f04771e7d56f80f78f28ab36efd5830bf59fd3393fc08e9b",
+      "path": "apps/extend.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "fal",
+      "name": "fal",
+      "description": "Generative media models",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "4111125876a6de92c4876cb31babdddb9998c877b5d72836028c80617a1456c5",
+      "path": "apps/fal.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "fanvue",
+      "name": "Fanvue",
+      "description": "Creator account insights",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "c1e73c171b5d30a10d9e75f0a5f522b8d1037c790d232b3a9ee4a42354a08917",
+      "path": "apps/fanvue.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "fastmail",
+      "name": "Fastmail",
+      "description": "Mail, calendar, and contacts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "e85fe5185d71d3a8112d4f6e87153f838a8510aa9756c33c789c8e3cf86cee24",
+      "path": "apps/fastmail.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "fathom",
+      "name": "Fathom",
+      "description": "Meeting notes and transcripts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "888e9125ab0fff183d713f04b50eb5d8e612fd1befdce4666168ca1c1898098f",
+      "path": "apps/fathom.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "feishu",
+      "name": "Feishu",
+      "description": "Docs, messages, and groups",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "6f46f36e719ed789126aab85684668b78bfe3dd56ed59903fd0743d6b623c347",
+      "path": "apps/feishu.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "fellow",
+      "name": "Fellow",
+      "description": "Meeting notes and actions",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "5c0d3583a09cbdece778adf6ab44a0aa74f28ac379603eea257ccf29f2b5c88d",
+      "path": "apps/fellow.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "figma",
+      "name": "Figma",
+      "description": "Designs and prototypes",
+      "category": "design",
+      "version": "1.1.0",
+      "contentHash": "c38a78e602029cfb84f0452c53cdb6c97a736e6997b32e0a927187a67f0eba84",
+      "path": "apps/figma.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "firecrawl",
+      "name": "Firecrawl",
+      "description": "Web extraction and search",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "cace6000378d75eb28ab15e9128716993b47fe617b66cd1f598c65946826acea",
+      "path": "apps/firecrawl.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "fireflies",
+      "name": "Fireflies.ai",
+      "description": "Meeting transcripts and search",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "8319e7452c3d4e9d7c75215c3a8553c2d2f17d6764ecd6461989ff81a096f09f",
+      "path": "apps/fireflies.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "floot",
+      "name": "Floot",
+      "description": "Build and edit web apps",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "a5bad7902e0ec9c4b015eec388fd5feb33935256161a6b3e9a2103c781a1f90e",
+      "path": "apps/floot.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "folk",
+      "name": "folk",
+      "description": "Relationship CRM",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "ae19d1032482638bccac81b57f0311841cde4ababb755f5371302340ee6c75e5",
+      "path": "apps/folk.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "freee",
+      "name": "freee",
+      "description": "Accounting, HR, and invoices",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "c08f61a8a2f70692974d0072f460836fb55bd694fe5d73c875d187a9d3d84a0a",
+      "path": "apps/freee.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "futu",
+      "name": "Futu",
+      "description": "Market data and portfolio",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "6563b16fbc5d099535b5d3783ab36272559e17b9e1e688627b1fc192ed887020",
+      "path": "apps/futu.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "gitbook",
+      "name": "GitBook",
+      "description": "Documentation spaces",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "c5766c8555c5f01fb30416025f976046d282a0effc12ab8369756cae7083429f",
+      "path": "apps/gitbook.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "gitlab",
+      "name": "GitLab",
+      "description": "Issues, merge requests and pipelines",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "67d39a9e7e94081fff4ab52b3b470a19f31b6bfbe578ae80efff93de56f932e1",
+      "path": "apps/gitlab.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "godaddy",
+      "name": "GoDaddy",
+      "description": "Domain name search",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "844fc7399f4e602cc6fedbe03510e32e1f2beaa275cd18e0263b715622ef625c",
+      "path": "apps/godaddy.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "gojiberry",
+      "name": "Gojiberry",
+      "description": "B2B lead signals",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "2ec6da673d14a1dfc0101c18454d399be87d59d63ce4f2c6ebb45d95642982a9",
+      "path": "apps/gojiberry.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "grafana",
+      "name": "Grafana Cloud",
+      "description": "Dashboards, metrics, and logs",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "1ec1e2d6239f88b1b004f9ae5e53c0f98aea70a4c3c15e2184ca4fe24de1d64a",
+      "path": "apps/grafana.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "granola",
+      "name": "Granola",
+      "description": "Meeting notes search",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "76427484457f0c617f5fe714d2de65932cfdc297da1cc821d09142209404de64",
+      "path": "apps/granola.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "greenhouse",
+      "name": "Greenhouse",
+      "description": "Recruiting and candidates",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "1e27903c1b369a027175ee5cf0ba69f26422c91d05c3e3c558e5595113f34907",
+      "path": "apps/greenhouse.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "guru",
+      "name": "Guru",
+      "description": "Company knowledge search",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "5b7ac19145ed656e2001989be1fc9bc5849726b2ab376b6f755c17d8aac87cce",
+      "path": "apps/guru.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "harmonic",
+      "name": "Harmonic",
+      "description": "Company and investor data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "d7be0a7b39e793bc38a1f81a9d0b6a3f1a939f2cfe9d273cf5fd20ab18d72461",
+      "path": "apps/harmonic.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "helium10",
+      "name": "Helium 10",
+      "description": "Amazon seller research",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "72e8065e2b39013178b18684ea75aa89796721daf6ea34e3754cedd22ba4800d",
+      "path": "apps/helium10.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "helpscout",
+      "name": "Help Scout",
+      "description": "Support conversations and reports",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "15adc05b0a73d3c2447ccdcc48b8fbde4b8a585f4edbc54136899f49d89639da",
+      "path": "apps/helpscout.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "hex",
+      "name": "Hex",
+      "description": "Data projects and analysis",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "b39be16e37d0d4f87fba4dcb23ab6f5ea61dd39b55234b06a3e6a54ca415b023",
+      "path": "apps/hex.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "heyreach",
+      "name": "HeyReach",
+      "description": "LinkedIn outreach campaigns",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "b5ca32c51de11cd0e14b36cfca8f0c0c1cab03670058df88b760e2aa4f4b2487",
+      "path": "apps/heyreach.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "higgsfield",
+      "name": "Higgsfield",
+      "description": "AI images, videos and audio",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "53f0f11fa5e3801f1214fb473ce552f25678c71b2432891089e2ea1395a7a715",
+      "path": "apps/higgsfield.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "highlevel",
+      "name": "HighLevel",
+      "description": "CRM and marketing workspace",
+      "category": "productivity",
+      "version": "1.1.0",
+      "contentHash": "03eb7c3a8149230450e12f9ab63d5a0b5b9cde303f5d8b5e846acaf19a7426ff",
+      "path": "apps/highlevel.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "hindsight",
+      "name": "Hindsight",
+      "description": "Memory that learns over time",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "ad89944e4e20032ee936a6c95dbc7317085feec712768f9e9dc7adfe9766be99",
+      "path": "apps/hindsight.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "honcho",
+      "name": "Honcho",
+      "description": "Your memory across AI tools",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "237ab84a8f9a937d67f4165fc9f0c193e7621ec930c122b94dca5d555530dd85",
+      "path": "apps/honcho.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "hospitable",
+      "name": "Hospitable",
+      "description": "Short-term rental operations",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "55143e4f46696d18368c59ca4ddcba32420f82d3646e4e26c39461350a0d5e4a",
+      "path": "apps/hospitable.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "hostinger",
+      "name": "Hostinger",
+      "description": "Hosting, domains and DNS",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "bd9536a851cf97930f13fb19c44f53893f8f500497a44cc6267161694c05dbb8",
+      "path": "apps/hostinger.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "hubspot",
+      "name": "HubSpot",
+      "description": "CRM records, deals and notes",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "e4f51c1f5107dcb5799d7dcb640a211033ac0b4ef0506dc8a619660e0aa73768",
+      "path": "apps/hubspot.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "huggingface",
+      "name": "Hugging Face",
+      "description": "Models, datasets and papers on the Hub",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "fa26d70a36770044601a00c9d4b7f81a08bce85aca0d83c310b96008f741949f",
+      "path": "apps/huggingface.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ibkr",
+      "name": "IBKR",
+      "description": "Brokerage account data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "1affbf0829553614427e66489b53751f46237c210fcb09239c7594a291c2d774",
+      "path": "apps/ibkr.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ifttt",
+      "name": "IFTTT",
+      "description": "Connect apps and devices",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "72169963373f82d6e1b2c9653238d72634a5d9bcfd1f863b3bffbcc395dc62d5",
+      "path": "apps/ifttt.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "incidentio",
+      "name": "incident.io",
+      "description": "Incidents and on-call",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "98fb7ffcc4ca355b20b0efa78313aa8743ff5a96ac6e5581c7800742b8e467a7",
+      "path": "apps/incidentio.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "instantly",
+      "name": "Instantly",
+      "description": "Cold email campaigns",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "ba4785dd16cf93755dd15e24d250d7679fc7dcad91c5befc121d84c1e699b8da",
+      "path": "apps/instantly.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "intercom",
+      "name": "Intercom",
+      "description": "Customer support conversations",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "e43cf6f90cedcdef517bd673c67e0d5b8a14987c4460503b33d58bd329b8c67f",
+      "path": "apps/intercom.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "invideo",
+      "name": "invideo",
+      "description": "AI video generation",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "0254b9ddc4bd1a8af7db593de1e63bcd5bbc4638dd04865f9e3762f0320c6d99",
+      "path": "apps/invideo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "jobtread",
+      "name": "JobTread",
+      "description": "Construction job management",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "a9cf721cba3a1d27179e5c68ed07e45efa1bd7c10334d8d9240d9de87b8bc572",
+      "path": "apps/jobtread.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "kajabi",
+      "name": "Kajabi",
+      "description": "Courses and creator business",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "58bc74d738a449a46ffa73f61f7fa5ae415aa321640bf3fc4a1e3883692b3ba6",
+      "path": "apps/kajabi.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "kensho",
+      "name": "Kensho",
+      "description": "S&P Global financial data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "69effc89406043b629b8167aebcda2347326eef1982f0a73ccdfe1963b794eef",
+      "path": "apps/kensho.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "kit",
+      "name": "Kit",
+      "description": "Email newsletters for creators",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "71cb4850b1ad451d376708b4cd6d401dace6750eaafd59a6494600237c9546f3",
+      "path": "apps/kit.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "klaviyo",
+      "name": "Klaviyo",
+      "description": "Email and SMS marketing",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "466f850d9bbaf824c4b422da193065ab5d42e842995e57850dae748982a84129",
+      "path": "apps/klaviyo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "knowify",
+      "name": "Knowify",
+      "description": "Contractor job management",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "04a9d4c568173614a4663dfc7185ed45d8f64c659defca1c8dd785c970f9ee69",
+      "path": "apps/knowify.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "krisp",
+      "name": "Krisp",
+      "description": "Meeting notes and transcripts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "fa26692724024e5696a98607afc2eaac0d61aa05e641ce6175b47389348102de",
+      "path": "apps/krisp.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "lark",
+      "name": "Lark",
+      "description": "Docs and team messaging",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "9558c6beb89f8de0eeb38f19885f64483b59c7e9928772886626af0915f7e743",
+      "path": "apps/lark.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "launchdarkly",
+      "name": "LaunchDarkly",
+      "description": "Feature flags and experiments",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "1e0719bc165d77fb43f7da7ad830c1153cdd6383012e8fd3b273f78d104f25ca",
+      "path": "apps/launchdarkly.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "lemlist",
+      "name": "lemlist",
+      "description": "Sales outreach campaigns",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "34273f5e46fe78d44c15e2f548f5b600bb944fdb7a2e8260f2ff52b160a3d3ac",
+      "path": "apps/lemlist.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "linear",
+      "name": "Linear",
+      "description": "Issues and project triage",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "1f6b89789c6103a28b815244aee8eaeffa7000870d6de226a3de94915b9ec6a9",
+      "path": "apps/linear.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "littlebird",
+      "name": "Littlebird",
+      "description": "Personal work memory",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "a8ad5207909b04bf7622972fd6ffef9bb4902c78aa281f8ee3ceb4a632dc6064",
+      "path": "apps/littlebird.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "localmcp",
+      "name": "LMCP",
+      "description": "Apps on your computer",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "90c4c4452c7522b50ce9f192d28dcef86322fb63f1b9874814d4f8f2d8c5f065",
+      "path": "apps/localmcp.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "longbridge",
+      "name": "Longbridge",
+      "description": "Brokerage and market data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "d4d83b7c5e94e8255685e0e8592df44d005a471d76f04aa88fc78a643c9fc337",
+      "path": "apps/longbridge.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "lovable",
+      "name": "Lovable",
+      "description": "Build apps from prompts",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "5fa67c91c5d78ebe93d074c4d6e40b6b499e9dd22ea5706bed0834009db4599e",
+      "path": "apps/lovable.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "lusha",
+      "name": "Lusha",
+      "description": "B2B contact and company data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "f8822259f94a4184ce9575f1d91b6feb19ee175e66a21d3cccac5cd772278931",
+      "path": "apps/lusha.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "magicpatterns",
+      "name": "Magic Patterns",
+      "description": "AI UI prototypes",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "7a67d62c9f8420828954a98c5563444c0edc5a5ae45b1facb2d38f24ce6efa00",
+      "path": "apps/magicpatterns.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "magnific",
+      "name": "Magnific",
+      "description": "AI image and video tools",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "093904673e2078ee206fe2ceecea0aec7c8b40aab515e03bad01f7437a547a10",
+      "path": "apps/magnific.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "mailerlite",
+      "name": "MailerLite",
+      "description": "Email marketing",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "b3d6d9977ebbebbf49ecc1b425e9664fb0bb175049b0433be745731bcf2acb35",
+      "path": "apps/mailerlite.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "make",
+      "name": "Make",
+      "description": "Visual workflow automation",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "61274bd52cdc756840cb36b69194c55accddd5fa87051a72ff03cc3b03685fe7",
+      "path": "apps/make.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "massive",
+      "name": "Massive",
+      "description": "Stock and crypto market data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "a2ddbff4e177ad210c726240d0fc6f338db5e21672b963ea0f2bdf3171045a98",
+      "path": "apps/massive.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "mem",
+      "name": "Mem",
+      "description": "Notes and collections",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "50a1e64e3eb04fda810c63d1152c3775b862173576fad447a19c39548821f396",
+      "path": "apps/mem.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "mercury",
+      "name": "Mercury",
+      "description": "Business bank accounts and transactions",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "bb51f89e71c6043a53d5a862431307d68629171511decf42d16b617bc6c4f107",
+      "path": "apps/mercury.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "meta-ads",
+      "name": "Meta Ads",
+      "description": "Facebook and Instagram ad campaigns",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "cbef3498ced7612841dd1b3354fefb534a589e4bcf70a8051b2eff047e3834b0",
+      "path": "apps/meta-ads.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "metricool",
+      "name": "Metricool",
+      "description": "Social media analytics and planning",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "8521890b601fa2826febca9b5fcf818e1e55b79177b95571143daaf9c32f9009",
+      "path": "apps/metricool.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "miro",
+      "name": "Miro",
+      "description": "Boards, diagrams and docs",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "235d0ea513644b8a533199085cb68eaf54a10c6148c1a2d973621a50077ab58f",
+      "path": "apps/miro.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "mixpanel",
+      "name": "Mixpanel",
+      "description": "Product analytics and reports",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "e2b6af1549c290be0cd01fb627f09c77361f442baa0f2ffdadcd508a9d54a585",
+      "path": "apps/mixpanel.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "mobbin",
+      "name": "Mobbin",
+      "description": "Real app UI references",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "b609a71cdacf4d25dc827c10eb696dd6bbb221789ae04a21a80bbed7ae780e88",
+      "path": "apps/mobbin.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "monarch",
+      "name": "Monarch",
+      "description": "Personal finances and budgets",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "2e0492c5d5c2d27a10a4aba9c49f7feae3ab462422d47567f8f06d03ccbd479f",
+      "path": "apps/monarch.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "monday",
+      "name": "monday.com",
+      "description": "Boards, items and updates",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "b5fdca35551147ffa61b16d58ce37a2d4fc33d7ee94f57bfdc274806496f0eda",
+      "path": "apps/monday.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "moomoo",
+      "name": "moomoo",
+      "description": "Market quotes and brokerage account",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "0515f351cae5204f510019b8b80188f7c9fae238a9877eb8757f8a6926e03272",
+      "path": "apps/moomoo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "mural",
+      "name": "Mural",
+      "description": "Canvases, stickies and diagrams",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "c931fe7b4b3fc6e05545c5fd40a4948714f4669abfc0f9401d48babe1100911e",
+      "path": "apps/mural.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "navan",
+      "name": "Navan",
+      "description": "Travel and expense data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "b5d653be7299c9e93caa29ade51490a89f222a9bd4bc1cf5a3de148a6dee7729",
+      "path": "apps/navan.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "neon",
+      "name": "Neon",
+      "description": "Postgres projects, branches and migrations",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "535178800152f9d667e6d58f118665b96efe97f8aa6222bc38876bb569281210",
+      "path": "apps/neon.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "netlify",
+      "name": "Netlify",
+      "description": "Projects, deploys and request logs",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "d0d15e53ff34465ba04f0899834a30b6b0a5784c41e46eac28f84101f68d99c7",
+      "path": "apps/netlify.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "northbeam",
+      "name": "Northbeam",
+      "description": "Marketing attribution data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "b8e34c6f1737ce7e7090321243dfbf6d988ce0e6966eea7ae12be8e40533581e",
+      "path": "apps/northbeam.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "notion",
+      "name": "Notion",
+      "description": "Docs and knowledge base",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "92bc225440960cc606640173bccc77157d141b2b76b6313af24675ee95f27632",
+      "path": "apps/notion.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "obsidian",
+      "name": "Obsidian",
+      "description": "Notes in your vault",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "57e7a887da4a387034f3d4038b3b879e6aad45aed7ae7c89e4297e15cd12bb79",
+      "path": "apps/obsidian.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "omneky",
+      "name": "Omneky",
+      "description": "AI ad creative generation",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "46e484b4e9212baf6fd80a0309441a1ece8cdd600a27d223f5baaaa388724ffd",
+      "path": "apps/omneky.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "omnisend",
+      "name": "Omnisend",
+      "description": "Email and SMS marketing",
+      "category": "automation",
+      "version": "1.1.0",
+      "contentHash": "64b28dbacc8d6c2531d336d934bca8503aab309fd343dbd78bbf17f6e2871b78",
+      "path": "apps/omnisend.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "openart",
+      "name": "OpenArt",
+      "description": "AI images and videos",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "8c797504f76907ce03b28ce11be4c001e01516dca99d0987f86a658fb84fb5fc",
+      "path": "apps/openart.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "opusclip",
+      "name": "OpusClip",
+      "description": "Short clips from long videos",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "2e8cea96d8387981c5a5ee265d678fbbecd6aae0409ca4f2584210e589742543",
+      "path": "apps/opusclip.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "otter",
+      "name": "Otter.ai",
+      "description": "Meeting transcripts and notes",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "1fadaf6e5fa5d5223fbfeaeea908d272c2232bea824e18ad994cb6d4d3facd6b",
+      "path": "apps/otter.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "pandadoc",
+      "name": "PandaDoc",
+      "description": "Documents, proposals and e-signatures",
+      "category": "documents",
+      "version": "1.0.0",
+      "contentHash": "f56e91a51f423d4186f2f0e56e48bdf8733a9ab700238ec1096e9bb3667c93b3",
+      "path": "apps/pandadoc.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "paper",
+      "name": "Paper",
+      "description": "Design canvas built on HTML and CSS",
+      "category": "design",
+      "version": "1.0.1",
+      "contentHash": "a4dda254bfe5b9298b974ea72bed4cd4c7c41becad30475b5ad64f998491c585",
+      "path": "apps/paper.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.1",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "parallel",
+      "name": "Parallel",
+      "description": "Web search and extraction",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "0242195891f31b64928c7c23a4cd54542cf35a1fa17cbe032190ab355ec2aabb",
+      "path": "apps/parallel.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "pennylane",
+      "name": "Pennylane",
+      "description": "Accounting and invoices",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "d6839e50ef508037a0dd9b39c56f93dde0591f00826a3c0bf6b99931a28fc19a",
+      "path": "apps/pennylane.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "picsart",
+      "name": "Picsart",
+      "description": "AI image, video and audio tools",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "417e0d5884a2fab369e4dbd74edfdbf33f31dea623812249322daa504db3d885",
+      "path": "apps/picsart.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "pipedrive",
+      "name": "Pipedrive",
+      "description": "Sales CRM deals and contacts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "c01f4a2fe5af5a8575849f362a4031654d2b09325a07a699932d4275d1c8d3e7",
+      "path": "apps/pipedrive.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "planetscale",
+      "name": "PlanetScale",
+      "description": "Databases, branches and query insights",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "229c5594b094b5a2deaba403f67d805e1da936f9627afd314634e79acbba1f3d",
+      "path": "apps/planetscale.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "planningcenter",
+      "name": "Planning Center",
+      "description": "Church people, services and groups",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "bd72937963e9642558c2737ffbd5a9e34bd7a796d89c2ae14ecf4d15e090d9a4",
+      "path": "apps/planningcenter.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "plaud",
+      "name": "Plaud",
+      "description": "Recordings, transcripts and summaries",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "94e323c556866f194491d0897d57bcd3ec4e334687e3e74280a4f022261c3947",
+      "path": "apps/plaud.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "posthog",
+      "name": "PostHog",
+      "description": "Product analytics and flags",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "ffdcbac7d470b335e627dfa937fc3773bdb32d27036dbff600d53b17409783db",
+      "path": "apps/posthog.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "postiz",
+      "name": "Postiz",
+      "description": "Social media scheduling",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "2b5fe330b1f228fefe2a98729d41acfac21135a059df53cf485efe48cdb99cf3",
+      "path": "apps/postiz.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "postman",
+      "name": "Postman",
+      "description": "API collections and workspaces",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "919643985f4faea0accffed91ab88912bf49a704cb12a6e9b79a27b0ba248428",
+      "path": "apps/postman.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "prisma",
+      "name": "Prisma",
+      "description": "Postgres databases, backups and Compute apps",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "13d53c2ae1e8529e19f721cb62813e9ce92d9ceb7d916e63e5c8cdf3e86ca307",
+      "path": "apps/prisma.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "profound",
+      "name": "Profound",
+      "description": "AI search visibility analytics",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "3161580595069df9453d157d018530331a5edf1c65cd08d484af480857e0ee14",
+      "path": "apps/profound.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "public",
+      "name": "Public",
+      "description": "Brokerage accounts and trading",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "5e287804443b8ab0a18c01a683c76afe3105f676e53d79144f2e04a247012837",
+      "path": "apps/public.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "pylon",
+      "name": "Pylon",
+      "description": "Customer support issues",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "a928f8d3474fb1db8ea6ea5a2fb10b2929c93119ca279aec5d9e68cd86400d22",
+      "path": "apps/pylon.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "qonto",
+      "name": "Qonto",
+      "description": "Business banking and cards",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "98531aa11aadae996877641f2bf96e1a4526ee245dad9029a6d68e0a5cc69637",
+      "path": "apps/qonto.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "quo",
+      "name": "Quo",
+      "description": "Business phone calls and texts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "0df38b8713c5d615d86a8abed10d8adfda63402b6bc53d1a76fe978e25e516a2",
+      "path": "apps/quo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "railway",
+      "name": "Railway",
+      "description": "Projects, services and deployments",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "f692b581ca65aab93c1c907a658f7941d1e9e3dd90be2896f8d7b955e0f20329",
+      "path": "apps/railway.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "raindrop",
+      "name": "Raindrop.io",
+      "description": "Bookmarks and highlights",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "172871428019760ccf1413b823b8441de1d94f8d179603f7b1c9bdbd615da56c",
+      "path": "apps/raindrop.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ramp",
+      "name": "Ramp",
+      "description": "Spend, cards, and bills",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "e4dc4fc88c05b94c2f1555c8026dc29adc05c39481378c40f5ba4457d28be195",
+      "path": "apps/ramp.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "readai",
+      "name": "Read AI",
+      "description": "Meeting reports and transcripts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "2c10bac7065dbe8c88492f4301b9b4fcf02b3ec5fb954e0829a67566b4b8557c",
+      "path": "apps/readai.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "readwise",
+      "name": "Readwise",
+      "description": "Highlights and saved reading",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "4a5873a5a7be66b5de896bdafab24b339d1fa89d2114a39e42586731864b0377",
+      "path": "apps/readwise.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "refero",
+      "name": "Refero",
+      "description": "UI design references",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "b4bc4b3f70d088a5df847349b7b40166659dc6ae0e75b17235a7f312426070f9",
+      "path": "apps/refero.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "render",
+      "name": "Render",
+      "description": "Services, deploys and logs",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "e6f4e526e8f2e6bee8de6ff1ce444c601b6ea914bdcb586e155a60f4d710d2ca",
+      "path": "apps/render.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "resend",
+      "name": "Resend",
+      "description": "Transactional email",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "38efb84ff1505c25f481cfe403e623195598b22e1a143520adf65e152de9ef7a",
+      "path": "apps/resend.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "restream",
+      "name": "Restream",
+      "description": "Live streams and recordings",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "43153f4ff6e99402e4c2cf51faa7600ed6085c74d7b8f2e252fd8d72205a1359",
+      "path": "apps/restream.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "revenuecat",
+      "name": "RevenueCat",
+      "description": "Subscriptions, products and paywalls",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "515d03455031782d33f4910bfd710af06c7774594b61cdb03d2ee638665d82ad",
+      "path": "apps/revenuecat.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "riverside",
+      "name": "Riverside",
+      "description": "Recordings, clips, and transcripts",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "49fabaa2c5212cdd976f5bb9f670c55daa04b0de53da1554d7867e1efc80cec3",
+      "path": "apps/riverside.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "roam",
+      "name": "Roam Research",
+      "description": "Graph notes and pages",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "f6b131fa9617a2c0f3b601628df0a4dd517b632391aee661b5a942487438bd4c",
+      "path": "apps/roam.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "robinhood",
+      "name": "Robinhood",
+      "description": "Brokerage accounts and agentic trading",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "633d1a9a63abeb335613eab0a1cb01830014fb2ec393fa2d6ffb209a3c6e5f39",
+      "path": "apps/robinhood.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "runpod",
+      "name": "Runpod",
+      "description": "GPU pods and serverless",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "1ceec4d861befe44711df28d0a1ddeb6c24dbb9d50060a777a9bdb8bb56bb307",
+      "path": "apps/runpod.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "runway",
+      "name": "Runway",
+      "description": "AI image and video generation",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "08dddd910f7e3099167371801aeb3bb0031f1ce3f04244322785ceb396ba4a2a",
+      "path": "apps/runway.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ryze",
+      "name": "Ryze AI",
+      "description": "Ad campaign analytics",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "2629a6e34acbe815724d0887e789cc866115a853c650207bf78f8b2cc6870d15",
+      "path": "apps/ryze.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "salesloft",
+      "name": "Salesloft",
+      "description": "Sales pipeline and cadences",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "7c7ca54cf252da56afe23c4fc444855c1dec1a3f6881afd2bf13dacf4973106a",
+      "path": "apps/salesloft.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "sanity",
+      "name": "Sanity",
+      "description": "Content queries and documents",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "4acb668b0bdbccd9b7172ef41e09ccce0d40beb62cf10ee6f5e83f44699e0521",
+      "path": "apps/sanity.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "scrapecreators",
+      "name": "Scrape Creators",
+      "description": "Public social media data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "51f2118628f2663e617c2087c74e1ea5f0ff547de49dd11925eff18eea486b05",
+      "path": "apps/scrapecreators.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "searchatlas",
+      "name": "Search Atlas",
+      "description": "SEO, content, and ads data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "fd6693f73965a2d9bcd69f5f3383d8963a678708f3ba3687db2f73f6cdfa03cf",
+      "path": "apps/searchatlas.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "semrush",
+      "name": "Semrush",
+      "description": "SEO and traffic data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "7ae30578c4aa17192f469c7046fe8523a170d670df4925abfe93a1bc9bbbadf1",
+      "path": "apps/semrush.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "sentry",
+      "name": "Sentry",
+      "description": "Errors and crash triage",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "d4fa50702114c7431204c1cf2b2b3047295eee97e1b0df3148bafdfa04a16b2b",
+      "path": "apps/sentry.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "seranking",
+      "name": "SE Ranking",
+      "description": "SEO data and site audits",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "e11ecb758dac502aeec9d50460ce9d9b6648ed6e33f7cd25cd348c5d3e731a79",
+      "path": "apps/seranking.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "servicem8",
+      "name": "ServiceM8",
+      "description": "Field service jobs",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "df1368ffaa102d8e59b0a03e1a9ceda13e9fccd8528e025740e15f9556ddac2e",
+      "path": "apps/servicem8.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "smartlead",
+      "name": "Smartlead",
+      "description": "Cold email campaigns",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "aadd6cf6e80cfb53d280d917dd4b6294a0512a5276768cecdd7f69f0e32aca01",
+      "path": "apps/smartlead.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "snaptrade",
+      "name": "SnapTrade",
+      "description": "Brokerage portfolio data",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "b2ecfe3d3042d5af9ae560c3be4456daf645911359c233d4d3a2bf109b041747",
+      "path": "apps/snaptrade.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "sonarqube",
+      "name": "SonarQube Cloud",
+      "description": "Code quality and security issues",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "22ef60768738e69d90b3e6960d42037e65835a0197ac2f7c4a297be9da2d010d",
+      "path": "apps/sonarqube.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "spacefast",
+      "name": "Spacefast",
+      "description": "Publish pages as Spaces",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "ecae68ea3ac894e4fd097762635f59f1a88cb9865f9e67af657ac7285a4a2036",
+      "path": "apps/spacefast.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "speko",
+      "name": "Speko",
+      "description": "Voice AI agents",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "aa719a23b18e3bb2725af6c57f0377c5cb9ec0ae834fcafc23c688b92a63f02e",
+      "path": "apps/speko.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "square",
+      "name": "Square",
+      "description": "Payments, orders, and catalog",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "f00a083bd44c9b190f0daa5b4769b0c5d9e682394cd49fdb40dd450285c328f4",
+      "path": "apps/square.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "statsig",
+      "name": "Statsig",
+      "description": "Feature gates and experiments",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "8a40d99dedfcc6f1074cbf45c00e9b92589f42e8f72f838657e45b941c50d259",
+      "path": "apps/statsig.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "stripe",
+      "name": "Stripe",
+      "description": "Payments and billing review",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "8c6ea22f6d4263c91e0500eec009d1a721131a5dee611e414ba14d85354f21ce",
+      "path": "apps/stripe.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "sunra",
+      "name": "Sunra",
+      "description": "AI images, videos, audio and 3D",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "49e70170f09d59a2a2114c592405152b8f927779185f4e2418016b29b42c0334",
+      "path": "apps/sunra.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "sunsama",
+      "name": "Sunsama",
+      "description": "Daily planning and tasks",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "3efe3110d12b1765a5b7c19c8de49585d96e75775849206afaefa004fab5e620",
+      "path": "apps/sunsama.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "supabase",
+      "name": "Supabase",
+      "description": "Databases, logs and edge functions",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "aa1b23b50994f840bc6989edc10ce1da096af862e3f3bfd91a9c2b8c9f37a55a",
+      "path": "apps/supabase.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "superhuman",
+      "name": "Superhuman Mail",
+      "description": "Email and calendar",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "0618442e4a5b9d76671d44fd9c8f5ed261fcaf37f248320264c8b319cac99b84",
+      "path": "apps/superhuman.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "superme",
+      "name": "SuperMe",
+      "description": "Advice from experienced people",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "06951fbec822aaf27db2038ca45d41587aabed17cc77c53ea296d11908442034",
+      "path": "apps/superme.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "supermemory",
+      "name": "Supermemory",
+      "description": "Memory across conversations",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "aac36a6fb39073e1acdc66751b7765623e21dc5a1a945f214a5014f058df6e29",
+      "path": "apps/supermemory.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "svelte",
+      "name": "Svelte",
+      "description": "Svelte and SvelteKit docs",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "78300fc8e5694832fb08c55c67cdaeee8a2766406968248caccd14e81e439be7",
+      "path": "apps/svelte.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "syncro",
+      "name": "Syncro",
+      "description": "MSP tickets and assets",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "a3d88c1cc47655b2808d5dd2d002b819be6c9a53e15f44fb599ac31ed7f58cd9",
+      "path": "apps/syncro.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "tableau",
+      "name": "Tableau",
+      "description": "Tableau Cloud analytics",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "014def8a693ae10374b2800091f2661904b7e122c962db4b9fa3cd7e18dfc42f",
+      "path": "apps/tableau.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "tavily",
+      "name": "Tavily",
+      "description": "Web search for agents",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "6471af490992c7907c6a8b2f315bdb77c9e3c77ddd77f2c56858d59c1e344e13",
+      "path": "apps/tavily.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "tessie",
+      "name": "Tessie",
+      "description": "Tesla vehicle data",
+      "category": "other",
+      "version": "1.1.0",
+      "contentHash": "40a2dc75e42ea74c9abb26d83c3d93ae9bfb2dd28b4d75fab5b64dc791ef04f8",
+      "path": "apps/tessie.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.1.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ticktick",
+      "name": "TickTick",
+      "description": "Tasks, lists, habits and focus",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "a3a77b12998f0e016c929ea5bd7db3279977d93a5f610a1a8c57ab6c41e91029",
+      "path": "apps/ticktick.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "tinyfish",
+      "name": "TinyFish",
+      "description": "Web search and browsing",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "3de923d98ff928bb183b3b5e532dff4f260cb0a62b4aae4ce4b52f8a3402d784",
+      "path": "apps/tinyfish.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "todoist",
+      "name": "Todoist",
+      "description": "Tasks, projects and reminders",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "6429feee6a87696aa67a7aba3282849f18d5b95a761268a79235e507e56517ab",
+      "path": "apps/todoist.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "tradingview",
+      "name": "TradingView",
+      "description": "Market data and analytics",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "28a9365724c0b4a0a655bf6a80b33f4cbf1707b1e779a78b70bc5650e339ecfc",
+      "path": "apps/tradingview.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "transcriptapi",
+      "name": "TranscriptAPI",
+      "description": "YouTube transcripts",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "e434c9df8018f3f9ba7d9159f637db2c98cbf2ef805e0a8827ae1cb811339a6b",
+      "path": "apps/transcriptapi.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "trello",
+      "name": "Trello",
+      "description": "Boards, lists and cards",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "b1b6d666c911b3949ee63abd8e034658681ae6d5f919f5b98b332ae4d4e6833a",
+      "path": "apps/trello.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "truthifi",
+      "name": "Truthifi",
+      "description": "Investment account insights",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "76a69303dd6398e8ede6653f5548b30f0137d5834d69d87f0a9b20c83c4d4050",
+      "path": "apps/truthifi.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "trypost",
+      "name": "TryPost",
+      "description": "Social media scheduling",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "37f3c0edb4ebf18e613b85f418796f722c584425aee9ea83f6e8de004b0b8dfa",
+      "path": "apps/trypost.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "turso",
+      "name": "Turso",
+      "description": "Turso Cloud databases",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "98cefc889f3b0bca4bcf49542393bbf486abd06815def72cc16f5857154b6c3a",
+      "path": "apps/turso.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "twilio-docs",
+      "name": "Twilio Docs",
+      "description": "Twilio API documentation",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "4893697250ebaeabcdab9ff63f455a6755e13683929850f7bebd8992a7ce748e",
+      "path": "apps/twilio-docs.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "typeform",
+      "name": "Typeform",
+      "description": "Forms and responses",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "758a6d2c96dffc69efa0343a83a6a5ee31c5566c1b312f411ad1fbe72aa72f1d",
+      "path": "apps/typeform.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "typefully",
+      "name": "Typefully",
+      "description": "Social post drafts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "0e861f684bdb5cf20ec2612da3c4b6ce6bd3cd547eaf3a12bcd618ec60ce87a6",
+      "path": "apps/typefully.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ubersuggest",
+      "name": "Ubersuggest",
+      "description": "SEO keyword research",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "99197835ac23f419e5ca33be2e9dfd24c0fbc38520621c1edb39e57eb65ae239",
+      "path": "apps/ubersuggest.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "upwork",
+      "name": "Upwork",
+      "description": "Freelance jobs and talent",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "86793c28af41e208cc4e94425dda3d4a6f45296f2ec965f71a8d01dbdcb4751e",
+      "path": "apps/upwork.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "vercel",
+      "name": "Vercel",
+      "description": "Deployments, build logs and projects",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "df854ce3620d97129061c9113053def298f52953b85b3083af29c8ded30a8a7d",
+      "path": "apps/vercel.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "videogen",
+      "name": "VideoGen",
+      "description": "AI video creation",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "434d00defcafb1ac04e6a79a8cf42312256ec32e99a808bb59faea8e9846d03b",
+      "path": "apps/videogen.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "vidiq",
+      "name": "vidIQ",
+      "description": "YouTube research and analytics",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "2ba080d91dd96706e6b03750231970ce66974259bca4f9e069641c09ef5885b1",
+      "path": "apps/vidiq.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "webflow",
+      "name": "Webflow",
+      "description": "Sites and CMS content",
+      "category": "design",
+      "version": "1.0.0",
+      "contentHash": "531badae67afec8ac28f218c45f325997d9ca934a5eb6a1f5d01d768e498bb83",
+      "path": "apps/webflow.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "wellnessproject",
+      "name": "Wellness Project",
+      "description": "Fitness and health data",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "9ee1430c11926d7c2208d81d373367b81fb423870e629346b2ae851efd43289b",
+      "path": "apps/wellnessproject.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "whop",
+      "name": "Whop",
+      "description": "Digital products and memberships",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "ac71e60980d0e527753469a6d08a6303dde65efc71c2b64525941c2c1698d52a",
+      "path": "apps/whop.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "windsor",
+      "name": "Windsor.ai",
+      "description": "Marketing data from many sources",
+      "category": "data-analytics",
+      "version": "1.0.0",
+      "contentHash": "3d41d0fbd61e09fa8b3b991540a870e2c5c375fc7c8f8cf694feaa3f7c7c07ea",
+      "path": "apps/windsor.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "withings",
+      "name": "Withings",
+      "description": "Health measurements",
+      "category": "other",
+      "version": "1.0.0",
+      "contentHash": "3d97ee71f8a2455cb783083682d096754cc9bd2c26bdc29832cb9b267daf4b07",
+      "path": "apps/withings.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "wix",
+      "name": "Wix",
+      "description": "Wix sites and developer docs",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "7294859f2f38d16c936f48c580658a14225638a895775f3aaea37c555aa1a7d7",
+      "path": "apps/wix.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "wordpress",
+      "name": "WordPress.com",
+      "description": "WordPress.com sites and posts",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "2d8b3d5bf3e2e7c1fe39f4680df0c00791029d95dcb083133a2c33f6936297da",
+      "path": "apps/wordpress.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "workable",
+      "name": "Workable",
+      "description": "Hiring pipeline and HR",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "898d7adcf5b6112d29a008c24976be066ef82ddd5ac336a6634d641ab092e151",
+      "path": "apps/workable.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "workos",
+      "name": "WorkOS",
+      "description": "Auth and SSO administration",
+      "category": "coding",
+      "version": "1.0.0",
+      "contentHash": "22f453c5ba19f25145101ac3ed4a832c5157e7ae493c2d0481999b131c2f2a3b",
+      "path": "apps/workos.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "wpvibe",
+      "name": "WPVibe",
+      "description": "Self-hosted WordPress management",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "3106bde8adc0c0e003e8944a1015328836ad4b7fec3f1221ab031435030ab17b",
+      "path": "apps/wpvibe.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "ynab",
+      "name": "YNAB",
+      "description": "Budget and spending review",
+      "category": "productivity",
+      "version": "1.0.0",
+      "contentHash": "3cd99fe4af7214b46f7aabd1a4a54787103ccf487f74ab9903ca4edb411f80df",
+      "path": "apps/ynab.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "you",
+      "name": "You.com",
+      "description": "Web search and research",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "17e77bad196d1362d6b5a3d8e36b02ef9463c377261a02e2e8bce9235c47a28f",
+      "path": "apps/you.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "zapier",
+      "name": "Zapier",
+      "description": "Actions across connected apps",
+      "category": "automation",
+      "version": "1.0.0",
+      "contentHash": "ac375413e3186e08cd5a48cdd12daeb64222d5f02e1a22f3e60ef9185606277c",
+      "path": "apps/zapier.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
+        }
+      ]
+    },
+    {
+      "slug": "zoominfo",
+      "name": "ZoomInfo",
+      "description": "B2B company and contact data",
+      "category": "research",
+      "version": "1.0.0",
+      "contentHash": "83f2a8deaae31bfdbd2ab18eae7c35fe160f24fd30db37194f0f22584972f070",
+      "path": "apps/zoominfo.json",
+      "kind": "mcp",
+      "changelog": [
+        {
+          "version": "1.0.0",
+          "date": "2026-11-17",
+          "notes": "Initial import from the OpenBot marketplace catalog (user-ordered migration, 2026-11-17). See LICENSES.md."
         }
       ]
     }

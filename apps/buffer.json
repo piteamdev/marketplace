@@ -1,0 +1,27 @@
+{
+  "name": "Buffer",
+  "tagline": "Social media scheduling",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.buffer.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-queue",
+      "text": "What is in my Buffer queue for this week?"
+    },
+    {
+      "id": "prompt-draft",
+      "text": "Draft a LinkedIn post about our new release and save it as a Buffer draft."
+    },
+    {
+      "id": "prompt-analytics",
+      "text": "Which of my posts from last month had the most engagement?"
+    }
+  ],
+  "iconUrl": "https://buffer.com/icons/apple-touch-icon.png",
+  "creatorName": "Buffer",
+  "description": "Buffer lets agents read connected channels, the post queue, drafts and ideas, read post analytics, and draft, schedule or edit posts. Each user signs in to their own Buffer account through the browser."
+}

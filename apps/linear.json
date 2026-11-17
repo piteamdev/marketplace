@@ -1,0 +1,27 @@
+{
+  "name": "Linear",
+  "tagline": "Issues and project triage",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.linear.app/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-my-week",
+      "text": "What is assigned to me this week?"
+    },
+    {
+      "id": "prompt-backlog",
+      "text": "Triage the backlog: what is stale, blocked, or missing an owner?"
+    },
+    {
+      "id": "prompt-new-issue",
+      "text": "File an issue for the crash in the sync queue with reproduction steps."
+    }
+  ],
+  "iconUrl": "https://linear.app/favicon.ico",
+  "creatorName": "Linear",
+  "description": "Linear lets agents list assigned issues, triage the backlog, update statuses, and draft new issues in the workspace the signed-in account belongs to. Each user signs in to their own Linear account through the browser."
+}

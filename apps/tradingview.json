@@ -1,0 +1,27 @@
+{
+  "name": "TradingView",
+  "tagline": "Market data and analytics",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.tradingview.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-symbol-overview",
+      "text": "Give me an overview of AAPL's price action over the last month."
+    },
+    {
+      "id": "prompt-indicators",
+      "text": "What do the RSI and moving averages show for BTCUSD on the daily chart?"
+    },
+    {
+      "id": "prompt-compare",
+      "text": "Compare the year-to-date performance of the S&P 500 and the Nasdaq 100."
+    }
+  ],
+  "iconUrl": "https://static.tradingview.com/static/images/favicon/apple-touch-icon-180x180.png",
+  "creatorName": "TradingView",
+  "description": "TradingView lets agents read market data and analytics for symbols, such as prices and technical indicators, with the signed-in TradingView account. It does not place trades."
+}

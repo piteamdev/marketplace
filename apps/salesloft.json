@@ -1,0 +1,27 @@
+{
+  "name": "Salesloft",
+  "tagline": "Sales pipeline and cadences",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.salesloft.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-stale-deals",
+      "text": "Which of my deals have had no activity in two weeks?"
+    },
+    {
+      "id": "prompt-call-summary",
+      "text": "Summarize my last call with the Acme account."
+    },
+    {
+      "id": "prompt-replies",
+      "text": "Which people in my cadences replied this week?"
+    }
+  ],
+  "iconUrl": "https://www.salesloft.com/apple-touch-icon.png",
+  "creatorName": "Salesloft",
+  "description": "Salesloft lets agents read people, accounts, cadences, calls, and deals in the Salesloft workspace of the signed-in user. Each user signs in to their own Salesloft account through the browser."
+}

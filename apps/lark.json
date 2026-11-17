@@ -1,0 +1,27 @@
+{
+  "name": "Lark",
+  "tagline": "Docs and team messaging",
+  "category": "documents",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.larksuite.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-find-doc",
+      "text": "Find the latest product roadmap doc and summarize it."
+    },
+    {
+      "id": "prompt-chat-summary",
+      "text": "Summarize today's messages in the project group chat."
+    },
+    {
+      "id": "prompt-draft-doc",
+      "text": "Create a doc with meeting notes from these bullet points."
+    }
+  ],
+  "iconUrl": "https://www.larksuite.com/favicon.ico",
+  "creatorName": "Lark Technologies",
+  "description": "Lark lets agents search, read, create, and comment on docs, read group chats and messages, and find users in the signed-in Lark workspace. Each user signs in to their own Lark account through the browser."
+}

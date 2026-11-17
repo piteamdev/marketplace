@@ -1,0 +1,27 @@
+{
+  "name": "Sentry",
+  "tagline": "Errors and crash triage",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.sentry.dev/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-new-errors",
+      "text": "What new errors appeared since yesterday's deploy?"
+    },
+    {
+      "id": "prompt-top-crash",
+      "text": "Explain the top crash in the mobile project and its likely cause."
+    },
+    {
+      "id": "prompt-release-health",
+      "text": "How healthy is the current release compared to the last one?"
+    }
+  ],
+  "iconUrl": "https://sentry.io/favicon.ico",
+  "creatorName": "Sentry",
+  "description": "Sentry lets agents search recent errors, inspect stack traces and affected releases, and summarize what broke after a deploy. Each user signs in to their own Sentry account through the browser."
+}

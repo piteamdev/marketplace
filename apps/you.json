@@ -1,0 +1,27 @@
+{
+  "name": "You.com",
+  "tagline": "Web search and research",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.you.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-news",
+      "text": "What changed in EU AI regulation this month? Cite the sources."
+    },
+    {
+      "id": "prompt-compare",
+      "text": "Compare the current pricing of the three largest managed Postgres providers."
+    },
+    {
+      "id": "prompt-read-page",
+      "text": "Read this article and summarize its main claims."
+    }
+  ],
+  "iconUrl": "https://you.com/apple-icon.png?apple-icon.04pft1wem7rx8.png",
+  "creatorName": "You.com",
+  "description": "You.com lets agents search the web, read page contents, and run multi-step research with cited sources. Each user signs in to their own You.com account through the browser."
+}

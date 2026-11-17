@@ -1,0 +1,27 @@
+{
+  "name": "Monarch",
+  "tagline": "Personal finances and budgets",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.monarch.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-spending",
+      "text": "How much did I spend on dining out last month?"
+    },
+    {
+      "id": "prompt-budget",
+      "text": "Which budget categories am I over this month?"
+    },
+    {
+      "id": "prompt-cash-flow",
+      "text": "Summarize my income and expenses for the last three months."
+    }
+  ],
+  "iconUrl": "https://www.monarch.com/apple-touch-icon.png",
+  "creatorName": "Monarch",
+  "description": "Monarch lets agents read accounts, transactions, budgets, and cash flow in the user's Monarch account. Each user signs in to their own Monarch account through the browser."
+}

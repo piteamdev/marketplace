@@ -1,0 +1,27 @@
+{
+  "name": "Restream",
+  "tagline": "Live streams and recordings",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.restream.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-upcoming",
+      "text": "List my upcoming scheduled streams."
+    },
+    {
+      "id": "prompt-viewers",
+      "text": "Which of my destinations had the most viewers on my last stream?"
+    },
+    {
+      "id": "prompt-recordings",
+      "text": "Find the recordings of my streams from last week."
+    }
+  ],
+  "iconUrl": "https://restream.io/apple-touch-icon.png",
+  "creatorName": "Restream",
+  "description": "Restream lets agents read and manage streaming events, destinations, recordings, clips, and stream analytics in the account of the signed-in user. Each user signs in to their own Restream account through the browser."
+}

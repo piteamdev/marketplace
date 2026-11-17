@@ -1,0 +1,27 @@
+{
+  "name": "Algolia",
+  "tagline": "Search index management",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.algolia.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-no-results",
+      "text": "Which search queries returned no results last week?"
+    },
+    {
+      "id": "prompt-settings",
+      "text": "Show the searchable attributes and ranking settings of the products index."
+    },
+    {
+      "id": "prompt-test-query",
+      "text": "Search the products index for 'running shoes' and explain the ranking."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/2034458?s=256&v=4",
+  "creatorName": "Algolia",
+  "description": "Algolia lets agents search indices, read and update index settings, and check search analytics in the applications that the signed-in user can access. Each user signs in to their own Algolia account through the browser."
+}

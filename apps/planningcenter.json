@@ -1,0 +1,27 @@
+{
+  "name": "Planning Center",
+  "tagline": "Church people, services and groups",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.planningcenteronline.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-sunday",
+      "text": "Who is scheduled to serve this Sunday, and who has not confirmed?"
+    },
+    {
+      "id": "prompt-checkins",
+      "text": "How did check-in attendance change over the last two months?"
+    },
+    {
+      "id": "prompt-groups",
+      "text": "List the groups that meet on weekday evenings."
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/8658275?s=256&v=4",
+  "creatorName": "Planning Center",
+  "description": "Planning Center lets agents read people, service plans, groups, registrations, check-ins, calendar, and giving data in the user's organization. Each user signs in to their own Planning Center account through the browser."
+}

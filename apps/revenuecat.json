@@ -1,0 +1,27 @@
+{
+  "name": "RevenueCat",
+  "tagline": "Subscriptions, products and paywalls",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.revenuecat.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-offerings",
+      "text": "Which offerings and packages does my RevenueCat project have?"
+    },
+    {
+      "id": "prompt-revenue",
+      "text": "How did my RevenueCat revenue and active subscriptions change this month?"
+    },
+    {
+      "id": "prompt-customer",
+      "text": "Which entitlements does this RevenueCat customer have, and when do they expire?"
+    }
+  ],
+  "iconUrl": "https://www.revenuecat.com/favicon/favicon-192x192.png",
+  "creatorName": "RevenueCat",
+  "description": "RevenueCat lets agents read and change the setup of your in-app subscriptions: apps, products, entitlements, offerings, packages, paywalls and experiments. Agents can also look up customers and their purchases, and read charts and metrics. A RevenueCat secret API key goes into one Authorization header. The key reaches one project. With a read-only key, agents can only read. With a write key, agents can submit products to the App Store for review, grant entitlements to customers, and delete packages, targeting rules and webhooks."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Postiz",
+  "tagline": "Social media scheduling",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.postiz.com/mcp-oauth-dynamic"
+  },
+  "prompts": [
+    {
+      "id": "prompt-channels",
+      "text": "Which social media channels are connected to Postiz?"
+    },
+    {
+      "id": "prompt-week",
+      "text": "Which posts are scheduled for next week?"
+    },
+    {
+      "id": "prompt-draft",
+      "text": "Draft a LinkedIn post about our new release, but do not schedule it."
+    }
+  ],
+  "iconUrl": "https://postiz.com/favicon.ico",
+  "creatorName": "Postiz",
+  "description": "Postiz lets agents list your social media channels, and draft, schedule and publish posts on more than 30 networks, such as X, LinkedIn, Instagram and TikTok. Agents can also upload media and make AI images and videos. Sign in to your Postiz account through the browser, or paste the API key from Settings › Developers in Postiz. All Postiz cloud plans include API access. Agents can publish a post immediately, so review each post before you approve it."
+}

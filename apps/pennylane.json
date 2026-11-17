@@ -1,0 +1,27 @@
+{
+  "name": "Pennylane",
+  "tagline": "Accounting and invoices",
+  "category": "other",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.pennylane.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-unpaid",
+      "text": "List customer invoices that are overdue."
+    },
+    {
+      "id": "prompt-expenses",
+      "text": "Summarize supplier expenses by category for last quarter."
+    },
+    {
+      "id": "prompt-revenue",
+      "text": "How did revenue this month compare with the same month last year?"
+    }
+  ],
+  "iconUrl": "https://www.pennylane.com/favicon.ico",
+  "creatorName": "Pennylane",
+  "description": "Pennylane lets agents read accounting data such as invoices, transactions, and ledger entries. Access is read-only."
+}

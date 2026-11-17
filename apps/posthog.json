@@ -1,0 +1,27 @@
+{
+  "name": "PostHog",
+  "tagline": "Product analytics and flags",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.posthog.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-funnel",
+      "text": "How does the signup funnel look for the last 14 days?"
+    },
+    {
+      "id": "prompt-flag",
+      "text": "Which feature flags are enabled for this user?"
+    },
+    {
+      "id": "prompt-release",
+      "text": "Did activation change after last week's release?"
+    }
+  ],
+  "iconUrl": "https://app.posthog.com/static/icons/apple-touch-icon.png",
+  "creatorName": "PostHog",
+  "description": "PostHog lets agents query events and funnels, inspect feature flags, and summarize what changed after a release. A personal API key from the project settings goes into one Authorization header."
+}

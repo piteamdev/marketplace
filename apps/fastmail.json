@@ -1,0 +1,27 @@
+{
+  "name": "Fastmail",
+  "tagline": "Mail, calendar, and contacts",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://api.fastmail.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-inbox-summary",
+      "text": "Summarize the unread email in my inbox from today."
+    },
+    {
+      "id": "prompt-calendar",
+      "text": "What is on my calendar for tomorrow?"
+    },
+    {
+      "id": "prompt-draft-reply",
+      "text": "Draft a reply to the latest email from my landlord."
+    }
+  ],
+  "iconUrl": "https://www.fastmail.com/apple-touch-icon.png",
+  "creatorName": "Fastmail",
+  "description": "Fastmail lets agents search and read email, check calendars, and look up contacts in the signed-in Fastmail account. Each user signs in through the browser and chooses which access to give, sending included."
+}

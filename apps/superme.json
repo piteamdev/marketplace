@@ -1,0 +1,27 @@
+{
+  "name": "SuperMe",
+  "tagline": "Advice from experienced people",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.superme.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-pricing-advice",
+      "text": "Ask people who have run B2B startups how they set their first prices."
+    },
+    {
+      "id": "prompt-hiring",
+      "text": "What do experienced engineering managers say about hiring the first platform engineer?"
+    },
+    {
+      "id": "prompt-fundraise",
+      "text": "Find people who have raised a seed round and summarize their advice on investor updates."
+    }
+  ],
+  "iconUrl": "https://www.superme.ai/apple-touch-icon.png",
+  "creatorName": "SuperMe",
+  "description": "SuperMe lets agents ask questions to AI profiles that professionals train on their own writing and work, and get answers based on their experience. Each user signs in to their own SuperMe account through the browser."
+}

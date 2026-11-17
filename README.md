@@ -50,3 +50,9 @@ CI runs `npm run validate` on every push and PR (`.github/workflows/validate.yml
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
+## Migracja z OpenBot (17.11.2026)
+
+Katalog zawiera pełny import treści z marketplace OpenBot: **41 umiejętności, 28 agentów, 254 aplikacje** (w tym 3 własne wpisy seed). Uruchomiono `scripts/migrate-from-openbot.mjs`; kontrakt bez zmian (`validate.mjs` = źródło prawdy). Status licencyjny: [LICENSES.md](LICENSES.md) — treści OpenBot są PolyForm Noncommercial 1.0.0; import wykonano na zlecenie właściciela repo.
+
+Jak podbić wersję wpisu: zmień definicję (`skills/<slug>/SKILL.md` / `agents/<slug>.json` / `apps/<slug>.json`), podnieś `version` w `catalog.json`, dopisz wpis w `changelog` (newest-first, `changelog[0].version == version`), uruchom `npm run validate`, commit + push. Piteam wykryje zmianę przez `check-updates` (fetch `catalog.json` z tego repo) i zaproponuje aktualizację.

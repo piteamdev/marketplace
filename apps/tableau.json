@@ -1,0 +1,27 @@
+{
+  "name": "Tableau",
+  "tagline": "Tableau Cloud analytics",
+  "category": "data-analytics",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.tableau.com"
+  },
+  "prompts": [
+    {
+      "id": "prompt-sales-region",
+      "text": "Which region had the highest sales last quarter in the Superstore data source?"
+    },
+    {
+      "id": "prompt-find-dashboard",
+      "text": "Find the dashboards about customer churn and tell me who owns them."
+    },
+    {
+      "id": "prompt-metric-trend",
+      "text": "How did the weekly active users metric change over the last month?"
+    }
+  ],
+  "iconUrl": "https://avatars.githubusercontent.com/u/828667?s=128&v=4",
+  "creatorName": "Tableau",
+  "description": "Tableau lets agents find published data sources, query them, and read workbooks, views, and Pulse metrics on Tableau Cloud with the permissions of the signed-in user. Each user signs in to their own Tableau Cloud site through the browser."
+}

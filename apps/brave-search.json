@@ -1,0 +1,31 @@
+{
+  "name": "Brave Search",
+  "tagline": "Private web search",
+  "category": "research",
+  "kind": "mcp",
+  "server": {
+    "transport": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@brave/brave-search-mcp-server"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "prompt-search",
+      "text": "What are reviewers saying about this framework version?"
+    },
+    {
+      "id": "prompt-news",
+      "text": "Find today's announcements for this product area."
+    },
+    {
+      "id": "prompt-compare",
+      "text": "Compare these two vendors with cited sources."
+    }
+  ],
+  "iconUrl": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/9e/b3/b2/9eb3b277-5183-0072-1921-39787c42ab35/AppIcon-0-0-1x_U007epad-0-1-0-sRGB-85-220.png/512x512bb.jpg",
+  "creatorName": "Brave",
+  "description": "Brave Search lets agents search the web and local results without tracking. An API key from the Brave Search API dashboard is passed to the local server as one environment variable."
+}

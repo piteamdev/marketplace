@@ -1,0 +1,31 @@
+{
+  "name": "HubSpot",
+  "tagline": "CRM records, deals and notes",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "@hubspot/mcp-server@0.4.0"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "prompt-deals",
+      "text": "Summarize my open deals by stage and amount."
+    },
+    {
+      "id": "prompt-contact",
+      "text": "What do we know about the contacts at this company?"
+    },
+    {
+      "id": "prompt-note",
+      "text": "Add a note about today's call to this contact in HubSpot."
+    }
+  ],
+  "iconUrl": "https://www.hubspot.com/hubfs/HubSpot_Logos/HubSpot-Inversed-Favicon.png",
+  "creatorName": "HubSpot",
+  "description": "HubSpot lets agents search and read contacts, companies, deals and tickets, and create or update records, associations, notes and tasks. HubSpot's own local server runs with a service key from your HubSpot account. The scopes of the key set what agents can read and change. The server has no delete tools."
+}

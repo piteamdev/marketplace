@@ -1,0 +1,27 @@
+{
+  "name": "IFTTT",
+  "tagline": "Connect apps and devices",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://ifttt.com/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-services",
+      "text": "Which of my connected services can you use through IFTTT?"
+    },
+    {
+      "id": "prompt-ideas",
+      "text": "Suggest applets that save new email attachments to cloud storage."
+    },
+    {
+      "id": "prompt-draft-applet",
+      "text": "Set up an applet that turns on my porch light at sunset."
+    }
+  ],
+  "iconUrl": "https://ifttt.com/favicon.ico",
+  "creatorName": "IFTTT",
+  "description": "IFTTT lets agents run actions in the services and devices connected to the signed-in IFTTT account, such as a Slack message or smart lights, and create applets. Each user signs in to their own IFTTT account through the browser."
+}

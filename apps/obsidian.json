@@ -1,0 +1,31 @@
+{
+  "name": "Obsidian",
+  "tagline": "Notes in your vault",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "stdio",
+    "command": "npx",
+    "args": [
+      "-y",
+      "obsidian-mcp-server@3.7.2"
+    ]
+  },
+  "prompts": [
+    {
+      "id": "prompt-recall",
+      "text": "What do my notes say about the decisions on this project?"
+    },
+    {
+      "id": "prompt-save",
+      "text": "Save this decision as a new note in my vault."
+    },
+    {
+      "id": "prompt-log",
+      "text": "Add a summary of today's work to my Work log note."
+    }
+  ],
+  "iconUrl": "https://obsidian.md/apple-touch-icon.png",
+  "creatorName": "Obsidian",
+  "description": "Obsidian lets agents search, read and write the notes in your vault, so the vault can be their memory. The local server connects to the Local REST API plugin in the Obsidian app on this computer. The plugin's API key is passed to the local server as one environment variable. Keep Obsidian open while agents use it."
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Smartlead",
+  "tagline": "Cold email campaigns",
+  "category": "automation",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.smartlead.ai/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-reply-rates",
+      "text": "Which campaigns had the highest reply rate last week?"
+    },
+    {
+      "id": "prompt-warmup",
+      "text": "Which of my email accounts have warmup problems?"
+    },
+    {
+      "id": "prompt-draft-sequence",
+      "text": "Draft a three-step follow-up sequence for a new campaign, but do not start it."
+    }
+  ],
+  "iconUrl": "https://cdn.prod.website-files.com/6204a703ff61516512c04f55/6a6af43a690fcb45072c8410_512.png",
+  "creatorName": "Smartlead",
+  "description": "Smartlead lets agents read and manage email campaigns, leads, and sending accounts, and check campaign statistics and deliverability, in the Smartlead account of the signed-in user."
+}

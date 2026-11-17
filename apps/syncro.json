@@ -1,0 +1,27 @@
+{
+  "name": "Syncro",
+  "tagline": "MSP tickets and assets",
+  "category": "productivity",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.services.syncromsp.com/mcp/stream"
+  },
+  "prompts": [
+    {
+      "id": "prompt-open-tickets",
+      "text": "Which open tickets have had no update for three days?"
+    },
+    {
+      "id": "prompt-customer-assets",
+      "text": "List the assets for the customer Acme Dental and their last check-in."
+    },
+    {
+      "id": "prompt-ticket-note",
+      "text": "Draft a note on the printer ticket that summarizes the steps taken so far."
+    }
+  ],
+  "iconUrl": "https://syncrosecure.com/wp-content/uploads/2024/09/Favicon-300x300.png",
+  "creatorName": "Syncro",
+  "description": "Syncro lets agents read and update tickets, customers, assets, and invoices in the Syncro PSA and RMM account. Each user signs in to their own Syncro account through the browser."
+}

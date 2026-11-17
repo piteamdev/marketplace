@@ -1,0 +1,27 @@
+{
+  "name": "incident.io",
+  "tagline": "Incidents and on-call",
+  "category": "coding",
+  "kind": "mcp",
+  "server": {
+    "transport": "http",
+    "url": "https://mcp.incident.io/mcp"
+  },
+  "prompts": [
+    {
+      "id": "prompt-open-incidents",
+      "text": "List the open incidents and their severity."
+    },
+    {
+      "id": "prompt-on-call",
+      "text": "Who is on call for the platform team right now?"
+    },
+    {
+      "id": "prompt-incident-summary",
+      "text": "Draft a summary of yesterday's database incident for the postmortem."
+    }
+  ],
+  "iconUrl": "https://incident.io/apple-touch-icon.png",
+  "creatorName": "incident.io",
+  "description": "incident.io lets agents read incidents, alerts, on-call schedules, and catalog entries, and update incidents in the signed-in organization. An admin must turn on the MCP server in Settings, and each user signs in through the browser."
+}
