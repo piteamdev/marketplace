@@ -98,6 +98,9 @@ for (const dir of existsSync(pluginsDir) ? readdirSync(pluginsDir).sort() : []) 
   out.apps.push({
     slug, name: def.name, description: p.tagline ?? p.name ?? slug, category: def.category,
     version,
+    // card metadata for the offline seed: brand icon + tagline (runda 2 UI renders these without network)
+    ...(p.iconUrl ? { iconUrl: p.iconUrl } : {}),
+    ...(p.tagline ? { tagline: p.tagline } : {}),
     contentHash: DRY ? "" : sha256(join(REPO, path)), path, kind,
     changelog: [{ version, date: NOW.slice(0, 10), notes: MIGRATION_NOTE }],
   });
